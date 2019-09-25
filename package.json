@@ -1,0 +1,21 @@
+{
+  "name": "bostontparty-v2",
+  "version": "1.0.0",
+  "description": "Version 2 of the Boston T Party website.",
+  "keywords": [
+    "redesign"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brootaylor/bostontparty-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brootaylor/bostontparty-v2/issues"
+  },
+  "homepage": "https://github.com/brootaylor/bostontparty-v2#readme",
+  "author": "Bruce Taylor",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,5 @@
+# Directories to ignore
+
+node_modules
+
+# Files to ignore
