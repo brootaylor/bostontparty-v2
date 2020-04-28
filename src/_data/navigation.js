@@ -31,10 +31,6 @@ module.exports = {
   ],
   footernav: [
     {
-      label: "Contact",
-      url: "/contact"
-    },
-    {
       label: "Privacy policy",
       url: "/privacy"
     },
