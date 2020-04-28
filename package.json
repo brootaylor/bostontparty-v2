@@ -17,6 +17,10 @@
     "name": "Bruce Taylor",
     "url": "https://brootaylor.com"
   },
+  "client": {
+    "name": "Boston T Party",
+    "url": "https://bostontparty.co.za"
+  },
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "clean": "rimraf www && mkdir www",
