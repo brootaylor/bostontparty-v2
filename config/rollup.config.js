@@ -11,7 +11,7 @@ import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 
 // Package.json values...
-import { name, version, homepage, author, license } from '../package.json';
+import { name, version, homepage, client, license } from '../package.json';
 
 // Setting some directory path variables...
 // Also some 'preamble' values for fun :-)
@@ -22,7 +22,7 @@ const preamble = `/*
 * v${version}
 * ${homepage}
 * Copyright (c) ${new Date().getFullYear()} ${
-  author.name
+  client.name
 }. Licensed ${license} */`;
 
 // Data...

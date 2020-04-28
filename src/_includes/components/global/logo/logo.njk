@@ -2,7 +2,7 @@
 
 {# Logo wrapper #}
 <h2 class="[ site-logo ]" aria-label="{{ site.name }}">
-	<a href="/" aria-label="Return to the homepage">
+	<a href="/" {% if (page.url | pretty) == "/" %}aria-describedby="current-page" class="[ current ]"{% endif %} aria-label="Return to the homepage">
 		<span class="[ site-logo__name ] [ visually-hidden ]">{{ site.name }}</span>
 		<svg xmlns="http://www.w3.org/2000/svg" width="230" height="57" viewBox="0 0 230 57" aria-labelledby="title-logo" role="img" focusable="false">
 			<title id="title-logo">{{ logoLabel }}</title>

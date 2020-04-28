@@ -1,10 +1,6 @@
 module.exports = {
   mainnav: [
     {
-      label: "Home",
-      url: "/"
-    },
-    {
       label: "Accommodation",
       url: "/accommodation"
     },
@@ -30,10 +26,6 @@ module.exports = {
     }
   ],
   footernav: [
-    {
-      label: "Contact",
-      url: "/contact"
-    },
     {
       label: "Privacy policy",
       url: "/privacy"

@@ -1,6 +1,6 @@
 {
   "name": "bostontparty-v2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Version 2 of the Boston T Party website.",
   "repository": {
     "type": "git",
@@ -16,6 +16,10 @@
   "author": {
     "name": "Bruce Taylor",
     "url": "https://brootaylor.com"
+  },
+  "client": {
+    "name": "Boston T Party",
+    "url": "https://bostontparty.co.za"
   },
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
