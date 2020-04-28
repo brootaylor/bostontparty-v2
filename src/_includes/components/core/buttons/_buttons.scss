@@ -2,36 +2,65 @@
  * Buttons placeholder
  **********************************************************/
 
-/// Button class.
+/// Button classes.
 /// @group Buttons
-.button {
-  display: inline-block;
-  padding: 1rem 1.25rem;
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-decoration: unset;
-  background: hsl(var(--hue), 100%, 50%);
-  outline-color: hsl(var(--hue), 100%, 80%);
-  transition: background 0.1s ease;
 
-    // Button `:hover` state
-    &:hover {
-      background: hsl(var(--hue), 100%, 40%);
-    }
+a,
+button,
+input {
 
-    // Button `:active` state
-    &:active {
-      background: hsl(var(--hue), 100%, 30%);
-    }
+  &.button {
+    @include font-size(18px);
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: unset;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0;
+    cursor: pointer;
+    appearance: none;
+    transition:
+      color,
+      background-color,
+      0.2s ease;
+  }
 
   // Primary button class - `.button--primary`
-  &--primary {
-    --hue: 233;
+  &.button--primary {
+    color: var(--white);
+    background-color: #613548;
+    border-radius: 0.3rem;
+
+    &:hover {
+      color: var(--white);
+      background-color: #db7093;
+    }
+
+    &:focus {
+      color: var(--white);
+      background-color: #db7093;
+    }
+
+    &:active {
+      color: var(--white);
+      background-color: #db7093;
+    }
+
+      // If primary button is disabled...
+      &.disabled {
+        color: var(--neutral-300);
+        cursor: not-allowed;
+        box-shadow: 0 2px 0 var(--neutral-400), 0 1px 0 var(--neutral-300);
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: var(--neutral-300);
+          background-color: var(--neutral-500);
+          border-color: transparent;
+          box-shadow: 0 2px 0 var(--neutral-400), 0 1px 0 var(--neutral-300);
+        }
+      }
   }
 
-  // Secondary button class - `.button--secondary`
-  &--secondary {
-    --hue: 200;
-  }
 }
