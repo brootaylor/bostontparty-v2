@@ -1,13 +1,5 @@
 <!doctype html>
 <html lang="{{ site.lang }}" dir="ltr" class="no-js">
-
-<!--
-	"The original, shimmering self gets buried so deep that most of us end up hardly living out of it at all.
-	Instead we live out all the other selves, which we are constantly putting on and taking off like coats and hats against the world’s weather."
-
-	- Frederick Buechner, Telling Secrets
--->
-
 	<head>
 		{# Meta content, stylesheet call, manifest, open graph, favicon / icons etc. #}
 		{% include "components/chrome/meta/meta.njk" %}
@@ -25,13 +17,6 @@
 			{% include "components/chrome/analytics/analytics.njk" %}
 		{% endif %}
 
-<!--
-	Hello there! Seems you're a bit like me - having a good ol' snoop around the source code.
-	Fingers-crossed it's not too scary in here. 😬
-	I've learnt a lot over the years doing what you're doing. Isn't the web fab like that!
-	Hopefully there's something in here that helps you out.
--->
-
 	</head>
 	<body {% if bodyClass %}class="[ {{ bodyClass }} ]"{% endif %}>
 
@@ -44,13 +29,16 @@
 		{# Main content #}
 		<main role="main" id="main">
 
-			{# Message content #}
-			{% block messages %}
-				{# Setting the message type (eg. "info") #}
-				{% set messageType = messages.info %}
-				{# Calling the message component #}
-				{% include "components/global/messages/messages.njk" %}
-			{% endblock %}
+			{# Check if `siteMessage` is true... #}
+			{% if site.siteMessage %}
+				{# Message content #}
+				{% block messages %}
+					{# Setting the message type (eg. "info") #}
+					{% set messageType = messages.info %}
+					{# Calling the message component #}
+					{% include "components/global/messages/messages.njk" %}
+				{% endblock %}
+			{% endif %}
 
 			{# Main page content is generated here #}
 			{% block content %}

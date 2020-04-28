@@ -5,20 +5,24 @@ module.exports = {
       url: "/"
     },
     {
+      label: "Accommodation",
+      url: "/accommodation"
+    },
+    {
+      label: "Venue hire",
+      url: "/venue-hire"
+    },
+    {
+      label: "Activities",
+      url: "/activities"
+    },
+    {
       label: "About",
       url: "/about"
     },
     {
-      label: "Writing",
-      url: "/writing"
-    },
-    {
-      label: "Notes",
-      url: "/notes"
-    },
-    {
-      label: "Links",
-      url: "/links"
+      label: "Gallery",
+      url: "/gallery"
     },
     {
       label: "Contact",
@@ -27,28 +31,20 @@ module.exports = {
   ],
   footernav: [
     {
-      label: "Home",
-      url: "/"
-    },
-    {
-      label: "About",
-      url: "/about"
-    },
-    {
-      label: "Writing",
-      url: "/writing"
-    },
-    {
-      label: "Notes",
-      url: "/notes"
-    },
-    {
-      label: "Links",
-      url: "/links"
-    },
-    {
       label: "Contact",
       url: "/contact"
+    },
+    {
+      label: "Privacy policy",
+      url: "/privacy"
+    },
+    {
+      label: "Cookies",
+      url: "/cookies"
+    },
+    {
+      label: "Accessibility",
+      url: "/accessibility"
     }
   ]
 }

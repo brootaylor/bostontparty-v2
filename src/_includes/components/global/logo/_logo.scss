@@ -16,4 +16,26 @@
       border: 0;
     }
   }
+
+  svg {
+    .logo-begin,
+    .logo-end {
+      fill: var(--white);
+    }
+
+    .logo-t-rim-inner {
+      fill: #1a1919;
+    }
+
+    .logo-t-inner {
+      fill: #922a7d;
+      transition: fill 0.3s ease-in-out;
+    }
+  }
+
+  a:hover {
+    .logo-t-inner {
+      fill: #db7093;
+    }
+  }
 }

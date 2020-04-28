@@ -1,32 +1,21 @@
 ---
 layout: "layouts/homepage.njk"
-title: "Hi, I'm Bruce."
-summary: "I’m a Front End Web Designer & Developer living in Crawley, West Sussex, UK and have been helping people build & enhance their websites since 2003."
-lead: ""
+title: "Welcome to Boston T Party"
+summary: ""
 bodyClass: "homepage"
-date: 2020-04-24T19:33:00
+date: 2020-04-28T13:58:00
 changefreq: "weekly"
 priority: 1
 permalink: "/index.html"
 ---
+Boston T Party is perfect if you need [somewhere to stay][1] or a funky [venue to hold your function][2].
 
-A Front End Web Designer &amp; Developer living in Crawley, West Sussex, UK. Here's a bit more [about me][1].
+A homely, farm experience. Cast a line from the jetty, jump in a canoe and paddle round the dam or relax on the lawn under the Willow trees.
 
-Over the years I've worked on a wide variety of projects with companies like **AirMiles** / **Avios**, **Macmillan Cancer Support**, **Pegasus**, **Time Inc.**, **MerchantCantos**, **Euromoney** and more recently with [Avios][2] again.
+This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off for a cycle or walk in the surrounding area.
 
-I sometimes [write][3], jot down [notes][4] or share [links][5] to things that interest me.
+[Find out more about us][3]
 
-At the moment, I'm reading "[Future Ethics][6]" by Cennydd Bowles, "[Shape Up][7]" by Ryan Singer and "[The Universal Christ][8]" by Richard Rohr.
-
-I'm also busy dabbling with the fabulous [Eleventy][9] and [Fractal][10].
-
-[1]: /about
-[2]: https://aviosgroup.com/
-[3]: /writing
-[4]: /notes
-[5]: /links
-[6]: https://www.future-ethics.com/
-[7]: https://basecamp.com/shapeup
-[8]: https://universalchrist.cac.org/
-[9]: https://www.11ty.io/
-[10]: https://fractal.build/
+[1]: /accommodation
+[2]: /venue-hire
+[3]: /about
