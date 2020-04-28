@@ -24,6 +24,7 @@
       @extend %no-list;
       @include font-size(16px);
       display: flex;
+      flex-wrap: wrap;
 
       li {
         padding-right: 1rem;
@@ -38,15 +39,6 @@
         color: var(--font-colour-base);
         text-decoration: none;
       }
-    }
-  }
-
-  .social {
-    @extend %no-list;
-    flex: 1 1 75%;
-
-    & > li {
-      width: 2.5rem;
     }
   }
 }
