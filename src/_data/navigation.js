@@ -1,10 +1,6 @@
 module.exports = {
   mainnav: [
     {
-      label: "Home",
-      url: "/"
-    },
-    {
       label: "Accommodation",
       url: "/accommodation"
     },
