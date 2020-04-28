@@ -1,18 +1,8 @@
-# Bruce Taylor's website (v2)
+# Boston T Party's website (v2)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
 
-This is *version 2* of my personal website. it's live at [brootaylor.com](https://brootaylor.com/)
-
-I've decided to take the scary route (for me anyway) of redesigning and developing my website in the open. I've been inspired by others that have done this and thought it may be an interesting process. Not least because I'm a bit of a perfectionist and doing this may be a good way of weaning me off the need to have things completely polished before showing them. 😱
-
-My hope is this'll be a evolutionary piece of work rather than the usual "WHALA!" moment... so I apologise in advance for things that may look a bit dodgy. Bit by bit I'll be moving all my original content across to this new config. No doubt that means you'll end up on a page that's not there right now. Sorry about that.
-
-I intend to bump my head (a lot!) and learn a fair few things along the way - and am going to try my best to enjoy the *whole* process rather than just looking forward to it being 'finished'.
-
-You're more than welcome to follow along if you're ok with witnessing the inevitable head-scratching and "WT...*" moments 🤪.
-
-Now, I say this gingerly - but I'd be honoured if anyone wanted to contribute any thoughts and pearls of wisdom. All I ask is you be kind.
+This is *version 2* of Boston T Party. it's live at [brootaylor.com](https://brootaylor.com/)
 
 The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
 
@@ -20,27 +10,23 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
 ---
 
-❗️**NOTE:** I've made the code public but it is for my personal website, so please can I ask you not to copy everything wholesale. By all means learn from it (as I'm doing). Thank you.
-
----
-
 ## Features
 
 * 🌶 [Progressively enhanced](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement), semantic and accessible
-* 🚀 [Performance budgeting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/budget.json)
-* 🌐 [Browser support config](https://github.com/brootaylor/brootaylor-v2/blob/master/.browserslistrc)
+* 🚀 [Performance budgeting](https://github.com/brootaylor/bostontparty-v2/blob/master/config/budget.json)
+* 🌐 [Browser support config](https://github.com/brootaylor/bostontparty-v2/blob/master/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
-* 🎨 [Design Tokens](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/tokens.json)
-* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/brootaylor-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
-* 🎛 [Site & build config](https://github.com/brootaylor/brootaylor-v2/blob/master/netlify.toml)
-* 🛄 [Selective build outputs](https://github.com/brootaylor/brootaylor-v2/blob/master/.eleventyignore) using `.eleventyignore`
-* ↩️ [Redirects](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_redirects) for local `netlify dev`
-* 🌍 [Customisable global data](https://github.com/brootaylor/brootaylor-v2/blob/master/src/_data/site.js)
-* [Dynamically generated `serviceworker.js`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/serviceworker.js.njk)
-* [Dynamically generated `manifest.json`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/manifest.json.njk)
-* [Dynamically generated `sitemap.xml`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/sitemap.xml.njk)
-* [Dynamically generated `robots.txt`](https://github.com/brootaylor/brootaylor-v2/blob/master/src/robots.txt.njk)
+* 🎨 [Design Tokens](https://github.com/brootaylor/bostontparty-v2/blob/master/src/_data/tokens.json)
+* 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/bostontparty-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
+* 🎛 [Site & build config](https://github.com/brootaylor/bostontparty-v2/blob/master/netlify.toml)
+* 🛄 [Selective build outputs](https://github.com/brootaylor/bostontparty-v2/blob/master/.eleventyignore) using `.eleventyignore`
+* ↩️ [Redirects](https://github.com/brootaylor/bostontparty-v2/blob/master/src/_redirects) for local `netlify dev`
+* 🌍 [Customisable global data](https://github.com/brootaylor/bostontparty-v2/blob/master/src/_data/site.js)
+* [Dynamically generated `serviceworker.js`](https://github.com/brootaylor/bostontparty-v2/blob/master/src/serviceworker.js.njk)
+* [Dynamically generated `manifest.json`](https://github.com/brootaylor/bostontparty-v2/blob/master/src/manifest.json.njk)
+* [Dynamically generated `sitemap.xml`](https://github.com/brootaylor/bostontparty-v2/blob/master/src/sitemap.xml.njk)
+* [Dynamically generated `robots.txt`](https://github.com/brootaylor/bostontparty-v2/blob/master/src/robots.txt.njk)
 * [JAMstack](https://jamstack.org/) methodology
 * [Eleventy](https://www.11ty.io/) (SSG)
 * [Netlify](https://www.netlify.com/)
@@ -70,7 +56,7 @@ Possible features / enhancements for the future:
 ## Repo structure
 
 ```bash
-brootaylor.com
+bostontparty.co.za
 ├── config
 │   ├── browser-sync.config.js   # BrowserSync configuration
 │   ├── budget.json              # Lighthouse performance budget
@@ -118,10 +104,10 @@ Instructions for installing all the necessary dependencies and outputting the fi
 
 ```bash
 # Clone this repository
-git clone git@github.com:brootaylor/brootaylor-v2.git
+git clone git@github.com:brootaylor/bostontparty-v2.git
 
 # Go to the working directory
-cd brootaylor-v2
+cd bostontparty-v2
 
 # Install dependencies
 npm install
