@@ -7,11 +7,15 @@
 /contact /contact.html
 /contact/thanks /contact/thanks.html
 
-/writing /writing.html
-/writing/2020-02-22/redesigning-in-the-open /writing/2020-02-22/redesigning-in-the-open.html
+/accommodation /accommodation.html
+/venue-hire /venue-hire.html
+/activities /activities.html
+/gallery /gallery.html
 
-/notes /notes.html
-/links /links.html
+/privacy /privacy.html
+/cookies /cookies.html
+/accessibility /accessibility.html
+
 
 # Error pages
 /error/404 /error/404.html

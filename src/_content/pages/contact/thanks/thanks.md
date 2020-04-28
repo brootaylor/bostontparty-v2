@@ -4,7 +4,7 @@ summary: "Thanks for getting in touch with Boston T Party."
 lead: "Thanks for getting in touch with Boston T Party. We'll respond as soon as we can."
 bodyClass: "contact-thanks"
 permalink: "/contact/thanks.html"
-date: 2020-04-24T19:33:00
+date: 2020-04-28T13:58:00
 hidden: true
 eleventyExcludeFromCollections: true
 ---
