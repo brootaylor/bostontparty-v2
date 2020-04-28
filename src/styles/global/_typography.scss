@@ -1,0 +1,56 @@
+/******************************************
+ * Typography styles / rules
+ ******************************************/
+
+html {
+  font-family: var(--font-family-base);
+
+  // This percentage value is the equivalent of 16px in pretty much every browser.
+  // Aka, "1rem = 16px".
+  // This is more 'accessible' (in terms of a user increasing their browser's font-size).
+  // By contrast, setting this as a 'px' value prevents this ability.
+  font-size: var(--font-size-base-percent);
+	font-weight: normal;
+  font-style: normal;
+  color: var(--font-colour-base);
+  background-color: var(--white);
+}
+
+body {
+  @include font-size($font-size-base);
+
+  // This line-height rule overrides what's been declared in the `reset.scss` file
+  line-height: var(--line-height-base);
+}
+
+h1 {
+  @include font-size(40px);
+}
+
+h2 {
+  @include font-size(30px);
+}
+
+h3 {
+  @include font-size(24px);
+}
+
+p,
+ul,
+ol,
+blockquote {
+  @include font-size(18px);
+}
+
+hr {
+  border: 1px solid var(--grey-light);
+  border-width: 0 0 1px;
+}
+
+article {
+  time {
+    font-family: var(--font-family-secondary);
+    font-size: 0.95rem;
+    color: var(--grey-dark);
+  }
+}

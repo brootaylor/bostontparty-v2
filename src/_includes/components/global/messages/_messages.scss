@@ -1,0 +1,22 @@
+.message {
+  // Create `--message-background` and `--message-text` variables scoped to this class
+  background: var(--message-background);
+  color: var(--message-text);
+
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+
+  // 'Info' type message
+  &--info {
+    --message-text: var(--black);
+    --message-background: var(--grey-light);
+  }
+
+  // 'Alert' type message
+  &--alert {
+    --message-text: var(--black);
+    --message-background: var(--orange-custom);
+  }
+}

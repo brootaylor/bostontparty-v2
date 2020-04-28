@@ -1,0 +1,19 @@
+/**********************************************************
+ * Site logo styles
+ **********************************************************/
+
+.site-logo {
+  a {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    &,
+    &:active,
+    &:focus,
+    &:hover {
+      color: var(--font-colour-base);
+      text-decoration: none;
+      border: 0;
+    }
+  }
+}
