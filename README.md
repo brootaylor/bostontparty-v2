@@ -1,8 +1,8 @@
 # Boston T Party's website (v2)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/712367e5-7510-4813-9a24-5805f092cfa1/deploy-status)](https://app.netlify.com/sites/brootaylorv2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/903b148f-360e-4e06-b042-471f5262f976/deploy-status)](https://app.netlify.com/sites/bostontparty-v2/deploys)
 
-This is *version 2* of Boston T Party. it's live at [brootaylor.com](https://brootaylor.com/)
+This is *version 2* of Boston T Party. it's live at [bostontparty-v2.netlify.app](https://bostontparty-v2.netlify.app)
 
 The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
 
