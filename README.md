@@ -6,7 +6,7 @@ This is *version 2* of the Boston T Party website and can be viewed at [bostontp
 
 The current (live) site can be viewed at [bostontparty.co.za](https://bostontparty.co.za/).
 
-The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
+The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
 
 It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 
@@ -46,12 +46,9 @@ Possible features / enhancements for the future:
 2.  Light / Dark Theme option
 3.  Make better use of utility classes
 4.  Tags / categories
-5.  Post read time
-6.  Pagination
-7.  RSS feed
-8.  [Webmention](https://indieweb.org/Webmention)
-9.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-10. Styleguide (list of the components)
+5.  Pagination
+6.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+7.  Styleguide (list of the components)
 
 ---
 
@@ -385,4 +382,4 @@ npm run audit:performance
 
 ---
 
-© [Bruce Taylor](https://brootaylorv2.netlify.com/)
+© [Boston T Party](https://bostontparty-v2.netlify.app/)

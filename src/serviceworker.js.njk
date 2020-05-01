@@ -23,9 +23,15 @@ const cacheList = [
 	imageCacheName,
 	pagesCacheName
 ];
-const offlinePage = '/offline.html';
+const offlinePage = '/offline';
 const offlinePages = [
-	'/'
+{%- for item in navigation.mainnav %}
+  '{{ item.url }}',
+{%- endfor -%}
+{% for item in navigation.footernav %}
+  '{{ item.url }}',
+{%- endfor %}
+  '{{ site.start_url }}'
 ];
 
 function updateStaticCache() {
@@ -36,7 +42,7 @@ function updateStaticCache() {
 		].concat(offlinePages));
 		// These files must be cached for installation
 		return staticCache.addAll([
-			'./styles/main.css',
+			'./styles/main.css?version={{ pkg.version }}',
 			offlinePage
 		]);
 	});
