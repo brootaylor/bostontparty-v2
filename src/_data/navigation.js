@@ -17,10 +17,6 @@ module.exports = {
       url: "/about"
     },
     {
-      label: "Gallery",
-      url: "/gallery"
-    },
-    {
       label: "Contact",
       url: "/contact"
     }
