@@ -8,59 +8,28 @@
 a,
 button,
 input {
-
   &.button {
-    @include font-size(18px);
-    font-weight: 400;
-    line-height: 1;
-    text-decoration: unset;
     display: inline-block;
-    padding: 1rem;
-    margin: 0;
-    cursor: pointer;
-    appearance: none;
-    transition:
-      color,
-      background-color,
-      0.2s ease;
-  }
-
-  // Primary button class - `.button--primary`
-  &.button--primary {
-    color: var(--white);
+    padding: 1rem 1.25rem;
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: unset;
     background-color: #613548;
-    border-radius: 0.3rem;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
 
-    &:hover {
-      color: var(--white);
-      background-color: #db7093;
-    }
+      // Button `:hover` state
+      &:hover {
+        background-color: #db7093;
+      }
 
-    &:focus {
-      color: var(--white);
-      background-color: #db7093;
-    }
-
-    &:active {
-      color: var(--white);
-      background-color: #db7093;
-    }
-
-      // If primary button is disabled...
-      &.disabled {
-        color: var(--neutral-300);
-        cursor: not-allowed;
-        box-shadow: 0 2px 0 var(--neutral-400), 0 1px 0 var(--neutral-300);
-
-        &:hover,
-        &:focus,
-        &:active {
-          color: var(--neutral-300);
-          background-color: var(--neutral-500);
-          border-color: transparent;
-          box-shadow: 0 2px 0 var(--neutral-400), 0 1px 0 var(--neutral-300);
-        }
+      // Button `:active` state
+      &:focus,
+      &:active {
+        background-color: #db7093;
       }
   }
-
 }

@@ -21,13 +21,14 @@
   textarea {
     &:focus {
       background-color: var(--grey-light);
-      border-color: var(--grey-mid);
+      border-color: var(--grey-dark);
       outline: 0;
     }
   }
 
   .form__list {
     list-style-position: inside;
+    margin-top: 0;
   }
 
   .form__item {
@@ -47,7 +48,7 @@
 
   .form__input {
     background-color: var(--white);
-    border: 1px solid var(--grey-light);
+    border: 1px solid var(--grey-mid);
     flex: 1 0 100%;
     padding: 0.5em;
     width: 100%;
