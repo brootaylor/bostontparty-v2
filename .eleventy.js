@@ -1,7 +1,12 @@
+// Environment config
+require('dotenv').config();
+
+// Local server
 const browserSync = require('./config/browser-sync.config.js');
 
 // Import (plugins)
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 
 // Import (filters)
@@ -27,6 +32,7 @@ module.exports = function(eleventy) {
 
   // Plugins
   eleventy.addPlugin(pluginSyntaxHighlight);
+  eleventy.addPlugin(pluginRss);
   eleventy.addPlugin(pluginNavigation);
 
   // Add some utility filters
