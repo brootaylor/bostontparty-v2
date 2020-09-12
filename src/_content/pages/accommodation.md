@@ -1,13 +1,46 @@
 ---
-title: "Accommodation"
-summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
-lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
+title: "Accommodation options & rates"
+summary: "Private rooms, dormitory rooms or camping - take your pick. All available including hot showers, self-catering facilities and meals on request."
+lead: "Private rooms, dormitory rooms or camping - take your pick. All available including hot showers, self-catering facilities and meals on request."
 bodyClass: "accommodation"
 
 date: 2020-09-12T01:12:00
 updated: 2020-09-12T01:12:00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nisl tincidunt eget nullam non nisi. Eget arcu dictum varius duis. Donec ultrices tincidunt arcu non sodales neque sodales. Sem integer vitae justo eget magna fermentum iaculis eu non.
+Here is a list of the accommodation options and rates.
 
-Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus semper eget duis at. Egestas pretium aenean pharetra magna ac placerat. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+---
+
+## Private rooms
+
+Fifteen private (x6 double and x9 twin) en-suite rooms &mdash; linen and towels provided, tea &amp; coffee facilities.
+
+(**Self catering**: R290,00 pppn or R310,00 single occupancy per night.)
+
+---
+
+## Camp under the stars
+
+If you'd prefer to camp under the stars, you're welcome to pitch your own tent in our orchard!
+
+(**Self catering**: R85,00 pppn.)
+
+---
+
+## Other facilities
+
+* 3 communal showers with piping hot water!
+* 2 self-catering kitchens with fridges, gas stoves, toasters, kettles and cutlery &amp; crockery, are available for your use.
+* Braai facilities &amp; bonfire.
+
+---
+
+## Long term stays
+
+Should you find yourself in the Boston area, either for work or leisure reasons, we offer excellent reduced rates for long term stays. We can include laundry services and will work around what you require and adjust rates accordingly.
+
+[Get in touch to find out more][1]
+
+[1]: /contact
+

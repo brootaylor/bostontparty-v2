@@ -28,4 +28,4 @@ South Africa
 
 From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
 
-As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (<strong>Boston T Party sign</strong>) and continue for 300m on a dirt road. We are on the right.
+As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.
