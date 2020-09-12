@@ -1,11 +1,38 @@
 ---
-title: "Activities"
-summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
-lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
-bodyClass: "about"
-date: 2020-04-28T13:58:00
+title: "Activities in the area"
+summary: "From hiking to trail runs, mountain-biking to enduro off-road motocycle trails, trout & bass fishing to horse-riding. Whatever your outdoor fancy, there's plenty of activities to enjoy in this beautiful area."
+lead: "From hiking to trail runs, mountain-biking to enduro off-road motocycle trails, trout & bass fishing to horse-riding. Whatever your outdoor fancy, there's plenty of activities to enjoy in this beautiful area."
+bodyClass: "activities"
+
+date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nisl tincidunt eget nullam non nisi. Eget arcu dictum varius duis. Donec ultrices tincidunt arcu non sodales neque sodales. Sem integer vitae justo eget magna fermentum iaculis eu non.
+---
 
-Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus semper eget duis at. Egestas pretium aenean pharetra magna ac placerat. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+## List of activities to wet your appetite&hellip;
+
+* Enduro Off-Road Motocycle Trails (*guided*)
+* Trail Runs
+* Hiking
+* Mountain Bike Trails
+* Trout and Bass Fishing
+* Horse-riding &mdash; [Stormy Hill][1]
+* [Midmar Dam][2] (approx. 30kms)
+* The famous [Midlands Meander][3]
+* Paragliding at Bulwer &mdash; [Wild Sky Adventures][4]
+
+---
+
+## How to find us
+
+**GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
+
+From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
+
+As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.
+
+[1]: http://www.stormyhill.co.za/
+[2]: http://www.sa-venues.com/game-reserves/kzn_midmar-dam.htm
+[3]: http://www.midlandsmeander.co.za/
+[4]: http://www.wildsky.co.za/

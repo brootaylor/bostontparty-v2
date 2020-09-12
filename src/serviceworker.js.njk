@@ -12,9 +12,9 @@ eleventyExcludeFromCollections: true
 
 const siteName = '{{ pkg.name }}';
 const siteVersion = 'v{{ pkg.version }}';
-const cacheName = siteName + '_' + siteVersion;
+const siteDeployTime = '{{ site.timeCurrent }}';
+const cacheName = siteName + '_' + siteVersion + '.' + siteDeployTime;
 
-const name = '{{ pkg.name }}';
 const staticCacheName = 'static@' + cacheName;
 const imageCacheName = 'images@' + cacheName;
 const pagesCacheName = 'pages@' + cacheName;
@@ -26,12 +26,16 @@ const cacheList = [
 const offlinePage = '/offline';
 const offlinePages = [
 {%- for item in navigation.mainnav %}
-  '{{ item.url }}',
-{%- endfor -%}
-{% for item in navigation.footernav %}
-  '{{ item.url }}',
+	{%- if item.external !== true %}
+	'{{ item.url }}',
+	{%- endif -%}
 {%- endfor %}
-  '{{ site.start_url }}'
+{%- for item in navigation.footernav %}
+	{%- if item.external !== true %}
+	'{{ item.url }}',
+	{%- endif -%}
+{%- endfor %}
+	'{{ site.start_url }}'
 ];
 
 function updateStaticCache() {
@@ -42,7 +46,7 @@ function updateStaticCache() {
 		].concat(offlinePages));
 		// These files must be cached for installation
 		return staticCache.addAll([
-			'./styles/main.css?version={{ pkg.version }}',
+			'./styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}',
 			offlinePage
 		]);
 	});

@@ -1,13 +1,18 @@
 ---
 layout: "layouts/homepage.njk"
 title: "Welcome to Boston T Party"
-summary: ""
+summary: "Boston T Party. Rustic accommodation &amp; venue hire in Boston, Kwazulu Natal. From cubs &amp; scouts outings, groups, backpackers, bikers &amp; hikers to bull's parties, come and enjoy our beautiful surroundings and relaxing atmosphere."
 bodyClass: "homepage"
-date: 2020-04-28T13:58:00
+
+permalink: "/index.html"
+
+date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
+
 changefreq: "weekly"
 priority: 1
-permalink: "/index.html"
 ---
+
 Boston T Party is perfect if you need [somewhere to stay][1] or a funky [venue to hold your function][2].
 
 A homely, farm experience. Cast a line from the jetty, jump in a canoe and paddle round the dam or relax on the lawn under the Willow trees.

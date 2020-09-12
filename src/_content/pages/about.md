@@ -3,11 +3,21 @@ title: "About Us"
 summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
 lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
 bodyClass: "about"
-date: 2020-04-28T13:58:00
+
+date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
 ---
 
 From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parties, come and enjoy our beautiful surroundings and relaxing atmosphere.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nisl tincidunt eget nullam non nisi. Eget arcu dictum varius duis. Donec ultrices tincidunt arcu non sodales neque sodales. Sem integer vitae justo eget magna fermentum iaculis eu non.
+**All are welcome &mdash; but not your pets, sorry!**
 
-Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus semper eget duis at. Egestas pretium aenean pharetra magna ac placerat. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+---
+
+## How to find us
+
+**GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
+
+From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
+
+As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.

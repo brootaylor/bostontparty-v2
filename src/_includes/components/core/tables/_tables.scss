@@ -1,0 +1,68 @@
+/*	==========================================================================
+	Tables (Global).
+	========================================================================== */
+
+  th,
+  td {
+    vertical-align: text-top;
+    text-align: left;
+    padding: 1rem;
+    transition: padding 0.2s;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+
+    th,
+    td {
+      @include font-size(16px);
+      background-color: transparent;
+      transition:
+        background-color 0.2s,
+        font-size 0.2s;
+
+      // Ensures table cell and its children are the specified font-size and don't assign any default padding & margin values...
+      & > * {
+        font-size: inherit;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    thead {
+      th {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        background-color: var(--grey-mid);
+        padding: 0.5rem 1rem;
+      }
+    }
+
+    tbody {
+      td {
+        border-bottom: 1px solid var(--grey-mid);
+      }
+    }
+
+    // Cookies table
+    &.table__cookies {
+      border-collapse: separate;
+      border-spacing: 2px;
+      border-color: var(--white);
+
+      th {
+        &:first-of-type,
+        &:last-of-type {
+          max-width: 20%;
+        }
+      }
+
+      code {
+        word-break: break-all;
+      }
+    }
+
+  }

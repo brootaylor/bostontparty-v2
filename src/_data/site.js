@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = {
   name: 'Boston T Party',
   short_name: 'BTP',
@@ -10,7 +12,7 @@ module.exports = {
   start_url: '/',
   display: 'standalone',
   rootUrl: process.env.URL || '',
-  environment: process.env.ELEVENTY_ENV,
+  environment: process.env.NODE_ENV,
   logo: '/assets/images/common/logo.png',
   theme_color_android: '#212227',
   theme_color_ios: '#212227',
@@ -21,6 +23,7 @@ module.exports = {
   icon: '/assets/ico/apple-touch-icon.png',
   icon_192: '/assets/ico/android-chrome-192x192.png',
   icon_512: '/assets/ico/android-chrome-512x512.png',
+  icon_maskable_196: '/assets/ico/android-chrome-maskable-196x196.png', // Maskable icon for Android devices (https://web.dev/maskable-icon-audit/)
   icon_mstile: '/assets/ico/mstile-150x150.png',
   twitter: '', // Twitter handle
   analyticsUrchin: 'UA-1673348-6', // Analytics urchin uses this value
@@ -28,10 +31,10 @@ module.exports = {
   scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
-  siteMessage: false,
+  timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
+  siteMessage: true,
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
   },
 };
-

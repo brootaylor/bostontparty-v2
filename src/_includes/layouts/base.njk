@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang }}" dir="ltr" class="no-js">
+<html id="start" lang="{{ site.lang }}" dir="ltr" class="no-js">
 	<head>
 		{# Meta content, stylesheet call, manifest, open graph, favicon / icons etc. #}
 		{% include "components/chrome/meta/meta.njk" %}
@@ -59,8 +59,8 @@
 		</div>
 
 <!--
-	Current page: {{ page.url | url }}
-	Last updated: {{ date | dateTimeReadable("dd LLLL yyyy @ t") }}
+	Current page: {{ page.url | pretty }}
+	Last updated: {{ updated | dateTimeReadable("dd LLLL yyyy @ t") }}
 -->
 
 	</body>
