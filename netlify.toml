@@ -139,10 +139,10 @@
 # Redirect rule to point temporary Netlify URL to preferred domain name
 # ========================================================================
 # NOTE: This requires the DNS records to be updated to point to Netlify.
-# [[redirects]]
-#   from = "https://bostontparty-v2.netlify.app/*"
-#   to = "https://bostontparty.co.za/:splat"
-#   status = 301
+[[redirects]]
+  from = "https://bostontparty-v2.netlify.app/*"
+  to = "https://bostontparty.co.za/:splat"
+  status = 301
 
 # ########################################################################
 # Site-specific page redirects
