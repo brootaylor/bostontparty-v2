@@ -20,6 +20,8 @@ South Africa
 
 **Call us:** <a href="tel:27-83-6560979">+27 (0)83 656 0979</a>
 
+---
+
 ## How to find us
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594

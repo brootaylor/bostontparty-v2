@@ -12,6 +12,8 @@ From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parti
 
 **All are welcome &mdash; but not your pets, sorry!**
 
+---
+
 ## How to find us
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
