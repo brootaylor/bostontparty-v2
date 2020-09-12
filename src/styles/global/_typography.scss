@@ -25,6 +25,7 @@ body {
 
 h1 {
   @include font-size(40px);
+  line-height: 1.2;
 }
 
 h2 {
@@ -43,8 +44,12 @@ blockquote {
 }
 
 hr {
-  border: 1px solid var(--grey-light);
-  border-width: 0 0 1px;
+  border: 0;
+  background-color: var(--grey-light);
+  margin-top: 2rem !important;
+  margin-left: 0;
+  margin-right: auto;
+  height: 0.1rem;
 }
 
 article {

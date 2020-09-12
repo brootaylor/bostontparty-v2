@@ -3,7 +3,10 @@
  **********************************************************/
 
 #footer {
-  margin-bottom: 1rem;
+  background-color: var(--grey-light);
+  padding: 1rem 0 2rem;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 -2px 0 1px rgba($grey-dark, 0.2);
 
   .wrapper {
     display: flex;
@@ -14,7 +17,12 @@
 
   small {
     font-size: 0.90rem;
-    margin-right: 1rem;
+
+      @include min-width($breakpoint-small) {
+        flex: 1 1 55%;
+        max-width: 55%;
+        margin-right: 1rem;
+      }
   }
 
   nav {
@@ -25,9 +33,10 @@
       @include font-size(16px);
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
 
       li {
-        padding-right: 1rem;
+        padding: 0.2em 1rem 0.2em 0;
       }
     }
 

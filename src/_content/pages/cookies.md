@@ -1,11 +1,71 @@
 ---
 title: "Cookies"
-summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
-lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
-bodyClass: "about"
-date: 2020-04-28T13:58:00
+summary: "Boston T Party uses tracking software to anonymously monitor its visitors to better understand how they use it."
+lead: ""
+bodyClass: "cookies"
+date: 2020-09-12T01:12:00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nisl tincidunt eget nullam non nisi. Eget arcu dictum varius duis. Donec ultrices tincidunt arcu non sodales neque sodales. Sem integer vitae justo eget magna fermentum iaculis eu non.
+## What is a cookie?
 
-Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus semper eget duis at. Egestas pretium aenean pharetra magna ac placerat. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+A cookie is a small piece of text sent to your browser by a website you visit. It helps the website to remember information about your visit, like your preferred language and other settings. That can make your next visit easier and the site more useful to you. Cookies play an important role. Without them, using the web would be a much more frustrating experience.
+
+## How cookies are used on this website
+
+This website uses tracking software to anonymously monitor its visitors to better understand how they use it. This software is provided by Google Analytics which uses cookies to track visitor usage. The software will save a cookie to your computers hard drive in order to track and monitor your engagement and usage of the website but will not store, save or collect personal information. For further information, you can read [how Google uses cookies][1].
+
+You can decide what cookies are allowed and delete cookies at any time by adjusting settings on your web browser. Please be aware that restricting cookies may have an impact upon the functionality of our website.
+
+If you would like to contact us directly about our use of cookies, [please get in touch][2]
+
+---
+
+## Cookies used on this website
+
+<table class="[ table__cookies ]">
+	<caption class="[ visually-hidden ]">List of cookies used on this website</caption>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+			<th>Expiration</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<code>_ga</code>
+			</td>
+			<td>Google Analytics cookie. Helps distinguish between who has and hasn't visited <strong>bostontparty.co.za</strong> before.</td>
+			<td>2 years</td>
+		</tr>
+		<tr>
+			<td>
+				<code>_gid</code>
+			</td>
+			<td>Google Analytics cookie. Helps distinguish between who has and hasn't visited <strong>bostontparty.co.za</strong> before.</td>
+			<td>24 hours</td>
+		</tr>
+		<tr>
+			<td>
+				<code>_gat</code>
+			</td>
+			<td>Google Analytics cookie. Used to manage the rate at which page view requests are made.</td>
+			<td>1 minute</td>
+		</tr>
+	</tbody>
+</table>
+
+## Opt out of Google Analytics tracking
+
+You can [opt out of Google Analytics tracking by downloading their browser add-on][3].
+
+---
+
+## Third party site disclaimer
+
+Please note that external sites linked to from our website may also use cookies. You need to check with these external sites what information is being collected using cookies.
+
+[1]: https://policies.google.com/technologies/cookies
+[2]: /contact
+[3]: https://tools.google.com/dlpage/gaoptout
