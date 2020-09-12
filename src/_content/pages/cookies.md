@@ -3,7 +3,9 @@ title: "Cookies"
 summary: "Boston T Party uses tracking software to anonymously monitor its visitors to better understand how they use it."
 lead: ""
 bodyClass: "cookies"
+
 date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
 ---
 
 ## What is a cookie?

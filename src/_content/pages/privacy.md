@@ -1,14 +1,14 @@
 ---
 title: "Privacy Policy"
-summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
-lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
-bodyClass: "about"
-date: 2020-04-28T13:58:00
+summary: "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
+lead: "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
+bodyClass: "privacy"
+
+date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
 ---
 
 ## What is this Privacy Policy for?
-
-This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it.
 
 The policy sets out the different areas where user privacy is concerned and outlines the obligations & requirements of the users, the website and website owners. Furthermore the way this website processes, stores and protects user data and information will also be detailed within this policy.
 

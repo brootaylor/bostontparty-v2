@@ -41,6 +41,7 @@ ul,
 ol,
 blockquote {
   @include font-size(18px);
+  max-width: 80ch;
 }
 
 hr {

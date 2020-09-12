@@ -3,7 +3,9 @@ title: "About Us"
 summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
 lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
 bodyClass: "about"
-date: 2020-04-28T13:58:00
+
+date: 2020-09-12T01:12:00
+updated: 2020-09-12T01:12:00
 ---
 
 From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parties, come and enjoy our beautiful surroundings and relaxing atmosphere.
