@@ -16,7 +16,7 @@
    padding-bottom: 2rem;
 
      @include min-width($breakpoint-medium) {
-       padding-top: 2rem;
+       padding-top: 1rem;
        padding-bottom: 3rem;
      }
 

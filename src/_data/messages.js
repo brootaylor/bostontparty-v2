@@ -1,9 +1,9 @@
 module.exports = {
   info: {
     modifier: "message--info",
-    message: "Boston T Party is currently undergoing maintenance. EE'll be back as soon as we can.",
-    ctaUrl: "/blah/blah",
-    ctaLabel: "More about this."
+    message: "Boston T Party is currently undergoing a redesign so please bear with us.",
+    ctaUrl: "/messages/redesign",
+    ctaLabel: "More about the redesign."
   },
   alert: {
     modifier: "message--alert",

@@ -32,7 +32,7 @@ module.exports = {
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
-  siteMessage: false,
+  siteMessage: true,
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
