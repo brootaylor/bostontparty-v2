@@ -51,13 +51,13 @@
 
 # 1. Run critical pages through pa11y and fail build if accessibility failures are found.
 [[plugins]]
-  package = "netlify-plugin-a11y"
+  # package = "netlify-plugin-a11y"
 
     # all inputs are optional, we just show you the defaults below
-    [plugins.inputs]
+    # [plugins.inputs]
 
     # required config
-    checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+    # checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
 
     # optional config
     # ignoreDirectories = ['/admin']  # explicitly ignore these directories
@@ -86,7 +86,7 @@
   # optional, fails build when a category is below a threshold
   [plugins.inputs.thresholds]
     performance = 0.9
-    accessibility = 0.7
+    # accessibility = 0.7
     best-practices = 0.9
     seo = 0.9
     pwa = 0.9
