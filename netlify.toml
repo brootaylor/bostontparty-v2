@@ -51,20 +51,20 @@
 
 # 1. Run critical pages through pa11y and fail build if accessibility failures are found.
 # [[plugins]]
-#   package = "netlify-plugin-a11y"
+  # package = "netlify-plugin-a11y"
 
-#     # all inputs are optional, we just show you the defaults below
-#     [plugins.inputs]
+    # all inputs are optional, we just show you the defaults below
+    # [plugins.inputs]
 
-#     # required config
-#     checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+    # required config
+    # checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
 
-    # # optional config
+    # optional config
     # ignoreDirectories = ['/admin']  # explicitly ignore these directories
 
     # resultMode = "warn" # is "error" by default
 
-    # # Developer only
+    # Developer only
     # debugMode = true # extra logging for plugin developers
 
 # 2. Optimize images as part of the Netlify build process. Optimizes PNG, JPEG, GIF and SVG file formats.
@@ -81,15 +81,15 @@
 
   [plugins.inputs.audits]
     # to audit a specific absolute url
-    url = 'https://brootaylor.com'
+    url = 'https://bostontparty.co.za'
 
   # optional, fails build when a category is below a threshold
   [plugins.inputs.thresholds]
-    performance = 0.9
-    accessibility = 0.7
-    best-practices = 0.7
-    seo = 0.7
-    pwa = 0.7
+    performance = 0.8
+    # accessibility = 0.7
+    best-practices = 0.8
+    seo = 0.8
+    pwa = 0.8
 
 
 ##############################
