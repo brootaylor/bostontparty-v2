@@ -3,27 +3,27 @@
  *********************************************/
 
 
- #main,
- #footer {
-   @extend %flow;
- }
+#main,
+#footer {
+  @extend %flow;
+}
 
- body {
-   background-color: var(--white);
- }
+body {
+  background-color: var(--white);
+}
 
- #main {
-   padding-bottom: 2rem;
+#main {
+  padding-bottom: 2rem;
 
-     @include min-width($breakpoint-medium) {
-       padding-top: 1rem;
-       padding-bottom: 3rem;
-     }
+    @include min-width($breakpoint-medium) {
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+    }
 
-     @include min-width($breakpoint-large) {
-       padding-bottom: 4rem;
-     }
- }
+    @include min-width($breakpoint-large) {
+      padding-bottom: 4rem;
+    }
+}
 
 // This is using CSS Grid to define grid template areas
 // =====================================================

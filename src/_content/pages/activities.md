@@ -10,7 +10,7 @@ updated: 2020-09-12T01:12:00
 
 ---
 
-## List of activities to wet your appetite&hellip;
+## List of activities to whet your appetite&hellip;
 
 * Enduro Off-Road Motocycle Trails (*guided*)
 * Trail Runs
