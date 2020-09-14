@@ -1,6 +1,7 @@
 # Directories to ignore
 node_modules
 .netlify
+originals
 docs
 www
 

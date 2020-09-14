@@ -3,16 +3,8 @@
  *********************************************/
 
 
-#main,
-#footer {
-  @extend %flow;
-}
-
-body {
-  background-color: var(--white);
-}
-
 #main {
+  @extend %flow;
   padding-bottom: 2rem;
 
     @include min-width($breakpoint-medium) {
