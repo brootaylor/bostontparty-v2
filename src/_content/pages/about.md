@@ -24,7 +24,7 @@ As you approach Boston you will pass the Police Station on your right hand side.
 
 ---
 
-## Partners
+## Associations
 
 We are proud members of the [Boston Dargle Impendle Tourism Organisation][1].
 {% from "components/core/images/images.njk" import imageMultiResolution %}
