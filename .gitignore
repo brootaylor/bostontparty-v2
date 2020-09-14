@@ -1,0 +1,12 @@
+# Directories to ignore
+node_modules
+.netlify
+docs
+www
+
+# Files to ignore
+.DS_Store
+*performance-results.html
+*.zip
+.env
+_tokens.scss
