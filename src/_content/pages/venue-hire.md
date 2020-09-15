@@ -22,16 +22,8 @@ With bag-washed walls and an ethnic floor, large windows and skylights, views of
 
 &hellip;or any occasion where friends and colleagues can get together and have fun in a relaxing environment.
 
-**All packages are tailor-made and are quoted on an individual basis** &mdash; [please contact us for a quote][1]</a>.
-
 ---
 
-## How to find us
-
-**GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
-
-From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
-
-As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.
+**All packages are tailor-made and are quoted on an individual basis** &mdash; [please contact us for a quote][1]</a>.
 
 [1]: /contact
