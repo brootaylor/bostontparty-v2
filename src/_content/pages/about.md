@@ -14,16 +14,6 @@ From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parti
 
 ---
 
-## How to find us
-
-**GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
-
-From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
-
-As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.
-
----
-
 ## Associations
 
 We are proud members of the [Boston Dargle Impendle Tourism Organisation][1].
