@@ -5,7 +5,7 @@ lead: "Private rooms, dormitory rooms or camping - take your pick. All available
 bodyClass: "accommodation"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-12T01:12:00
+updated: 2020-09-16T11:38:00
 ---
 
 Here is a list of the accommodation options and rates.

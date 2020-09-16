@@ -9,5 +9,5 @@ www
 .DS_Store
 *performance-results.html
 *.zip
-.env
+# .env
 _tokens.scss
