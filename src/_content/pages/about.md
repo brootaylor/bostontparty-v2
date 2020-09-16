@@ -5,7 +5,7 @@ lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends,
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-12T01:12:00
+updated: 2020-09-16T11:38:00
 ---
 
 From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parties, come and enjoy our beautiful surroundings and relaxing atmosphere.

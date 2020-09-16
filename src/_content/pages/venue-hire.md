@@ -5,7 +5,7 @@ lead: "Warm, relaxed and fun atmosphere for informal conferences, office functio
 bodyClass: "venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-12T01:12:00
+updated: 2020-09-16T11:38:00
 ---
 
 With bag-washed walls and an ethnic floor, large windows and skylights, views of the dam, reeds and jetty, our **funky open room with an authentic pub** creates a warm, relaxed and fun atmosphere.
