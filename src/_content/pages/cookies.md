@@ -6,6 +6,8 @@ bodyClass: "cookies"
 
 date: 2020-09-12T01:12:00
 updated: 2020-09-16T11:38:00
+
+priority: 0.3
 ---
 
 ## What is a cookie?
