@@ -76,7 +76,7 @@
     "dotenv": "^8.2.0",
     "faker": "^5.1.0",
     "html-minifier": "^4.0.0",
-    "json-to-scss": "^1.6.1",
+    "json-to-scss": "^1.6.2",
     "lodash": "^4.17.20",
     "luxon": "^1.25.0",
     "node-sass": "^4.14.1",
