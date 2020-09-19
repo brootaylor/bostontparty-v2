@@ -1,12 +1,13 @@
 ---
 layout: "layouts/contact.njk"
 title: "Get in touch"
-summary: "Please get in touch if you'd like to find out how Boston T Party could help you."
-lead: "Please get in touch if you'd like to find out how Boston T Party could help you. Just complete the form below."
+summary: "We would love to hear from you! Please complete the below form as to your requirements and we’ll get back to you ASAP."
+lead: "We would love to hear from you!"
+intro: "Please complete the below form as to your requirements and we’ll get back to you ASAP."
 bodyClass: "contact"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-16T11:38:00
+updated: 2020-09-18T16:50:00
 ---
 
 ---
@@ -14,8 +15,9 @@ updated: 2020-09-16T11:38:00
 ## Our address
 
 Boston T Party  
-Boston  
-Kwazulu Natal  
+118 Elands Vlei Farm  
+Boston, 3211  
+Kwa-Zulu Natal  
 South Africa
 
 **Call us:** <a href="tel:27-83-6560979">+27 (0)83 656 0979</a>
@@ -24,8 +26,10 @@ South Africa
 
 ## How to find us
 
+**On the R617** &mdash; the road from Howick towards Underberg and the Southern Drakensberg & Sani Pass, KZN.
+
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
-From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km&#39;s.
+From the N3 (either from Johannesburg or Durban), take exit 99 and turn onto the R617 which is sign-posted Southern Drakensburg. Travel for approx. 33km's.
 
 As you approach Boston you will pass the Police Station on your right hand side. After going over the first speed bumps look out for the Boston Garage Petrol Station (on your right). Turn right 50m before the Petrol Station (**Boston T Party sign**) and continue for 300m on a dirt road. We are on the right.

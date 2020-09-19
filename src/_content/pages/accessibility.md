@@ -6,6 +6,8 @@ bodyClass: "accessibility"
 
 date: 2020-09-12T01:12:00
 updated: 2020-09-16T11:38:00
+
+priority: 0.3
 ---
 
 While we know that it is impossible to design a site that everyone can use, if you have problems using our site, please [let us know][1] and we will do our utmost to help.

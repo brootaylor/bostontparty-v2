@@ -1,14 +1,16 @@
 ---
 title: "Venue Hire"
-summary: "Warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year end parties, birthday celebrations and farm-style weddings."
-lead: "Warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year end parties, birthday celebrations and farm-style weddings."
+summary: "With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings."
+lead: "Our large functions room is just a stones throw away from the dam and shaded by a beautiful Willow tree."
 bodyClass: "venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-16T11:38:00
+updated: 2020-09-18T16:39:00
 ---
 
-With bag-washed walls and an ethnic floor, large windows and skylights, views of the dam, reeds and jetty, our **funky open room with an authentic pub** creates a warm, relaxed and fun atmosphere.
+With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings.
+
+Our **licensed pub** is an ideal place to let your hair down and dance the night away!
 
 ---
 

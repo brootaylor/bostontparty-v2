@@ -27,6 +27,13 @@
 			<p class="[ lead ]">{{ lead }}</p>
 		{% endif %}
 
+		{% if intro %}
+			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+			<p>{{ intro }}</p>
+		{% endif %}
+
+		<hr>
+
 		{# Contact form #}
 		{% include "components/core/forms/contact/contactform.njk" %}
 
