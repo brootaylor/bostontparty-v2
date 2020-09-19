@@ -2,9 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/903b148f-360e-4e06-b042-471f5262f976/deploy-status)](https://app.netlify.com/sites/bostontparty-v2/deploys)
 
-This is *version 2* of the Boston T Party website and can be viewed at [bostontparty-v2.netlify.app](https://bostontparty-v2.netlify.app).
-
-The current (live) site can be viewed at [bostontparty.co.za](https://bostontparty.co.za/).
+This is *version 2* of the Boston T Party website. It's an evolutionary piece of work and can be viewed at [bostontparty.co.za](https://bostontparty.co.za/).
 
 The website is comprised of static files built using [Eleventy](https://www.11ty.io/) (SSG), configurable [NPM](https://docs.npmjs.com/cli/npm) build scripts, global data configuration, [Sass](https://sass-lang.com/) powered CSS system and [rollup.js](https://rollupjs.org/) to bundle JavaScript modules.
 
@@ -45,10 +43,8 @@ Possible features / enhancements for the future:
 1.  Netlify CMS
 2.  Light / Dark Theme option
 3.  Make better use of utility classes
-4.  Tags / categories
-5.  Pagination
-6.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-7.  Styleguide (list of the components)
+4.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
+5.  Styleguide (list of the components)
 
 ---
 
