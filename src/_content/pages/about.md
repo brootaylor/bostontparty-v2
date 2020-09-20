@@ -4,6 +4,8 @@ summary: "Just over an hours drive from the majestic Southern Drakensberg and Sa
 lead: "Welcome to our little oasis!"
 bodyClass: "about"
 
+tags: ['page', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2020-09-18T16:09:00
 ---

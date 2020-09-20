@@ -19,9 +19,7 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js');
 const htmlMinify = require('./lib/utils/transforms/minify-html.js');
 
 // Import (collections)
-const postNotes = require('./lib/collections/postNotes.js');
-const postLinks = require('./lib/collections/postLinks.js');
-const postWriting = require('./lib/collections/postWriting.js');
+const pageFeatured = require('./lib/collections/pageFeatured.js');
 
 
 
@@ -45,9 +43,7 @@ module.exports = function(eleventy) {
   eleventy.addTransform('minify-html', htmlMinify);
 
   // Collections
-  eleventy.addCollection('postNotes', postNotes);
-  eleventy.addCollection('postLinks', postLinks);
-  eleventy.addCollection('postWriting', postWriting);
+  eleventy.addCollection('pageFeatured', pageFeatured);
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts');

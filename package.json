@@ -1,6 +1,6 @@
 {
   "name": "bostontparty-v2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Version 2 of the Boston T Party website.",
   "repository": {
     "type": "git",
@@ -99,7 +99,7 @@
     "eslint-plugin-html": "^6.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "jsdoc": "^3.6.5",
+    "jsdoc": "^3.6.6",
     "markdownlint-cli": "^0.23.2",
     "minami": "^1.2.3",
     "onchange": "^7.0.2",

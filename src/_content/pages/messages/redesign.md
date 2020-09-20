@@ -6,6 +6,8 @@ bodyClass: "info"
 
 permalink: "/messages/{{ page.fileSlug }}.html"
 
+tags: ['message', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2020-09-18T18:18:00
 ---
