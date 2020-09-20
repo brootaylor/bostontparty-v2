@@ -27,6 +27,7 @@
   }
 
   .form__list {
+    @extend %no-list;
     list-style-position: inside;
     margin-top: 0;
   }
