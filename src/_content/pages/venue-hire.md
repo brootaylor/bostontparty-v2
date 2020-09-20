@@ -4,6 +4,8 @@ summary: "With bag washed walls, an ethnic floor and skylights, the room lends i
 lead: "Our large functions room is just a stones throw away from the dam and shaded by a beautiful Willow tree."
 bodyClass: "venue-hire"
 
+tags: ['page', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2020-09-18T16:39:00
 ---

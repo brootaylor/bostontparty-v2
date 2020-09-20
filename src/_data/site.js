@@ -2,9 +2,9 @@ const { DateTime } = require("luxon");
 
 module.exports = {
   name: 'Boston T Party',
-  short_name: 'BTP',
+  short_name: 'Boston T Party',
   metaTitle: 'Boston T Party',
-  metaDescription: 'Rustic accommodation & venue hire.',
+  metaDescription: 'Accommodation & venue hire in Boston, Kwazulu Natal',
   metaImage: '/assets/images/common/logo.png',
   metaImageAlt: 'Site logo for Boston T Party.',
   logoAlt: 'Site logo for Boston T Party.',
