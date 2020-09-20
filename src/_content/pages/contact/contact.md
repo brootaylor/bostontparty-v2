@@ -6,6 +6,8 @@ lead: "We would love to hear from you!"
 intro: "Please complete the below form as to your requirements and we’ll get back to you ASAP."
 bodyClass: "contact"
 
+tags: ['page', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2020-09-18T16:50:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: "layouts/homepage.njk"
 title: "Welcome to Boston T Party"
-summary: "Boston T Party. Rustic accommodation & venue hire in Boston, Kwazulu Natal. From cubs & scouts outings, groups, backpackers, bikers & hikers to bull's parties, come and enjoy our beautiful surroundings and relaxing atmosphere."
+summary: "Accommodation & venue hire in Boston, Kwazulu Natal. From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere."
 bodyClass: "homepage"
 
 permalink: "/index.html"

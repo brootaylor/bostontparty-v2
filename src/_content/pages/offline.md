@@ -5,10 +5,23 @@ lead: "It looks like you're offline. Fingers-crossed your connection to the inte
 bodyClass: "offline"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-16T11:38:00
+updated: 2020-09-20T17:31:00
 
 hidden: true
 eleventyExcludeFromCollections: true
 ---
 
-For now, why not <a href="{{ '/' | url }}">head back to the homepage</a>.
+In the mean time, why not visit one of the following pages that are available while you're offline.
+
+---
+
+<ul class="[ wrapper flow ]">
+  {%- for item in collections.pageFeatured -%}
+    <li>
+      <article>
+        <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
+        <p>{{ item.data.summary }}</p>
+      </article>
+    </li>
+  {%- endfor -%}
+</ul>

@@ -1,8 +1,10 @@
 ---
-title: "Activities in the area"
-summary: "From hiking to trails runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
-lead: "From hiking to trails runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
+title: "Activities"
+summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
+lead: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
 bodyClass: "activities"
+
+tags: ['page', 'featured']
 
 date: 2020-09-12T01:12:00
 updated: 2020-09-18T17:31:00
