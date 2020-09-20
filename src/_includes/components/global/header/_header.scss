@@ -9,4 +9,11 @@
   .navigation__list {
     @include font-size(16px);
   }
+
+  // Media queries
+  @include min-width($breakpoint-medium) {
+    & > .wrapper {
+      display: flex;
+    }
+  }
 }

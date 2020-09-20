@@ -2,7 +2,7 @@
  * Main navigation styles
  **********************************************************/
 
- .navigation {
+.navigation {
   @extend %flow;
 
   a {
@@ -10,9 +10,55 @@
     &:active,
     &:focus,
     &:hover {
+      position: relative;
+      display: inline-block;
       color: var(--white);
       text-decoration: none;
       line-height: 2;
+      padding-bottom: 0.2rem;
+      border-bottom: 0;
+
+      &:before,
+      &:after {
+        background: var(--link-initial);
+        content: '';
+        height: 0.09rem;
+        left: 0;
+        position: absolute;
+        right: 100%;
+        transition: right 0.3s ease-in-out;
+      }
+
+      &:before {
+        top: 0;
+      }
+
+      &:after {
+        bottom: 0;
+      }
+    }
+
+    &:focus,
+    &:hover {
+      &:before {
+        right: 0;
+      }
+    }
+
+    // Current page selected in nav
+    &.current {
+      color: var(--white);
+
+      &:after {
+        right: 0;
+        height: 0.25rem;
+      }
+
+      &:hover {
+        &:before {
+          right: 100%;
+        }
+      }
     }
   }
 
@@ -26,282 +72,27 @@
     }
   }
 
- }
+  // Media queries
+  @include min-width($breakpoint-medium) {
+    display: flex;
+    flex-grow: 1;
 
+    &__list {
+      margin-left: auto;
 
+      & > li {
+        padding-right: 0.7rem;
+      }
+    }
 
- ///////////////////////////////////////////////////////
-// THIS CODE COMES FROM THE BETA (OLDER) SITE
-///////////////////////////////////////////////////////
-
-/* ==========================================================================
-   Primary, secondary & tertiary navigation styles
-   ========================================================================== */
-
-
-////////////////////////////////////////////////////
-// Navigation variable & placeholder config:
-////////////////////////////////////////////////////
-
-
-//////////////////////////
-// MENU TOGGLE
-//////////////////////////
-
-$menu-toggle-text-font-size: 0.875rem;
-$menu-toggle-text-font-weight: $font-weight-light;
-$menu-toggle-text-font-colour: rgba($white, 0.8);
-$menu-toggle-text-padding: pxToEm(7px, $font-size-base);
-
-%menu-toggle-position {
-	display: block;
-	position: absolute;
-	top: pxToEm(-3px, $font-size-base);
-	right: 0;
-}
-%menu-toggle-icon {
-	@include burger(
-		38px, // Width
-		3px, // Height
-		5px, // Gutter
-		rgba($white, 0.8), // Colour
-		0, // Border-radius
-		0.3s // Transition-length
-	);
-}
-
-////////////////////////////////////////////////////
-////////////////////////////////////////////////////
-
-
-
-////////////////////////////////////////////////////
-// These styles are not reliant on JS being enabled.
-// Default state is for everything to show
-
-
-////////////////////////////////
-// Navigation wrapper
-.nav {
-
-	ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
+    &__item {
+      &:not(:last-child) {
+        &::after {
+          content: '/';
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
 
 }
-
-.menu-button {
-	display: none;
-}
-
-
-////////////////////
-// Menu container
-.menu {
-	font-size: 0.875rem;
-
-	// For benefit of assistive technologies
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-
-	&.opened {
-		max-height: 9999px;
-	}
-
-		.menu-primary {
-			font-size: 0.9375rem;
-			font-weight: $font-weight-regular;
-			padding: pxToEm(10px 0, $font-size-base);
-
-				@include break-point-min(640px) {
-					display: inline-flex;
-				}
-
-				@include break-point-min(768px) {
-					padding: 0;
-				}
-
-			/*
-		     * This is the 'hook' for custom fonts if they've been loaded
-		     * https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/
-		     */
-		    .wf-active & {
-		        font-family: $font-family-primary-custom;
-		    }
-
-			li {
-				padding-right: pxToEm(5px, $font-size-base);
-
-				&:after {
-					@include break-point-min(640px) {
-						content: "|";
-						color: $palevioletred;
-					}
-
-					@include break-point-min(890px) {
-						content: "/";
-					}
-				}
-
-				&:last-child {
-					padding-right: 0;
-
-					a {
-						margin-right: 0;
-					}
-
-					&:after {
-						content: "";
-					}
-				}
-
-				a {
-					position: relative;
-					display: inline-block;
-					text-decoration: none;
-					border-bottom: none;
-					color: rgba($white, 1);
-					font-weight: $font-weight-light;
-					margin: pxToEm(0 5px, $font-size-base);
-					padding: pxToEm(7px 0, $font-size-base);
-
-						@include break-point-min(890px) {
-							margin: pxToEm(0 20px, $font-size-base);
-						}
-
-					&:before,
-					&:after {
-						background: $color-tertiary;
-					    content: "";
-					    height: 1px;
-					    left: 0;
-					    position: absolute;
-					    right: 100%;
-					    transition: right 0.3s ease;
-					}
-
-					&:before {
-						top: 0;
-					}
-
-					&:after {
-					    bottom: 0;
-					}
-
-					// Selected / active state
-					&.active {
-						color: rgba($white, 0.8);
-
-						&:after {
-							right: 0;
-							height: 4px;
-						}
-
-						&:hover {
-							&:before {
-								height: 0;
-								right: 100%;
-							}
-						}
-
-					}
-
-					// Hover state
-					&:hover {
-						text-decoration: none;
-						color: $color-tertiary;
-
-						&:before {
-							@include break-point-min(768px) {
-								right: 0;
-							}
-						}
-					}
-				}
-			}
-
-		}
-
-}
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-// Using 'js' class as the parent selector for devices that have JS enabled
-// Otherwise just falls back to rendering entire navigation in a linear layout on smaller screens - (see styles above).
-.enhanced {
-	.nav {
-
-		// ////////////////////////////////
-		// Menu button on small screens
-		.menu-button {
-
-				// Hide the menu button now that space allows for the navigation to be visible
-				@include break-point-min(768px) {
-					display: none;
-				}
-
-			@extend %menu-toggle-position;
-			padding: pxToEm(10px 20px, $font-size-base);
-		  	text-align: center;
-
-			// For benefit of assistive technologies
-			-webkit-tap-highlight-color: rgba(0,0,0,0);
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			-o-user-select: none;
-			user-select: none;
-
-				&:link,
-				&:hover,
-				&:active,
-				&:focus {
-					text-decoration: none;
-					border-bottom: none;
-				}
-
-				// Menu button 'graphic'
-				.menu-button--icon {
-					@extend %menu-toggle-icon;
-				}
-
-				// Menu button label
-				.menu-button--text {
-					font-size: $menu-toggle-text-font-size;
-					font-weight: $menu-toggle-text-font-weight;
-					color: $menu-toggle-text-font-colour;
-					display: block;
-					padding-top: $menu-toggle-text-padding;
-				}
-
-		}
-
-		.menu {
-			max-height: 0;
-			transition: max-height 0.2s;
-			overflow: hidden;
-
-				// Show the full menu now that space allows
-				@include break-point-min(768px) {
-					overflow: auto;
-					max-height: inherit;
-				}
-
-			&.open {
-				max-height: pxToEm(300px, $font-size-base);
-				transition: max-height 0.3s ease-out;
-			}
-		}
-	}
-
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-
