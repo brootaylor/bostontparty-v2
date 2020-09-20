@@ -20,7 +20,7 @@ In the mean time, why not visit one of the following pages that are available wh
     <li>
       <article>
         <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
-        <p>{{ item.data.summary }}</p>
+        <p>{{ item.data.lead }}</p>
       </article>
     </li>
   {%- endfor -%}

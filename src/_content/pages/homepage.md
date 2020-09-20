@@ -7,7 +7,7 @@ bodyClass: "homepage"
 permalink: "/index.html"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-18T16:19:00
+updated: 2020-09-20T17:51:00
 
 changefreq: "weekly"
 priority: 1
