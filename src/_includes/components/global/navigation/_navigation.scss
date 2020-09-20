@@ -2,7 +2,7 @@
  * Main navigation styles
  **********************************************************/
 
- .navigation {
+.navigation {
   @extend %flow;
 
   a {
@@ -10,9 +10,55 @@
     &:active,
     &:focus,
     &:hover {
+      position: relative;
+      display: inline-block;
       color: var(--white);
       text-decoration: none;
       line-height: 2;
+      padding-bottom: 0.2rem;
+      border-bottom: 0;
+
+      &:before,
+      &:after {
+        background: var(--link-initial);
+        content: '';
+        height: 0.09rem;
+        left: 0;
+        position: absolute;
+        right: 100%;
+        transition: right 0.3s ease-in-out;
+      }
+
+      &:before {
+        top: 0;
+      }
+
+      &:after {
+        bottom: 0;
+      }
+    }
+
+    &:focus,
+    &:hover {
+      &:before {
+        right: 0;
+      }
+    }
+
+    // Current page selected in nav
+    &.current {
+      color: var(--white);
+
+      &:after {
+        right: 0;
+        height: 0.25rem;
+      }
+
+      &:hover {
+        &:before {
+          right: 100%;
+        }
+      }
     }
   }
 
@@ -26,4 +72,27 @@
     }
   }
 
- }
+  // Media queries
+  @include min-width($breakpoint-medium) {
+    display: flex;
+    flex-grow: 1;
+
+    &__list {
+      margin-left: auto;
+
+      & > li {
+        padding-right: 0.7rem;
+      }
+    }
+
+    &__item {
+      &:not(:last-child) {
+        &::after {
+          content: '/';
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+}
