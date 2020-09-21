@@ -15,7 +15,7 @@ In the mean time, why not visit one of the following pages that are available wh
 
 ---
 
-<ul class="[ wrapper flow ]">
+<ul class="[ wrapper flow ] [ no-list ]">
   {%- for item in collections.pageFeatured -%}
     <li>
       <article>
