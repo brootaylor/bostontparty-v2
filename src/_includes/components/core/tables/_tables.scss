@@ -12,6 +12,7 @@
 
   table {
     width: 100%;
+    max-width: 50rem;
     border-collapse: collapse;
     margin-bottom: 2rem;
 
@@ -38,12 +39,21 @@
         font-weight: 700;
         background-color: var(--grey-mid);
         padding: 0.5rem 1rem;
+
+          @include max-width(450px) {
+            @include font-size(12px);
+            word-break: break-all;
+          }
       }
     }
 
     tbody {
       td {
         border-bottom: 1px solid var(--grey-mid);
+
+          @include max-width(450px) {
+            @include font-size(14px);
+          }
       }
     }
 
@@ -53,15 +63,12 @@
       border-spacing: 2px;
       border-color: var(--white);
 
-      th {
+      th,
+      td {
         &:first-of-type,
         &:last-of-type {
           max-width: 20%;
         }
-      }
-
-      code {
-        word-break: break-all;
       }
     }
 

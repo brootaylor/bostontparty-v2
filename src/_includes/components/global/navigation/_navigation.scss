@@ -5,6 +5,12 @@
 .navigation {
   @extend %flow;
 
+    // Media query 'medium'
+    @include min-width($breakpoint-medium) {
+      display: flex;
+      flex-grow: 1;
+    }
+
   a {
     &,
     &:active,
@@ -38,9 +44,19 @@
       }
     }
 
-    &:hover {
+    // This should hopefully be used by touch devices
+    &:focus {
       &:before {
         right: 0;
+      }
+    }
+
+    &:hover {
+      // Media query to make sure touch devices don't use ':hover' affect
+      @media(hover: hover) and (pointer: fine) {
+        &:before {
+          right: 0;
+        }
       }
     }
 
@@ -66,8 +82,18 @@
     display: flex;
     flex-wrap: wrap;
 
+      // Media query 'medium'
+      @include min-width($breakpoint-medium) {
+        margin-left: auto;
+      }
+
     & > li {
       padding-right: 1rem;
+
+        // Media query 'medium'
+        @include min-width($breakpoint-medium) {
+          padding-right: 0.7rem;
+        }
     }
   }
 
@@ -76,20 +102,6 @@
       &::after {
         content: '/';
         padding-left: 0.5rem;
-      }
-    }
-  }
-
-  // Media queries
-  @include min-width($breakpoint-medium) {
-    display: flex;
-    flex-grow: 1;
-
-    &__list {
-      margin-left: auto;
-
-      & > li {
-        padding-right: 0.7rem;
       }
     }
   }
