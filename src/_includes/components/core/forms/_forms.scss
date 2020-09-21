@@ -7,7 +7,6 @@
 /// @group Forms
 /// @link https://polypane.app/blog/4-css-layouts-without-using-media-queries/ Method to steer clear from media queries as much as possible.
 .form {
-  max-width: convert-to-rem(700px);
 
   fieldset {
     border: 0;

@@ -23,6 +23,19 @@ body {
   line-height: var(--line-height-base);
 }
 
+// Ensure character length / width is capped
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+hr,
+blockquote,
+form {
+  max-width: 80ch;
+}
+
 h1 {
   @include font-size(40px);
   line-height: 1.1;
@@ -41,7 +54,6 @@ ul,
 ol,
 blockquote {
   @include font-size(18px);
-  max-width: 80ch;
 }
 
 hr {
@@ -51,7 +63,6 @@ hr {
   margin-left: 0;
   margin-right: auto;
   height: 0.1rem;
-  max-width: 50rem
 }
 
 article {
