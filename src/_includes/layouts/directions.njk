@@ -1,0 +1,54 @@
+{#
+	`Contact` page layout template
+#}
+
+{# Uses `base.njk` as base document (ie. extends on it) #}
+{% extends "layouts/base.njk" %}
+
+{#
+	*** A `titleMissingText` variable to make sure an `h1` title is supplied ***
+#}
+{% set titleMissingText = '* Title text is missing *' %}
+
+{# This block `content` relates to the same block on the `base.njk` layout file #}
+{% block content %}
+	<article class="[ wrapper ] [ flow ]">
+
+		{# Directions info and map wrapper #}
+		<div class="[ contact__directions ]">
+
+			{# Directions content overlay #}
+			<div class="[ contact__directions--info ] [ flow ]">
+
+				{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
+				{% if title %}
+					<h1>{{ title }}</h1>
+				{% else %}
+					{# Pages need a `title` hence the reason for this fallback #}
+					<h1>{{ titleMissingText }}</h1>
+				{% endif %}
+
+				{% if lead %}
+					{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+					<p class="[ lead ]">{{ lead }}</p>
+				{% endif %}
+
+				{% if intro %}
+					{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+					<p>{{ intro }}</p>
+				{% endif %}
+
+				{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
+				{{ content | safe }}
+
+			</div>
+
+			{# Map #}
+			<div class="[ contact__directions--map ]">
+				{% include "components/units/map/map.njk" %}
+			</div>
+
+		</div>
+
+	</article>
+{% endblock %}

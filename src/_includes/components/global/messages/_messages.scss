@@ -11,6 +11,8 @@
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
 
+  z-index: 100;
+
   a {
     white-space: nowrap;
   }
