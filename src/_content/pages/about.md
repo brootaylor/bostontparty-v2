@@ -20,9 +20,17 @@ From individual leisure guests to groups, backpackers, campers, bikers & hikers,
 
 ---
 
+## Need directions?
+
+[Directions to Boston T Party][1]
+
+**GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
+
+---
+
 ## Associations
 
-We are proud members of the [Boston Dargle Impendle Tourism Organisation][1].
+We are proud members of the [Boston Dargle Impendle Tourism Organisation][2].
 {% from "components/core/images/images.njk" import imageMultiResolution %}
 {{ imageMultiResolution(
   "/assets/images/partners/partner_bdit-logo.png",
@@ -31,4 +39,5 @@ We are proud members of the [Boston Dargle Impendle Tourism Organisation][1].
   "Boston Dargle Impendle Tourism logo")
 }}
 
-[1]: https://bditourism.co.za/
+[1]: /contact/directions
+[2]: https://bditourism.co.za/

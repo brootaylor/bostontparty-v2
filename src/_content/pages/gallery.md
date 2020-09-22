@@ -1,16 +1,13 @@
 ---
 title: "Gallery"
-summary: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party."
-lead: "Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, welcome you to the Boston T Party!"
+summary: "A great way to see what's on offer at Boston T party is to look through our photo gallery."
+lead: "Sorry there aren't any images to view in our gallery yet. We're still working on this part of the website."
 bodyClass: "gallery"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-12T01:12:00
-
-hidden: true
-eleventyExcludeFromCollections: true
+updated: 2020-09-22T13:43:00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus elementum. Odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Nisl tincidunt eget nullam non nisi. Eget arcu dictum varius duis. Donec ultrices tincidunt arcu non sodales neque sodales. Sem integer vitae justo eget magna fermentum iaculis eu non.
+We do have quite a few plans up our sleeve to make the Boston T Party website as enjoyable and usable to use as possible. To find out more about this why not have a [read about our redesign plans][1].
 
-Vitae semper quis lectus nulla at volutpat diam ut venenatis. Pulvinar elementum integer enim neque volutpat ac tincidunt. Purus semper eget duis at. Egestas pretium aenean pharetra magna ac placerat. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Aliquet nec ullamcorper sit amet risus nullam eget felis eget.
+[1]: /messages/redesign

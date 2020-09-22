@@ -23,16 +23,21 @@ module.exports = {
   ],
   footernav: [
     {
+      label: "Facebook",
+      url: "https://www.facebook.com/TheBostonTParty",
+      external: true
+    },
+    {
+      label: "Accessibility",
+      url: "/accessibility"
+    },
+    {
       label: "Privacy policy",
       url: "/privacy"
     },
     {
       label: "Cookies",
       url: "/cookies"
-    },
-    {
-      label: "Accessibility",
-      url: "/accessibility"
     }
   ]
 }
