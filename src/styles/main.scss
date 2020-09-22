@@ -71,11 +71,12 @@
 
 // Units
 @import
-  '../_includes/components/units/card/card';
+  '../_includes/components/units/card/card',
+  '../_includes/components/units/map/map';
 
 
 /***************************************
  * Page-specific
  */
-// @import
-//   'pages/home';
+@import
+  'pages/contact';
