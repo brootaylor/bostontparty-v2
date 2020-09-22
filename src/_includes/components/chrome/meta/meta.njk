@@ -32,7 +32,7 @@
 <meta name="description" content="{{ metaDescription }}">
 
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
-<meta name="robots" content="{% if hidden == true %}noindex{% else %}index{% endif %}, follow">
+<meta name="robots" content="{% if hidden == true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
 {# Canonical #}
 {% if hidden !== true %}

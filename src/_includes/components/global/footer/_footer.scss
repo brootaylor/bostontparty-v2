@@ -19,8 +19,8 @@
     font-size: 0.90rem;
 
       @include min-width($breakpoint-small) {
-        flex: 1 1 65%;
-        max-width: 65%;
+        flex: 1 1 55%;
+        max-width: 55%;
         margin-right: 1rem;
       }
   }
