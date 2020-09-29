@@ -101,7 +101,7 @@
     Link = '''
       </styles/main.css>; rel=preload; as=style
     '''
-    Content-Security-Policy = "*.google.com"
+    Content-Security-Policy = "script-src 'self' *.google.com; style-src 'self' 'unsafe-inline' *.google.com; object-src 'self' *.google.com; img-src 'self' *.google.com"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
