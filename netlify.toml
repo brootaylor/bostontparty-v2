@@ -54,20 +54,20 @@
   package = "netlify-plugin-image-optim"
 
 # 2. Generate a lighthouse report for every deploy
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"
 
-  [plugins.inputs.audits]
-    # to audit a specific absolute url
-    url = 'https://bostontparty.co.za'
+#   [plugins.inputs.audits]
+#     # to audit a specific absolute url
+#     url = 'https://bostontparty.co.za'
 
-  # optional, fails build when a category is below a threshold
-  [plugins.inputs.thresholds]
-    performance = 0.9
-    accessibility = 0.9
-    best-practices = 0.9
-    seo = 0.9
-    pwa = 0.9
+#   # optional, fails build when a category is below a threshold
+#   [plugins.inputs.thresholds]
+#     performance = 0.9
+#     accessibility = 0.9
+#     best-practices = 0.9
+#     seo = 0.9
+#     pwa = 0.9
 
 # 3. Submit sitemap (automatically)
 [[plugins]]
@@ -101,7 +101,7 @@
     Link = '''
       </styles/main.css>; rel=preload; as=style
     '''
-    Content-Security-Policy = "script-src 'self' *.google.com; style-src 'self' 'unsafe-inline' *.google.com; object-src 'self' *.google.com; img-src 'self' *.google.com"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
