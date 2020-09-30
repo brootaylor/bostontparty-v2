@@ -40,17 +40,23 @@
 {% endif %}
 
 {#
-	Preload / preconnect / dns-prefect stuff...
-	@NOTE: `preload` for styles, fonts etc. are declared in the netlify.toml `[[headers]]`
+	Preconnect / dns-prefect stuff...
 	@NOTE: Only render this code snippet if `analyticsUrchin` has a value in `_data/site.js`
 #}
 {% if site.analyticsUrchin %}
 	<link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
 	<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+	<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://www.google-analytics.com/">
 {% endif %}
 
+{#
+	Styles (pre-load)...
+	This is declared here (instead of netlify.toml [[ headers ]]) because of needing to add dynamic hash / cache-busting version number value
+#}
+<link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 {# Styles (load) #}
-<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 
 {# Open graph #}
 <meta property="og:type" content="website">
