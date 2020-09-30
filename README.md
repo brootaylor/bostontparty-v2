@@ -17,7 +17,7 @@ It's deployed by and hosted with [Netlify](https://www.netlify.com/).
 * 🌐 [Browser support config](https://github.com/brootaylor/bostontparty-v2/blob/master/.browserslistrc)
 * ✅ [Accessibility test runner](https://github.com/pa11y/pa11y-ci)
 * 🌈 [Sass](https://sass-lang.com/) powered CSS system - (utilising modern [custom CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) and methods)
-* 🎨 [Design Tokens](https://github.com/brootaylor/bostontparty-v2/blob/master/src/_data/tokens.json)
+* 🎨 [Design Tokens](https://github.com/brootaylor/bostontparty-v2/blob/master/tokens)
 * 🎳 [JS config to handle code-splitting](https://github.com/brootaylor/bostontparty-v2/blob/master/config/rollup.config.js) (ie. splitting code into smaller chunks to be loaded on demand)
 * 🎛 [Site & build config](https://github.com/brootaylor/bostontparty-v2/blob/master/netlify.toml)
 * 🛄 [Selective build outputs](https://github.com/brootaylor/bostontparty-v2/blob/master/.eleventyignore) using `.eleventyignore`
@@ -43,8 +43,7 @@ Possible features / enhancements for the future:
 1.  Netlify CMS
 2.  Light / Dark Theme option
 3.  Make better use of utility classes
-4.  [IFTTT & Netlify config](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/)
-5.  Styleguide (list of the components)
+4.  Styleguide (list of the components)
 
 ---
 
@@ -64,16 +63,19 @@ bostontparty.co.za
 │
 ├── src
 │   ├── _content                 # Content (Markdown)
-│   ├── _data                    # Global website data (eg. site, mainnav & design tokens)
+│   ├── _data                    # Global website data (eg. site, messages, navigation & contactform)
 │   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
 │   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
 │   ├── scripts                  # JavaScript (Global)
 │   ├── styles                   # SCSS (Global)
-│   ├── browserconfig.xml.njk    # browserconfig.xml template (For Microsoft application usage)
-│   ├── manifest.json.njk        # manifest.json template
-│   ├── robots.txt.njk           # robots.txt template
-│   ├── serviceworkerjs.njk      # serviceworker.js template
-│   └── sitemap.xml.njk          # sitemap.xml template
+│   ├── browserconfig.njk        # browserconfig.xml template (For Microsoft application usage)
+│   ├── feed.njk                 # feed.xml template
+│   ├── manifest.njk             # manifest.json template
+│   ├── robots.njk               # robots.txt template
+│   ├── serviceworker.njk        # serviceworker.js template
+│   └── sitemap.njk              # sitemap.xml template
+│
+├── tokens                       # Design tokens directory that holds individual design token JSON files (eg. colors.json)
 │
 ├── .browserlistrc               # Browser support config list
 ├── .editorconfig                # Text editor configuration
@@ -84,7 +86,7 @@ bostontparty.co.za
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlint.json           # Markdownlint configuration
 ├── .sass-lint.yml               # SCSS linting configuration
-├── LICENCE                      # Repo licence
+├── LICENCE                      # Repo licence (MIT)
 ├── netlify.toml                 # Netlify configuration (server)
 ├── package.json                 # Node.js package manifest
 ├── package-lock.json            # Node.js package lock
