@@ -9,7 +9,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
-    background: var(--grey-mid) repeat-x url("/assets/common/images/backgrounds/horizontal__device-thin--wide.svg") 0 100%;
+    background-color: var(--grey-mid);
 
       @include min-width($breakpoint-medium) {
         padding-top: 4rem;
