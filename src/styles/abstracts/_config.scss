@@ -83,6 +83,11 @@ $grey-light: map-get($colors, light) !default;
 /// @type Color
 $grey-mid: map-get($colors, mid) !default;
 
+/// Slate grey
+/// @group Colours
+/// @type Color
+$grey-slate: map-get($colors, slate) !default;
+
 /// Dark grey
 /// @group Colours
 /// @type Color

@@ -4,12 +4,10 @@
   color: var(--message-text);
 
   text-align: center;
-  position: sticky;
-  top: 0;
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 0 2px 0 1px rgba($grey-dark, 0.2);
+  box-shadow: 0 2px 0 1px rgba($grey-dark, 0.3);
 
   z-index: 100;
 
@@ -20,12 +18,12 @@
   // 'Info' type message
   &--info {
     --message-text: var(--black);
-    --message-background: var(--grey-light);
+    --message-background: var(--grey-mid);
   }
 
   // 'Alert' type message
   &--alert {
     --message-text: var(--black);
-    --message-background: var(--orange-custom);
+    --message-background: var(--grey-slate);
   }
 }
