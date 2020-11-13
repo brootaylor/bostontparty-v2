@@ -19,7 +19,7 @@ Fifteen private en-suite rooms:
 
 All rooms have their own shower & toilet, linen and bath towels provided, tea & coffee making facilities.
 
-**Self catering basis**: R290.00 per person per night sharing or R310.00 single occupancy per night.
+**Self catering basis**: R320.00 per person per night sharing or R350.00 single occupancy per night.
 
 ---
 
