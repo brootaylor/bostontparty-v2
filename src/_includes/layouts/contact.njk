@@ -12,33 +12,35 @@
 
 {# This block `content` relates to the same block on the `base.njk` layout file #}
 {% block content %}
-	<article class="[ wrapper ] [ flow ]">
+	<article class="[ page ]">
 
-		{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
-		{% if title %}
-			<h1>{{ title }}</h1>
-		{% else %}
-			{# Pages need a `title` hence the reason for this fallback #}
-			<h1>{{ titleMissingText }}</h1>
-		{% endif %}
+		{# Page header / banner section: #}
+		{# Has a look for the `bannerGeneric` collection tag... #}
+		{% for content in collections.bannerGeneric %}
+			{% include "components/units/banner/banner.njk" %}
+		{% endfor %}
 
-		{% if lead %}
-			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<p class="[ lead ]">{{ lead }}</p>
-		{% endif %}
+		<div class="[ wrapper ] [ flow ]">
 
-		{% if intro %}
-			{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-			<p>{{ intro }}</p>
-		{% endif %}
+			{% if lead %}
+				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+				<p class="[ lead ]">{{ lead }}</p>
+			{% endif %}
 
-		<hr>
+			{% if intro %}
+				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+				<p>{{ intro }}</p>
+			{% endif %}
 
-		{# Contact form #}
-		{% include "components/core/forms/contact/contactform.njk" %}
+			<hr>
 
-		{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
-		{{ content | safe }}
+			{# Contact form #}
+			{% include "components/core/forms/contact/contactform.njk" %}
+
+			{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
+			{{ content | safe }}
+
+		</div>
 
 	</article>
 {% endblock %}

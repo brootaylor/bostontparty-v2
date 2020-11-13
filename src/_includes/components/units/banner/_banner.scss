@@ -1,0 +1,66 @@
+/**********************************************************
+ * Page header / banner styles
+ **********************************************************/
+
+.page {
+
+  // For when the page has the generic background 'graphic'
+  .page__header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    background-color: var(--grey-mid);
+
+      @include min-width($breakpoint-medium) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        margin-bottom: 4rem;
+      }
+
+    time {
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+
+  // For when the page has a 'banner' image
+  .page__banner {
+    position: relative;
+    color: var(--white);
+    background-color: var(--black);
+
+      @include min-width($breakpoint-medium) {
+        margin-bottom: 4rem;
+      }
+
+    // Applies an overlay colour tint with opacity
+    &--tint {
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($black, 0.6);
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      min-height: 20vh;
+    }
+
+    .title {
+      position: relative;
+      z-index: 2;
+      text-shadow: 1px 1px 1px var(--black);
+    }
+
+    .obj-fit {
+      object-position: bottom;
+      font-family: "object-position: bottom;";
+    }
+  }
+}
