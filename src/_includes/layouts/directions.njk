@@ -29,13 +29,15 @@
 				<div class="[ contact__directions--info ] [ flow ]">
 
 					{% if lead %}
-						{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-						<p class="[ lead ]">{{ lead }}</p>
-					{% endif %}
+					{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+					<p class="[ lead ]">{{ lead | safe }}</p>
+
+					<hr>
+				{% endif %}
 
 					{% if intro %}
 						{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-						<p>{{ intro }}</p>
+						<p>{{ intro | safe }}</p>
 					{% endif %}
 
 					{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}

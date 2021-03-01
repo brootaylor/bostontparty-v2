@@ -7,9 +7,6 @@ bodyClass: "activities"
 date: 2020-09-12T01:12:00
 updated: 2020-09-20T17:52:00
 ---
-
----
-
 ## List of activities to whet your appetite:
 
 * Enduro off-road motorbike ride (*guided*)

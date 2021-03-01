@@ -9,7 +9,6 @@ updated: 2020-09-16T11:38:00
 
 priority: 0.3
 ---
-
 ## What is this Privacy Policy for?
 
 The policy sets out the different areas where user privacy is concerned and outlines the obligations & requirements of the users, the website and website owners. Furthermore the way this website processes, stores and protects user data and information will also be detailed within this policy.

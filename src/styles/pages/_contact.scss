@@ -11,6 +11,10 @@
     &--info {
       margin-bottom: convert-to-rem(20px);
 
+      p {
+        @include font-size(18px);
+      }
+
         @include min-width($breakpoint-large) {
           position: absolute;
           top: convert-to-rem(25px);
