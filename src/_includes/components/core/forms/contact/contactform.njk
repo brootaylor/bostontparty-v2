@@ -4,18 +4,25 @@
 {# Form Legend #}
 {% set legend = contactform.legend %}
 
-{# Form labels etc. #}
+{# Form labels... #}
 {% set labelName = contactform.labelName %}
 {% set labelEmail = contactform.labelEmail %}
-
+{% set labelMessageSubject = contactform.messageSubject.label %}
 {% set labelMessage = contactform.message.label %}
-{% set messagePlaceholder = contactform.message.placeholder %}
 {% set labelButton = contactform.labelButton %}
+
+{# Message subject form field... #}
+{% set messageSubjectOptionDefaultLabel = contactform.messageSubject.optionDefaultLabel %}
+{% set messageSubjectOptions = contactform.messageSubject.options %}
+
+{# Message form field... #}
+{% set messagePlaceholder = contactform.message.placeholder %}
+
 
 <form class="[ form ]" method="post" name="contact" action="/contact/thanks" netlify-honeypot="bot-field" data-netlify="true">
 
 	{# This is to trick bots and prevent spam emails being submitted #}
-	<p class="hidden">
+	<p class="[ hidden ]">
 		<label>{{ botMessage }} <input name="bot-field"></label>
 	</p>
 
@@ -23,14 +30,31 @@
 	<fieldset class="[ form__group ]">
 		<legend class="[ visually-hidden ]">{{ legend }}</legend>
 		<ol class="[ form__list ]">
+			{# Name #}
 			<li class="[ form__item ]">
 				<label class="[ form__label ]" for="name">{{ labelName }}</label>
 				<input class="[ form__input ]" id="name" name="name" type="text" required>
 			</li>
+			{# Email address #}
 			<li class="[ form__item ]">
 				<label class="[ form__label ]" for="email">{{ labelEmail }}</label>
 				<input class="[ form__input ]" id="email" name="email" type="email" required>
 			</li>
+			{# Subject #}
+			<li class="[ form__item ]">
+				<label class="[ form__label ]" for="message-subject">{{ labelMessageSubject }}</label>
+				{# This wrapper <div> for the <select> element enables a pseudo element (arrow) to be added to the dropdown #}
+				<div class="[ form__input form__input--select ]">
+					<select id="message-subject" name="message-subject" required>
+						<option value="" selected disabled>{{ messageSubjectOptionDefaultLabel }}</option>
+						{# Loops through data array for message subject options #}
+						{% for option in messageSubjectOptions %}
+							<option value="{{ option }}">{{ option }}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</li>
+			{# Message #}
 			<li class="[ form__item ]">
 				<label class="[ form__label ]" for="message">{{ labelMessage }}</label>
 				<textarea class="[ form__input ]" id="message" name="message" rows="10" cols="20" placeholder="{{ messagePlaceholder }}" required></textarea>

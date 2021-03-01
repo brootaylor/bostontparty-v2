@@ -3,6 +3,14 @@ module.exports = {
   legend: "Fill out your contact details and write a message.",
   labelName: "Your name",
   labelEmail: "Your email",
+  messageSubject: {
+    label: "Subject",
+    optionDefaultLabel: "Please select...",
+    options: [
+      "Accommodation",
+      "Venue Hire"
+    ]
+  },
   message: {
     label: "Message",
     placeholder: "Please write your message here..."
