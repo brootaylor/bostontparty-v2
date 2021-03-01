@@ -3,10 +3,10 @@ const fs = require('fs');
 module.exports = {
   notify: true,
   watch: true,
-  browser: ['firefox'],
+  browser: ['google chrome'],
   open: 'local',
   startPath: '/',
-  logPrefix: 'Boston T Party\'s website',
+  logPrefix: "Boston T Party's website",
   logLevel: 'debug',
   callbacks: {
     ready(err, browserSync) {
@@ -20,7 +20,7 @@ module.exports = {
     },
   },
   ui: {
-    port: 8080
+    port: 8080,
   },
-  ghostMode: false
+  ghostMode: false,
 };

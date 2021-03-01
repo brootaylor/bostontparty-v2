@@ -5,11 +5,8 @@ lead: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rid
 bodyClass: "activities"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-20T17:52:00
+updated: 2021-03-01T17:30:00
 ---
-
----
-
 ## List of activities to whet your appetite:
 
 * Enduro off-road motorbike ride (*guided*)

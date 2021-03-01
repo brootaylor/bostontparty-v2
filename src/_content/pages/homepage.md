@@ -4,18 +4,17 @@ layout: "layouts/homepage.njk"
 title: "Welcome to Boston T Party"
 
 summary: "Accommodation & venue hire in Boston, Kwazulu Natal. From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere."
+lead: The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.
 bodyClass: "homepage"
 
 permalink: "/index.html"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-20T17:51:00
+updated: 2021-03-01T17:30:00
 
 changefreq: "weekly"
 priority: 1
 ---
-
-The Boston T Party is a perfect spot if you need [somewhere to stay][1] or an authentic [venue to hold your function][2].
 
 A **homely**, **personal**, **farm experience**, where you can cast a line from the jetty, jump in a canoe and paddle around the dam or relax on the lawn under the Willow trees.
 

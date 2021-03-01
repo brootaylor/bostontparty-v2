@@ -3,7 +3,7 @@
 ##############################
 
 [build]
-  command = "echo 'Ok, let us begin this build!' && npm run deploy:build && echo 'Build finished, site deployed 🚀'"
+  command = "npm run deploy:build"
   publish = "www"
 
   # Default site wide settings
@@ -25,10 +25,11 @@
 # Build and deployment config for `production` environment
 [context.production]
   command = "npm run deploy:build"
+
   [context.production.environment]
     GIT_LFS_ENABLED = "true"
     NODE_ENV = "production"
-    NODE_VERSION = "12"
+    NODE_VERSION = "14"
     TZ = "Europe/London"
 
 
@@ -97,7 +98,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "script-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.cloudfront.net"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.com unpkg.com *.google.com *.google-analytics.com *.googletagmanager.com; style-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com; object-src 'self'; img-src 'self' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.cloudfront.net"
     Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"

@@ -5,11 +5,8 @@ lead: "We offer private en-suite rooms or camping with 2 fully equipped communal
 bodyClass: "accommodation"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-18T16:23:00
+updated: 2021-03-01T17:30:00
 ---
-
----
-
 ## Private rooms
 
 Fifteen private en-suite rooms:

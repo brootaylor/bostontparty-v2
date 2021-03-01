@@ -9,7 +9,6 @@ updated: 2020-09-16T11:38:00
 
 priority: 0.3
 ---
-
 ## What is a cookie?
 
 A cookie is a small piece of text sent to your browser by a website you visit. It helps the website to remember information about your visit, like your preferred language and other settings. That can make your next visit easier and the site more useful to you. Cookies play an important role. Without them, using the web would be a much more frustrating experience.

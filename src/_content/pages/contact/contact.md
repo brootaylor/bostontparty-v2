@@ -11,7 +11,6 @@ updated: 2020-09-20T17:39:00
 ---
 
 ---
-
 ## Our address
 
 Boston T Party  
@@ -23,7 +22,6 @@ South Africa
 **Call us:** [+27 (0)83 656 0979](tel:27-83-6560979)
 
 ---
-
 ## Need directions?
 
 [Directions to Boston T Party][1]
