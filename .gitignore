@@ -4,10 +4,10 @@ node_modules
 originals
 docs
 www
-src/styles/tokens/
 
 # Files to ignore
 .DS_Store
 *performance-results.html
+.env
+_tokens.scss
 *.zip
-# .env
