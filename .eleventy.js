@@ -50,6 +50,7 @@ module.exports = function(eleventy) {
   eleventy.addPassthroughCopy('./src/assets/ico');
   eleventy.addPassthroughCopy('./src/assets/images');
   eleventy.addPassthroughCopy('./src/assets/video');
+  eleventy.addPassthroughCopy('./src/admin/config.yml');
 
   // Enable data deep merge
   eleventy.setDataDeepMerge(true);

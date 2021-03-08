@@ -1,0 +1,34 @@
+# Config for how content is created, modified and previewed using the Netlify CMS GUI.
+# ====================================================================================
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
+media_folder: "src/assets/images/uploads" # Media files will be stored in the repo under src/assets/images/uploads
+public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
+
+collections:
+  # 'Accommodation prices'
+  - name: "accommodation_prices"
+    label: "Accommodation prices"
+    folder: "src/_content/pages"
+    slug: "accommodation"
+    preview_path: "pages/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
+    create: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Meta Description",
+          name: "summary",
+          description: "This populates the page's meta decsription field",
+          widget: "string",
+        }
+      - { label: "Lead", name: "lead", widget: "string" }
+      - {
+          label: "Updated Date",
+          name: "updated",
+          widget: "datetime",
+          picker_utc: false,
+        }
