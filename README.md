@@ -63,6 +63,7 @@ bostontparty.co.za
 │   ├── _content                 # Content (Markdown)
 │   ├── _data                    # Global website data (eg. site, messages, navigation & contactform)
 │   ├── _includes                # Layout templates, partials & components (Nunjucks, JS & SCSS)
+│   ├── admin                    # Netlify CMS config files
 │   ├── assets                   # Assets (ie. Static files like Fonts, Images, Video, Favicons)
 │   ├── scripts                  # JavaScript (Global)
 │   ├── styles                   # SCSS (Global)
