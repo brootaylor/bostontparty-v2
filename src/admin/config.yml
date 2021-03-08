@@ -13,7 +13,7 @@ collections:
   # 'Accommodation prices'
   - name: "accommodation_prices"
     label: "Accommodation prices"
-    folder: "src/_content/pages"
+    folder: "src/_content/pages/accommodation"
     slug: "accommodation"
     preview_path: "pages/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
     create: false
