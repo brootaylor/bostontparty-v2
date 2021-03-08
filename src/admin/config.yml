@@ -8,27 +8,26 @@ backend:
 publish_mode: editorial_workflow # Ensures content goes through workflow first, ("Drafts" --> "In Review" --> "Ready"), before being published
 media_folder: "src/assets/images/uploads" # Media files will be stored in the repo under src/assets/images/uploads
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /assets/images/uploads
+site_url: "https://bostontparty.co.za"
+display_url: "https://bostontparty.co.za"
+logo_url: "https://bostontparty.co.za/assets/images/common/logo.png"
 
 collections:
-  # 'Accommodation prices'
-  - name: "accommodation_prices"
-    label: "Accommodation prices"
-    folder: "src/_content/pages/accommodation"
-    slug: "accommodation"
-    preview_path: "pages/{{slug}}" # A deployment preview URL. Allows a preview of the URL that's not on the production domain
-    create: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Meta Description",
-          name: "summary",
-          description: "This populates the page's meta decsription field",
-          widget: "string",
-        }
-      - { label: "Lead", name: "lead", widget: "string" }
-      - {
-          label: "Updated Date",
-          name: "updated",
-          widget: "datetime",
-          picker_utc: false,
-        }
+  # 'Pages'
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Accommodation page"
+        name: "accommodation"
+        file: "src/_content/pages/accommodation.md"
+        preview_path: "accommodation"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "string" }
+          - {
+              label: "Updated Date",
+              name: "updated",
+              widget: "datetime",
+              picker_utc: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
