@@ -7,9 +7,9 @@ prices_camping: "786"
 date: 2020-09-12T01:12:00
 bodyClass: accommodation
 title: Accommodation options & rates
-updated: 2021-03-01T17:30:00
 lead: We offer private en-suite rooms or camping with 2 fully equipped communal
   self catering kitchens.
+updated: 2021-03-08T17:41:03.891Z
 ---
 ## Private rooms
 
