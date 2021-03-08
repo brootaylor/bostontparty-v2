@@ -1,11 +1,15 @@
 ---
-title: "Accommodation options & rates"
-summary: "Should you find yourself in the Boston / Impendle area, either for work or leisure purposes, we offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens."
-lead: "We offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens."
-bodyClass: "accommodation"
-
+summary: Should you find yourself in the Boston / Impendle area, either for work
+  or leisure purposes, we offer private en-suite rooms or camping with 2 fully
+  equipped communal self catering kitchens.
+prices_privateRooms: "678"
+prices_camping: "786"
 date: 2020-09-12T01:12:00
+bodyClass: accommodation
+title: Accommodation options & rates
 updated: 2021-03-01T17:30:00
+lead: We offer private en-suite rooms or camping with 2 fully equipped communal
+  self catering kitchens.
 ---
 ## Private rooms
 
