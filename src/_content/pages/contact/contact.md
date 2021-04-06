@@ -13,13 +13,17 @@ updated: 2020-09-20T17:39:00
 ---
 ## Our address
 
-Boston T Party  
+<address>
+
+Boston T Party   
 118 Elands Vlei Farm  
 Boston, 3211  
 Kwa-Zulu Natal  
 South Africa
 
 **Call us:** [+27 (0)83 656 0979](tel:27-83-6560979)
+
+</address>
 
 ---
 ## Need directions?

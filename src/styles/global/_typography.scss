@@ -53,6 +53,7 @@ p,
 ul,
 ol,
 blockquote,
+address,
 pre {
   @include font-size(18px);
   max-width: 65ch;
@@ -64,6 +65,10 @@ pre {
     @include min-width($breakpoint-large) {
       @include font-size(22px);
     }
+}
+
+address {
+  @extend %flow;
 }
 
 hr {
