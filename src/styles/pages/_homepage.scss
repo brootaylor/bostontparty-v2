@@ -51,7 +51,7 @@
   }
 
   .feature-tile-content {
-    z-index: 100;
+    z-index: 1;
     position: absolute;
     padding: convert-to-rem(20px);
     width: calc(100% - 40px);
