@@ -14,25 +14,117 @@
 {% block content %}
 	<article class="[ page ]">
 
-		{# Page header / banner section: #}
-		{# Has a look for the `bannerHomepage` collection tag... #}
-		{% for content in collections.bannerHomepage %}
-			{% include "components/units/banner/banner.njk" %}
-		{% endfor %}
-
-		<div class="[ wrapper ] [ flow ]">
-
-			{% if lead %}
-				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-				<p class="[ lead ]">{{ lead | safe }}</p>
-
-				<hr>
-			{% endif %}
-
-			{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
-			{{ content | safe }}
-
-		</div>
+	<div class="grid-home">
+			<div class="grid-panel">
+					<div class="grid-panel">
+							<section class="feature-tile">
+									<a href="/about">
+											<div class="feature-tile-content">
+													<header>
+															<h2 class="feature-title">About us</h2>
+													</header>
+													<p>A homely, farm experience. Cast a line from the jetty, jump in a canoe and paddle round the dam.</p>
+											</div>
+											<img
+													srcset="/assets/images/featured/homepage/feature-about-bg-01--xlarge.jpg 1200w,
+																	/assets/images/featured/homepage/feature-about-bg-01--large.jpg 1024w,
+																	/assets/images/featured/homepage/feature-about-bg-01--medium.jpg 768w,
+																	/assets/images/featured/homepage/feature-about-bg-01--small.jpg 480w"
+													sizes="100vw"
+													src="/assets/images/featured/homepage/feature-about-bg-01--medium.jpg"
+													alt=""
+													class="obj-fit">
+									</a>
+							</section>
+					</div>
+					<div class="grid-panel">
+							<section class="feature-tile">
+									<a href="/accommodation">
+											<div class="feature-tile-content">
+													<header>
+															<h2 class="feature-title">Accommodation</h2>
+													</header>
+													<p>Private rooms or camping &ndash; take your pick. All available including hot showers and self-catering facilities.</p>
+											</div>
+											<img
+													srcset="/assets/images/featured/homepage/feature-accommodation-bg-01--xlarge.jpg 1200w,
+																	/assets/images/featured/homepage/feature-accommodation-bg-01--large.jpg 1024w,
+																	/assets/images/featured/homepage/feature-accommodation-bg-01--medium.jpg 768w,
+																	/assets/images/featured/homepage/feature-accommodation-bg-01--small.jpg 480w"
+													sizes="100vw"
+													src="/assets/images/featured/homepage/feature-accommodation-bg-01--medium.jpg"
+													alt=""
+													class="obj-fit">
+									</a>
+							</section>
+					</div>
+			</div>
+			<div class="grid-panel">
+					<div class="grid-panel">
+							<section class="feature-tile">
+									<a href="/venue-hire">
+											<div class="feature-tile-content">
+													<header>
+															<h2 class="feature-title">Venue hire</h2>
+													</header>
+													<p>Our funky open room with an authentic pub creates a warm, relaxed and fun atmosphere. Perfect for that special occasion.</p>
+											</div>
+											<img
+													srcset="/assets/images/featured/homepage/feature-venue-bg-01--xlarge.jpg 1200w,
+																	/assets/images/featured/homepage/feature-venue-bg-01--large.jpg 1024w,
+																	/assets/images/featured/homepage/feature-venue-bg-01--medium.jpg 768w,
+																	/assets/images/featured/homepage/feature-venue-bg-01--small.jpg 480w"
+													sizes="100vw"
+													src="/assets/images/featured/homepage/feature-venue-bg-01--medium.jpg"
+													alt=""
+													class="obj-fit">
+									</a>
+							</section>
+					</div>
+					<div class="grid-panel">
+							<section class="feature-tile">
+									<a href="/activities">
+											<div class="feature-tile-content">
+													<header>
+															<h2 class="feature-title">Activities</h2>
+													</header>
+													<p>This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off for a cycle or walk in the surrounding area.</p>
+											</div>
+											<img
+													srcset="/assets/images/featured/homepage/feature-activities-bg-01--xlarge.jpg 1200w,
+																	/assets/images/featured/homepage/feature-activities-bg-01--large.jpg 1024w,
+																	/assets/images/featured/homepage/feature-activities-bg-01--medium.jpg 768w,
+																	/assets/images/featured/homepage/feature-activities-bg-01--small.jpg 480w"
+													sizes="100vw"
+													src="/assets/images/featured/homepage/feature-activities-bg-01--medium.jpg"
+													alt=""
+													class="obj-fit">
+									</a>
+							</section>
+					</div>
+					<div class="grid-panel">
+							<section class="feature-tile">
+									<a href="/gallery">
+											<div class="feature-tile-content">
+													<header>
+															<h2 class="feature-title">Gallery</h2>
+													</header>
+													<p>A great way to see what's on offer is to look through our photo gallery. There are some great pics of Boston T Party and its 'local residents'.</p>
+											</div>
+											<img
+													srcset="/assets/images/featured/homepage/feature-home-bg-01--xlarge.jpg 1200w,
+																	/assets/images/featured/homepage/feature-home-bg-01--large.jpg 1024w,
+																	/assets/images/featured/homepage/feature-home-bg-01--medium.jpg 768w,
+																	/assets/images/featured/homepage/feature-home-bg-01--small.jpg 480w"
+													sizes="100vw"
+													src="/assets/images/featured/homepage/feature-home-bg-01--medium.jpg"
+													alt=""
+													class="obj-fit">
+									</a>
+							</section>
+					</div>
+			</div>
+	</div>
 
 	</article>
 {% endblock %}
