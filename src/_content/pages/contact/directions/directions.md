@@ -31,11 +31,10 @@ South Africa
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
-**Call:** [+27 (0)83 656 0979](tel:27-83-6560979)  
-**Email:** [Send us an email][3]
+**Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
+**Email:** [Send us an email][2]
 
 </address>
 
 [1]: https://www.google.com/maps/place/Boston+T-Party/@-29.679589,30.028414,10z/data=!4m8!3m7!1s0x0:0xf19df1b52dbddc5e!5m2!4m1!1i2!8m2!3d-29.6795894!4d30.0284135?hl=en-GB
-[2]:[tel:27-83-6560979]
-[3]: /contact
+[2]: /contact
