@@ -4,6 +4,8 @@ summary: "Just over an hours drive from the majestic Southern Drakensberg and Sa
 lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
 bodyClass: "about"
 
+tags: ['page', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2021-03-01T17:30:00
 ---

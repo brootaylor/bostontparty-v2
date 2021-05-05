@@ -4,6 +4,8 @@ summary: Should you find yourself in the Boston / Impendle area, either for work
 lead: We offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens.
 bodyClass: accommodation
 
+tags: ['page', 'featured']
+
 date: 2020-09-12T01:12:00
 updated: 2021-03-08T17:41:03.891Z
 ---

@@ -19,8 +19,8 @@ In the mean time, why not visit one of the following pages that are available wh
   {%- for item in collections.pageFeatured -%}
     <li>
       <article>
-        <h2><a href="{{ item.url | pretty }}">{{ item.data.title }}</a></h2>
-        <p>{{ item.data.lead }}</p>
+        <h2><a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a></h2>
+        <p>{{ item.data.lead | safe }}</p>
       </article>
     </li>
   {%- endfor -%}
