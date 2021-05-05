@@ -5,7 +5,7 @@ lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you 
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-03-01T17:30:00
+updated: 2021-05-05T22:26:00
 ---
 
 **On the R617 between Howick and Underberg**, KwaZulu-Natal, nestled in rolling hills, just over an hours drive from the majestic **Southern Drakensberg** and **Sani Pass**, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue.
