@@ -21,7 +21,7 @@ Boston, 3211
 Kwa-Zulu Natal  
 South Africa
 
-**Call us:** [+27 (0)83 656 0979](tel:27-83-6560979)
+**Call us:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>
 
 </address>
 
