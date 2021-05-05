@@ -31,6 +31,7 @@ Here are some features we've implemented so far to hopefully enhance your experi
 
 We intend to continually tweak our website to make it as usable and enjoyable to use as possible. Here are some potential features / enhancements we've earmarked for future development:
 
+* **Homepage redesign** &mdash; We hope to make the homepage (the page most people visit first) as visually pleasing, easy to use and informative as possible.
 * **Photo gallery** &mdash; A place to view some lovely pics of Boston T party.
 * **Light / Dark Theme option** &mdash; To allow you to choose what colour contrast option you prefer / is easier on your eyes when reading content.
 
