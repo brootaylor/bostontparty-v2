@@ -4,8 +4,6 @@ summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike 
 lead: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
 bodyClass: "activities"
 
-tags: ['page', 'featured']
-
 date: 2020-09-12T01:12:00
 updated: 2021-03-01T17:30:00
 ---
