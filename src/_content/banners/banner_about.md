@@ -17,7 +17,7 @@ image:
     large: "/assets/images/banners/about/feature-about-bg-01--large.jpg"
     x_large: "/assets/images/banners/about/feature-about-bg-01--xlarge.jpg"
     xx_large: "/assets/images/banners/about/feature-about-bg-01--xxlarge.jpg"
-  alt: "Boston T Party main house"
+  alt: "Boston T Party hosts standing in a field"
 
 # This collection `tag` value corresponds with the `for` loop that renders this content
 tags:

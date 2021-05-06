@@ -1,5 +1,5 @@
 ---
-title: "Venue Hire"
+title: "Venue hire"
 summary: "With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings."
 lead: "Our large functions room is just a stones throw away from the dam and shaded by a beautiful Willow tree."
 bodyClass: "venue-hire"

@@ -1,6 +1,6 @@
 ---
 layout: "layouts/about.njk"
-title: "About Us"
+title: "About us"
 summary: "Just over an hours drive from the majestic Southern Drakensberg and Sani Pass, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue."
 lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
 bodyClass: "about"
