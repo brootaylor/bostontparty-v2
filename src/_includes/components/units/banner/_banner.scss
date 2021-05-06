@@ -51,19 +51,11 @@
       align-items: center;
       min-height: 20vh;
 
-        @include min-width($breakpoint-medium) {
+        @include min-width($breakpoint-large) {
           min-height: 25vh;
         }
 
-        @include min-width($breakpoint-large) {
-          min-height: 30vh;
-        }
-
         @include min-width($breakpoint-x-large) {
-          min-height: 30vh;
-        }
-
-        @include min-width($breakpoint-xx-large) {
           min-height: 30vh;
         }
     }
