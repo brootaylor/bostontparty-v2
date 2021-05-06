@@ -1,3 +1,8 @@
+{#
+	Image component
+	===============
+#}
+
 {################################################################################################}
 {# Dynamic multi purpose image implementation
 {################################################################################################}
@@ -7,32 +12,42 @@
   <source srcset="{{ content.data.image.multiSrc.webP }}" type="image/webp">
 	{% if content.data.image.multiSize %}
 		{# Multiple image size sources generated... #}
-		<img src="{{ content.data.image.multiSrc.default }}"
-			srcset="{{ content.data.image.multiSrc.small }} 256w,
-							{{ content.data.image.multiSrc.medium }} 512w,
-							{{ content.data.image.multiSrc.large }} 1024w"
-			sizes="(min-width: 30em) 30em, 100vw"
-		{% if content.data.image.alt %} alt="{{ content.data.image.alt }}."{% endif %}
-		{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+		{# @Resource: Helps explain what's going on here --> https://css-tricks.com/responsive-images-css/ #}
+		<img src="{{ content.data.image.multiSrc.medium }}"
+			srcset="{{ content.data.image.multiSrc.x_small }} 320w,
+							{{ content.data.image.multiSrc.small }} 600w,
+							{{ content.data.image.multiSrc.medium }} 768w,
+							{{ content.data.image.multiSrc.large }} 1024w,
+							{{ content.data.image.multiSrc.x_large }} 1200w,
+							{{ content.data.image.multiSrc.xx_large }} 2000w"
+			sizes="(min-width: 20em) 100vw"
+			loading="lazy"
+			alt="{{ content.data.image.alt }}."
+			{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
 	{% else %}
 	{# Single image generated... #}
-	<img src="{{ content.data.image.src }}"{% if content.data.image.alt %} alt="{{ content.data.image.alt }}."{% endif %}{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+	<img src="{{ content.data.image.src }}" loading="lazy" alt="{{ content.data.image.alt }}."{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
 	{% endif %}
 </picture>
 {% else %}
 	{# A single format - eg. `jpg` is used #}
 	{% if content.data.image.multiSize %}
 		{# Multiple image size sources generated... #}
-		<img src="{{ content.data.image.multiSrc.default }}"
-			srcset="{{ content.data.image.multiSrc.small }} 256w,
-							{{ content.data.image.multiSrc.medium }} 512w,
-							{{ content.data.image.multiSrc.large }} 1024w"
-			sizes="(min-width: 30em) 30em, 100vw"
-		{% if content.data.image.alt %} alt="{{ content.data.image.alt }}."{% endif %}
-		{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+		{# @Resource: Helps explain what's going on here --> https://css-tricks.com/responsive-images-css/ #}
+		<img src="{{ content.data.image.multiSrc.medium }}"
+			srcset="{{ content.data.image.multiSrc.x_small }} 320w,
+							{{ content.data.image.multiSrc.small }} 600w,
+							{{ content.data.image.multiSrc.medium }} 768w,
+							{{ content.data.image.multiSrc.large }} 1024w,
+							{{ content.data.image.multiSrc.x_large }} 1200w,
+							{{ content.data.image.multiSrc.xx_large }} 2000w"
+			sizes="(min-width: 20em) 100vw"
+			loading="lazy"
+			alt="{{ content.data.image.alt }}."
+			{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
 	{% else %}
 	{# Single image generated... #}
-	<img src="{{ content.data.image.src }}"{% if content.data.image.alt %} alt="{{ content.data.image.alt }}."{% endif %}{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+	<img src="{{ content.data.image.src }}" loading="lazy" alt="{{ content.data.image.alt }}."{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
 	{% endif %}
 {% endif %}
 
@@ -43,7 +58,7 @@
 
 {# `imageNormal`: Normal inline image #}
 {% macro imageNormal(src, alt, position) %}
-<img src="{{ src }}" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
+<img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
@@ -72,7 +87,7 @@
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
 {% macro imageFigure(src, alt, caption, position) %}
 <figure{% if position %} class="[ {{ position }} ]"{% endif %}>
-	<img src="{{ src }}" alt="{{ alt }}.">
+	<img src="{{ src }}" loading="lazy" alt="{{ alt }}.">
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
