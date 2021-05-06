@@ -1,0 +1,322 @@
+/*********************************************
+ * Contact page-specific rules
+ *********************************************/
+
+.homepage {
+
+  #main {
+    padding-bottom: 0;
+  }
+
+  // Feature tiles (currently used on the homepage)
+  .feature-tile {
+    position: relative;
+    height: 100%;
+    min-height: 300px;
+    overflow: hidden;
+
+      @media (min-width: 800px) and (min-height: 860px) {
+        min-height: inherit;
+      }
+
+    img {
+      transform: scale(1.01);
+      transition: all 0.5s ease;
+    }
+
+    a {
+      &:hover {
+        .feature-title {
+          &::before {
+            color: var(--link-initial);
+          }
+        }
+
+        img {
+          transform: scale(1.03);
+        }
+      }
+    }
+
+    .obj-fit {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      object-position: 50% 100%;
+      font-family: "object-fit: cover; object-position: 50% 100%;" //  IE/Edge 9-13, Android < 5, Safari < 10 and skips browsers that already support them.
+    }
+
+  }
+
+  .feature-tile-content {
+    z-index: 1;
+    position: absolute;
+    padding: convert-to-rem(20px);
+    width: calc(100% - 40px);
+    max-width: 700px;
+    top: 20px;
+    left: 20px;
+    background-color: rgba($white, 0.6);
+    box-shadow: 0px 1px 4px -1px rgba($black, 0.3);
+    color: $black;
+    text-shadow: 1px 1px 1px rgba($white, 0.3);
+
+      @media (min-width: 800px) {
+        // width: 80%;
+        top: auto;
+        bottom: 20px;
+      }
+
+    .feature-title {
+      color: $black;
+      margin: 0;
+      transition: color 0.25s ease;
+
+      &::before {
+        content: '/';
+        // font-weight: $font-weight-light;
+        // color: $darkpurple;
+        padding-right: convert-to-rem(5px);
+        transition: color 0.25s ease;
+      }
+    }
+  }
+}
+
+// #####################################################
+// Experimental grid layout (homepage in this instance)
+// #####################################################
+
+// Generic rules
+.grid-home {
+	background-color: $black;
+	height: auto;
+	transition: height 0.3s ease-in-out;
+
+		@media (min-width: 800px) and (min-height: 860px) {
+			height: calc(100vh - 10.2em);
+		}
+
+	.grid-panel {
+		padding-bottom: 10px;
+	}
+
+	& > .grid-panel {
+		padding-bottom: 0;
+	}
+}
+
+// Flexbox fallback rules
+.grid-home {
+	@media (min-width: 800px) {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	& > .grid-panel {
+		@media (min-width: 800px) {
+			display: flex;
+			flex-direction: column;
+			flex: 1 1 50%;
+			max-width: 50%;
+		}
+
+		&:first-child {
+			@media (min-width: 800px) {
+				padding-right: 10px;
+			}
+
+			.grid-panel {
+				&:first-child {
+					@media (min-width: 800px) {
+						height: 50%;
+					}
+
+					// @media (min-width: 1350px) {
+					// 	height: 45%;
+					// }
+				}
+
+				&:last-child {
+					@media (min-width: 800px) {
+						height: 50%;
+						padding-bottom: 0;
+					}
+
+					// @media (min-width: 1350px) {
+					// 	height: 55%;
+					// }
+				}
+			}
+		}
+
+		&:last-child {
+			@media (min-width: 800px) {
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+
+			.grid-panel {
+				@media (min-width: 800px) {
+					flex-basis: 100%;
+					max-width: 100%;
+          height: 50%;
+				}
+
+				// &:first-child {
+				// 	@media (min-width: 1350px) {
+				// 		height: 55%;
+				// 	}
+				// }
+
+				&:nth-child(2),
+				&:last-child {
+					@media (min-width: 800px) {
+						flex-basis: 100%;
+						max-width: 100%;
+					}
+
+					// @media (min-width: 1350px) {
+					// 	flex: 1 1 50%;
+					// 	max-width: 50%;
+					// 	height: 45%;
+					// }
+				}
+
+				&:nth-child(2) {
+					@media (min-width: 1350px) {
+						// padding-right: 10px;
+						padding-bottom: 0;
+					}
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+// Feature query to make sure that only browsers supporting the new Grid CSS properties read the following code...
+// * This is to progressively enhance
+// * The fallback rules (above) will eventually be removed
+@supports (display: grid) {
+	.grid-home {
+			@media (min-width: 800px) {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 10px;
+			}
+
+		.grid-panel {
+			@media (min-width: 800px) {
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+		& > .grid-panel {
+			@media (min-width: 800px) {
+				display: grid;
+				grid-gap: 10px;
+				max-width: 100%;
+			}
+
+			&:first-child {
+				@media (min-width: 800px) {
+					grid-template-rows: repeat(2, 1fr);
+					padding-right: 0;
+				}
+
+        // #############################
+        // Commented out for now until a 3rd panel (possibly "Gallery" is added in)
+				// @media (min-width: 1350px) {
+				// 	grid-template-rows: 1fr 1.2fr;
+				// }
+
+				.grid-panel {
+					&:first-child {
+						@media (min-width: 800px) {
+							height: auto;
+						}
+					}
+
+					&:last-child {
+						@media (min-width: 800px) {
+							height: auto;
+							padding-bottom: 0;
+						}
+					}
+				}
+			}
+
+			&:last-child {
+				@media (min-width: 800px) {
+          // #############################
+          // Commented out for now until a 3rd panel (possibly "Gallery" is added in)
+					// grid-template-rows: repeat(3, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+				}
+
+        // #############################
+        // Commented out for now until a 3rd panel (possibly "Gallery" is added in)
+				// @media (min-width: 1350px) {
+				// 	grid-template-columns: repeat(2, 1fr);
+				// 	grid-template-rows: 1.2fr 1fr;
+				// }
+
+				.grid-panel {
+					&:first-child {
+            @media (min-width: 800px) {
+							height: auto;
+						}
+
+						@media (min-width: 1350px) {
+							grid-column: span 2;
+							grid-row: 1;
+						}
+					}
+
+          // #############################
+          // Commented out for now until a 3rd panel (possibly "Gallery" is added in)
+					// &:nth-child(2) {
+					// 	@media (min-width: 1350px) {
+					// 		grid-column: 1;
+					// 		grid-row: 2;
+					// 		height: auto;
+					// 		max-width: 100%;
+					// 		padding-right: 0;
+					// 	}
+					// }
+
+          &:last-child {
+            @media (min-width: 800px) {
+							height: auto;
+						}
+
+						@media (min-width: 1350px) {
+							grid-column: span 2;
+							grid-row: 2;
+							max-width: 100%;
+						}
+					}
+
+          // #############################
+          // Commented out for now until a 3rd panel (possibly "Gallery" is added in)
+
+					// &:last-child {
+					// 	@media (min-width: 1350px) {
+					// 		grid-column: 2;
+					// 		grid-row: 2;
+					// 		height: auto;
+					// 		max-width: 100%;
+					// 	}
+					// }
+				}
+			}
+		}
+	}
+}

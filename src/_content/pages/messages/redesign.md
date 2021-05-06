@@ -1,7 +1,7 @@
 ---
 title: "Time for a redesign"
 summary: "We're busy redesigning the Boston T Party website to hopefully make your experience of the website even better."
-lead: "We're busy redesigning the Boston T Party website and decided not to do it in one go."
+lead: "We're busy redesigning the Boston T Party website and decided not to do it all in one go."
 bodyClass: "info"
 
 permalink: "/messages/{{ page.fileSlug }}.html"
@@ -9,7 +9,7 @@ permalink: "/messages/{{ page.fileSlug }}.html"
 tags: ['message', 'featured']
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-22T13:13:00
+updated: 2021-05-06T16:11:00
 ---
 
 Don't worry, all the important information will still be available but the way the website looks will evolve and get better over time. So please bear with us as we improve things *'under the bonnet'* and hopefully make your experience of the Boston T Party website even better &mdash; no matter what device you choose to visit us on.
