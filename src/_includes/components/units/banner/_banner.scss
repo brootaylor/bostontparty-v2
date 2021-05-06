@@ -50,6 +50,22 @@
       display: flex;
       align-items: center;
       min-height: 20vh;
+
+        @include min-width($breakpoint-medium) {
+          min-height: 25vh;
+        }
+
+        @include min-width($breakpoint-large) {
+          min-height: 30vh;
+        }
+
+        @include min-width($breakpoint-x-large) {
+          min-height: 30vh;
+        }
+
+        @include min-width($breakpoint-xx-large) {
+          min-height: 30vh;
+        }
     }
 
     .title {
@@ -59,8 +75,8 @@
     }
 
     .obj-fit {
-      object-position: bottom;
-      font-family: "object-position: bottom;";
+      object-position: center;
+      font-family: "object-position: center;";
     }
   }
 }
