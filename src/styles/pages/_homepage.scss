@@ -270,10 +270,13 @@
 
 				.grid-panel {
 					&:first-child {
+            @media (min-width: 800px) {
+							height: auto;
+						}
+
 						@media (min-width: 1350px) {
 							grid-column: span 2;
 							grid-row: 1;
-							height: auto;
 						}
 					}
 
@@ -290,10 +293,13 @@
 					// }
 
           &:last-child {
+            @media (min-width: 800px) {
+							height: auto;
+						}
+
 						@media (min-width: 1350px) {
 							grid-column: span 2;
 							grid-row: 2;
-							height: auto;
 							max-width: 100%;
 						}
 					}
