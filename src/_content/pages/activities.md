@@ -1,4 +1,5 @@
 ---
+layout: "layouts/activities.njk"
 title: "Activities"
 summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
 lead: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
