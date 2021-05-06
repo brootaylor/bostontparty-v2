@@ -2,7 +2,7 @@
 # Banner component rules / properties
 banner:
   hasImage: true
-  hasTint: false
+  hasTint: true
 
 # Image component rules / properties
 image:

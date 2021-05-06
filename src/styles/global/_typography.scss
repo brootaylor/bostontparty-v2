@@ -120,6 +120,7 @@ hr {
 .t-large {
   @include font-size(34px);
   line-height: 1.2;
+  max-width: 15ch;
 
     @include min-width($breakpoint-small) {
       @include font-size(42px);
