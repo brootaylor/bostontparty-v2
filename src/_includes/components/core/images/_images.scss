@@ -4,7 +4,7 @@
 
 // Normal inline images
 .img-normal {
-  margin: inherit auto;
+  margin: inherit;
 
     @include min-width($breakpoint-medium) {
       margin: unset;

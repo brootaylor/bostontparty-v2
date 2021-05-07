@@ -119,7 +119,6 @@ hr {
 .t-large {
   @include font-size(34px);
   line-height: 1.2;
-  max-width: 15ch;
 
     @include min-width($breakpoint-small) {
       @include font-size(42px);
@@ -172,6 +171,7 @@ hr {
 .lead {
   // If the `lead` class is added to an element that's not necessarily a <p>
   @include font-size(24px);
+  max-width: 65ch;
 
       @include min-width($breakpoint-medium) {
         @include font-size(28px);
