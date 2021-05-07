@@ -11,12 +11,12 @@ image:
   objectFit: true
   # List of images for use in responsive image sourceset
   multiSrc:
-    x_small: "/assets/images/banners/activities/feature-activities-bg-01--xsmall.jpg"
-    small: "/assets/images/banners/activities/feature-activities-bg-01--small.jpg"
-    medium: "/assets/images/banners/activities/feature-activities-bg-01--medium.jpg"
-    large: "/assets/images/banners/activities/feature-activities-bg-01--large.jpg"
-    x_large: "/assets/images/banners/activities/feature-activities-bg-01--xlarge.jpg"
-    xx_large: "/assets/images/banners/activities/feature-activities-bg-01--xxlarge.jpg"
+    x_small: "/assets/images/banners/activities/banner-activities-01--xsmall.jpg"
+    small: "/assets/images/banners/activities/banner-activities-01--small.jpg"
+    medium: "/assets/images/banners/activities/banner-activities-01--medium.jpg"
+    large: "/assets/images/banners/activities/banner-activities-01--large.jpg"
+    x_large: "/assets/images/banners/activities/banner-activities-01--xlarge.jpg"
+    xx_large: "/assets/images/banners/activities/banner-activities-01--xxlarge.jpg"
   alt: "Person on an off-road motorbike"
 
 # This collection `tag` value corresponds with the `for` loop that renders this content
