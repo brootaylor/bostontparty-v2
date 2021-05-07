@@ -5,8 +5,6 @@
 // Normal inline images
 .img-normal {
   margin: inherit;
-  border: 0.8rem solid var(--white);
-  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.3);
 
     @include min-width($breakpoint-medium) {
       margin: unset;
@@ -67,6 +65,12 @@ figure {
       margin-left: auto;
     }
   }
+}
+
+// To add a dropshadow
+.shadow {
+  border: 0.8rem solid var(--white);
+  box-shadow: 1px 1px 4px -1px rgba(0, 0, 0, 0.3);
 }
 
 // Object fit rules...

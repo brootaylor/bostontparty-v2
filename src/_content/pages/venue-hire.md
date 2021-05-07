@@ -13,7 +13,8 @@ updated: 2021-03-01T17:30:00
 {{ imageNormal(
   "/assets/images/pages/venue/venue-01.jpg",
   "People standing around a bar",
-  "img-right")
+  "img-right",
+  "shadow")
 }}
 
 With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings.

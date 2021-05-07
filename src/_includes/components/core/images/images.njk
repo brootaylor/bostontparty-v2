@@ -57,12 +57,12 @@
 {################################################################################################}
 
 {# `imageNormal`: Normal inline image #}
-{% macro imageNormal(src, alt, position) %}
-<img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
+{% macro imageNormal(src, alt, position, shadow) %}
+<img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
-{% macro imageMulti(src, alt, position) %}
+{% macro imageMulti(src, alt, position, shadow) %}
 <img src="{{ src }}"
 			srcset="{{ src }} 256w,
 							{{ src }} 512w,
@@ -70,18 +70,18 @@
 			sizes="(min-width: 30em) 30em, 100vw"
 			loading="lazy"
 			alt="{{ alt }}."
-			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
+			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
 {% endmacro %}
 
 {# `imageMultiResolution`: for multi resolution images #}
-{% macro imageMultiResolution(src, src2, src3, alt, position) %}
+{% macro imageMultiResolution(src, src2, src3, alt, position, shadow) %}
 <img src="{{ src }}"
 			srcset="{{ src }},
 							{{ src2 }} 1.5x,
 							{{ src3 }} 2x"
 			loading="lazy"
 			alt="{{ alt }}."
-			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}">
+			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
 {% endmacro %}
 
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}

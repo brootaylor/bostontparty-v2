@@ -14,7 +14,8 @@ updated: 2021-03-08T17:41:03.891Z
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-01.jpg",
   "Outside view of accommodation building",
-  "img-right")
+  "img-right",
+  "shadow")
 }}
 
 Fifteen private en-suite rooms:
@@ -34,7 +35,8 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
-  "img-right")
+  "img-right",
+  "shadow")
 }}
 
 If you'd prefer to camp under the stars, you're welcome to pitch your own tent in our orchard!
@@ -51,7 +53,8 @@ Hot showers available.
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
   "Communal shower area",
-  "img-right")
+  "img-right",
+  "shadow")
 }}
 
 * 3 communal showers with piping hot water!
@@ -66,7 +69,8 @@ Hot showers available.
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
   "Self-catering kitchen",
-  "img-right")
+  "img-right",
+  "shadow")
 }}
 
 Should you find yourself in the Boston / Impendle area, either for work or leisure purposes, we offer excellent reduced rates for long term stays. We can include laundry services and will work around what you require and adjust rates accordingly.
