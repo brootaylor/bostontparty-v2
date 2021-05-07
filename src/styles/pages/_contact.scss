@@ -4,6 +4,11 @@
 
 .contact {
 
+  // Reducing width of text characters on the contact page
+  p {
+    max-width: 65ch;
+  }
+
   // "Directions" page
   &__directions {
     position: relative;

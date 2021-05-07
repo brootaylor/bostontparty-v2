@@ -1,7 +1,8 @@
 {
   "x-small": "320px",
-  "small": "640px",
+  "small": "600px",
   "medium": "768px",
   "large": "1024px",
-  "x-large": "1200px"
+  "x-large": "1200px",
+  "xx-large": "2000px"
 }

@@ -145,6 +145,11 @@ $breakpoint-large: map-get($breakpoints, large) !default;
 /// @type Length
 $breakpoint-x-large: map-get($breakpoints, x-large) !default;
 
+/// Media query xx-large (viewport) width
+/// @group Media Queries
+/// @type Length
+$breakpoint-xx-large: map-get($breakpoints, xx-large) !default;
+
 
 
 /// Relative or absolute URL where all assets are served from

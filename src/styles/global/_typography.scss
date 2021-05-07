@@ -37,16 +37,48 @@ form {
 }
 
 h1 {
-  @include font-size(40px);
+  @include font-size(30px);
   line-height: 1.1;
+
+    @include min-width($breakpoint-small) {
+      @include font-size(36px);
+    }
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(48px);
+    }
 }
 
 h2 {
   @include font-size(30px);
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(34px);
+    }
+
+    @include min-width($breakpoint-large) {
+      @include font-size(40px);
+    }
 }
 
 h3 {
+  @include font-size(30px);
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(36px);
+    }
+}
+
+h4 {
   @include font-size(24px);
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(28px);
+    }
+
+    @include min-width($breakpoint-large) {
+      @include font-size(32px);
+    }
 }
 
 p,
@@ -56,14 +88,13 @@ blockquote,
 address,
 pre {
   @include font-size(18px);
-  max-width: 65ch;
 
     @include min-width($breakpoint-medium) {
-      @include font-size(20px);
+      @include font-size(22px);
     }
 
     @include min-width($breakpoint-large) {
-      @include font-size(22px);
+      @include font-size(24px);
     }
 }
 
@@ -81,21 +112,74 @@ hr {
   max-width: 50rem;
 }
 
-article {
-  time {
-    font-family: var(--font-family-secondary);
-    font-size: 0.95rem;
-    color: var(--grey-dark);
-  }
+// `Title` text font sizes
+%title,
+%t-large,
+.title,
+.t-large {
+  @include font-size(34px);
+  line-height: 1.2;
+
+    @include min-width($breakpoint-small) {
+      @include font-size(42px);
+    }
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(48px);
+    }
+
+    @include min-width($breakpoint-large) {
+      @include font-size(54px);
+    }
+
+    @include min-width($breakpoint-x-large) {
+      @include font-size(64px);
+    }
+}
+
+// Medium text font size
+%t-medium,
+.t-medium {
+  @include font-size(24px);
+  line-height: 1.2;
+
+    @include min-width($breakpoint-small) {
+      @include font-size(28px);
+    }
+
+    @include min-width($breakpoint-medium) {
+      @include font-size(32px);
+    }
+
+    @include min-width($breakpoint-large) {
+      @include font-size(36px);
+    }
+
+    @include min-width($breakpoint-x-large) {
+      @include font-size(40px);
+    }
+}
+
+// Small text font size
+%t-small,
+.t-small {
+  font-size: 80%;
+  display: block;
 }
 
 // `Lead` / intro text...
 .lead {
+  // If the `lead` class is added to an element that's not necessarily a <p>
   @include font-size(24px);
+  max-width: 65ch;
 
-    @include min-width($breakpoint-medium) {
-      @include font-size(28px);
-    }
+      @include min-width($breakpoint-medium) {
+        @include font-size(28px);
+      }
+
+      @include min-width($breakpoint-large) {
+        @include font-size(32px);
+      }
 
   // An <hr> that's a sibling of the `lead` element
   + hr {
@@ -103,5 +187,13 @@ article {
     height: 0.2rem;
     background-color: var(--grey-light);
     margin: 2.5em 0 !important;
+  }
+}
+
+article {
+  time {
+    font-family: var(--font-family-secondary);
+    font-size: 0.95rem;
+    color: var(--grey-dark);
   }
 }
