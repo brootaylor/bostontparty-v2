@@ -6,7 +6,7 @@ lead: We offer private en-suite rooms or camping with 2 fully equipped communal 
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2021-03-08T17:41:03.891Z
+updated: 2021-05-07T15:44:00
 ---
 ## Private rooms
 
