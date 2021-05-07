@@ -88,7 +88,6 @@ blockquote,
 address,
 pre {
   @include font-size(18px);
-  max-width: 65ch;
 
     @include min-width($breakpoint-medium) {
       @include font-size(22px);

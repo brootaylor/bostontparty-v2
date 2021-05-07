@@ -9,6 +9,13 @@ date: 2020-09-12T01:12:00
 updated: 2021-05-06T16:11:00
 ---
 
+{% from "components/core/images/images.njk" import imageNormal %}
+{{ imageNormal(
+  "/assets/images/pages/about/about-01.jpg",
+  "Sign leaning against a wall",
+  "img-left")
+}}
+
 **On the R617 between Howick and Underberg**, KwaZulu-Natal, nestled in rolling hills, just over an hours drive from the majestic **Southern Drakensberg** and **Sani Pass**, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue.
 
 ---
