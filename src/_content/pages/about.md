@@ -1,12 +1,21 @@
 ---
-title: "About Us"
+layout: "layouts/about.njk"
+title: "About us"
 summary: "Just over an hours drive from the majestic Southern Drakensberg and Sani Pass, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue."
 lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-06T16:11:00
+updated: 2021-05-07T15:44:00
 ---
+
+{% from "components/core/images/images.njk" import imageNormal %}
+{{ imageNormal(
+  "/assets/images/pages/about/about-01.jpg",
+  "Sign leaning against a wall",
+  "img-left",
+  "shadow")
+}}
 
 **On the R617 between Howick and Underberg**, KwaZulu-Natal, nestled in rolling hills, just over an hours drive from the majestic **Southern Drakensberg** and **Sani Pass**, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue.
 
@@ -21,6 +30,14 @@ A homely, personal, farm experience, where you can cast a line from the jetty, j
 This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off for a cycle or walk in the surrounding area or just rejuvenate your soul sitting near the dam watching the ducks!
 
 **All are welcome &mdash; but not your pets, sorry!**
+
+{% from "components/core/images/images.njk" import imageNormal %}
+{{ imageNormal(
+  "/assets/images/pages/about/about-02.jpg",
+  "Canoe on the dam's shore",
+  "img-right",
+  "shadow")
+}}
 
 ---
 

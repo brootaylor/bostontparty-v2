@@ -9,20 +9,25 @@
 {% set titleMissingText = '* Title text is missing *' %}
 
 
-{# Check to see whether `hasImage` is in component content front matter. If so use page 'banner' option... #}
-{% if content.data.banner.hasImage %}
-<header class="[ page__banner{% if content.data.banner.hasTint %} page__banner--tint{% endif %} ]">
-	{% include "components/core/images/images.njk" %}
+{# Check to see whether an `image` is in the component content front matter. If so use page 'banner' option... #}
+{% if content.data.image %}
+	<header class="[ page__banner{% if content.data.banner.hasTint %} page__banner--tint{% endif %} ]">
+		{% include "components/core/images/images.njk" %}
 {% else %}
-{# Otherwise render default page header... #}
-<header class="[ page__header ]">
+	{# Otherwise render default page header... #}
+	<header class="[ page__header ]">
 {% endif %}
 	<div class="[ wrapper ]">
 		{% if title %}
-			<h1 class="[ title ]">{{ title }}</h1>
+			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
+			<h1 class="[ title ]{% if titleHidden %} [ visually-hidden ]{% endif %}">{{ title | safe }}</h1>
 		{% else %}
 			{# Pages need a `title` hence the reason for this fallback #}
 			<h1 class="[ title ]">{{ titleMissingText }}</h1>
+		{% endif %}
+		{# Checking whether a timestamp is needed... #}
+		{% if content.data.banner.hasTimeStamp %}
+			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
 		{% endif %}
 	</div>
 </header>

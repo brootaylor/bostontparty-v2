@@ -1,0 +1,38 @@
+{#
+	Pages (about) layout template
+#}
+
+{# Uses `base.njk` as base document (ie. extends on it) #}
+{% extends "layouts/base.njk" %}
+
+{#
+	*** A `titleMissingText` variable to make sure an `h1` title is supplied ***
+#}
+{% set titleMissingText = '* Title text is missing *' %}
+
+{# This block `content` relates to the same block on the `base.njk` layout file #}
+{% block content %}
+	<article class="[ page ]">
+
+		{# Page header / banner section: #}
+		{# Has a look for the `bannerAbout` collection tag... #}
+		{% for content in collections.bannerAbout %}
+			{% include "components/units/banner/banner.njk" %}
+		{% endfor %}
+
+		<div class="[ wrapper ] [ flow ]">
+
+			{% if lead %}
+				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+				<p class="[ lead ]">{{ lead | safe }}</p>
+
+				<hr>
+			{% endif %}
+
+			{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
+			{{ content | safe }}
+
+		</div>
+
+	</article>
+{% endblock %}
