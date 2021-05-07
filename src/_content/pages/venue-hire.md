@@ -9,6 +9,13 @@ date: 2020-09-12T01:12:00
 updated: 2021-03-01T17:30:00
 ---
 
+{% from "components/core/images/images.njk" import imageNormal %}
+{{ imageNormal(
+  "/assets/images/pages/venue/venue-01.jpg",
+  "People standing around a bar",
+  "img-right")
+}}
+
 With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings.
 
 Our **licensed pub** is an ideal place to let your hair down and dance the night away!

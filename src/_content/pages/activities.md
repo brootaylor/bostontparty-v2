@@ -8,6 +8,13 @@ bodyClass: "activities"
 date: 2020-09-12T01:12:00
 updated: 2021-03-01T17:30:00
 ---
+
+{% from "components/core/images/images.njk" import imageNormal %}
+{{ imageNormal(
+  "/assets/images/pages/activities/activities-01.jpg",
+  "Three young people on a boat in a dam",
+  "img-right")
+}}
 ## List of activities to whet your appetite:
 
 * Enduro off-road motorbike ride (*guided*)
