@@ -13,6 +13,10 @@ module.exports = {
       url: "/activities"
     },
     {
+      label: "Gallery",
+      url: "/gallery"
+    },
+    {
       label: "About",
       url: "/about"
     },

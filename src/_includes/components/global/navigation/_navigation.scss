@@ -6,7 +6,7 @@
   @extend %flow;
 
     // Media query 'medium'
-    @include min-width($breakpoint-medium) {
+    @include min-width(960px) {
       display: flex;
       flex-grow: 1;
     }
@@ -83,7 +83,7 @@
     flex-wrap: wrap;
 
       // Media query 'medium'
-      @include min-width($breakpoint-medium) {
+      @include min-width(960px) {
         margin-left: auto;
       }
 
@@ -91,7 +91,7 @@
       padding-right: 1rem;
 
         // Media query 'medium'
-        @include min-width($breakpoint-medium) {
+        @include min-width(960px) {
           padding-right: 0.7rem;
         }
     }
