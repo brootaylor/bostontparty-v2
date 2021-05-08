@@ -43,6 +43,7 @@
   'utilities/flow',
   'utilities/no-list',
   'utilities/observers',
+  'utilities/object-fit',
   'utilities/visually-hidden',
   'utilities/hidden';
 
@@ -73,6 +74,7 @@
 // Units
 @import
   '../_includes/components/units/banner/banner',
+  '../_includes/components/units/feature/feature',
   '../_includes/components/units/card/card',
   '../_includes/components/units/map/map';
 
