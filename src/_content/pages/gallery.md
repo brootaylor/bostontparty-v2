@@ -12,6 +12,6 @@ hidden: true
 eleventyExcludeFromCollections: true
 ---
 
-We do have quite a few plans up our sleeve to make the Boston T Party website as enjoyable and usable to use as possible. To find out more about this why not have a [read about our redesign plans][1].
+We do have quite a few plans up our sleeve to make the Boston T Party website as enjoyable and usable to use as possible. To find out more about this, why not have a [read about our redesign plans][1].
 
 [1]: /messages/redesign
