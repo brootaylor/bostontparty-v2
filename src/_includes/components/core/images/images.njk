@@ -61,6 +61,14 @@
 <img src="{{ src }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
 {% endmacro %}
 
+{# `imageDirection`: Picture element for 'art direction' #}
+{% macro imageDirection(src1, src2, screenSizeSwitch, alt, position, shadow) %}
+<picture>
+  <source srcset="{{ src2 }}" media="(min-width: {{ screenSizeSwitch }})">
+  <img src="{{ src1 }}" loading="lazy" alt="{{ alt }}." class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
+</picture>
+{% endmacro %}
+
 {# `imageMulti`: for multi responsive images #}
 {% macro imageMulti(src, alt, position, shadow) %}
 <img src="{{ src }}"
