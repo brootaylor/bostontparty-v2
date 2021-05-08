@@ -33,9 +33,11 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
 
 **All are welcome &mdash; but not your pets, sorry!**
 
-{% from "components/core/images/images.njk" import imageNormal %}
-{{ imageNormal(
-  "/assets/images/pages/about/about-02.jpg",
+{% from "components/core/images/images.njk" import imageDirection %}
+{{ imageDirection(
+  "/assets/images/pages/about/about-02--sml-screen.jpg",
+  "/assets/images/pages/about/about-02--lg-screen.jpg",
+  "768px",
   "Canoe on the dam's shore",
   "img-right",
   "shadow")
