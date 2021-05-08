@@ -9,13 +9,16 @@ date: 2020-09-12T01:12:00
 updated: 2021-05-07T15:44:00
 ---
 
-{% from "components/core/images/images.njk" import imageNormal %}
-{{ imageNormal(
-  "/assets/images/pages/activities/activities-01.jpg",
-  "Three young people on a boat in a dam",
+{% from "components/core/images/images.njk" import imageDirection %}
+{{ imageDirection(
+  "/assets/images/pages/activities/activities-01--sml-screen.jpg",
+  "/assets/images/pages/activities/activities-01--lg-screen.jpg",
+  "768px",
+  "Young people playing in a dam",
   "img-right",
   "shadow")
 }}
+
 ## List of activities to whet your appetite:
 
 * Enduro off-road motorbike ride (*guided*)
