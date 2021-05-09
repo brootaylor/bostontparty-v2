@@ -191,10 +191,14 @@ hr {
   }
 }
 
+// Global page / article / post styles...
 article {
   time {
-    font-family: var(--font-family-secondary);
+    display: block;
+    padding-bottom: 1em;
+  }
+
+  time {
     font-size: 0.95rem;
-    color: var(--grey-dark);
   }
 }
