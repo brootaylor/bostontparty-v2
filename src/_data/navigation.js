@@ -27,6 +27,10 @@ module.exports = {
   ],
   footernav: [
     {
+      label: "News",
+      url: "/news"
+    },
+    {
       label: "Facebook",
       url: "https://www.facebook.com/TheBostonTParty",
       external: true

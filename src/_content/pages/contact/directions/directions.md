@@ -27,7 +27,7 @@ Boston, 3211
 Kwa-Zulu Natal  
 South Africa
 
-[Find us here][1].
+[Find us here on a map][1].
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
