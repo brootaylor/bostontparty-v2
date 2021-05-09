@@ -26,7 +26,7 @@
 			<h1 class="[ title ]">{{ titleMissingText }}</h1>
 		{% endif %}
 		{# Checking whether a timestamp is needed... #}
-		{% if content.data.banner.hasTimeStamp %}
+		{% if content.data.hasTimeStamp %}
 			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
 		{% endif %}
 	</div>

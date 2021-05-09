@@ -2,7 +2,9 @@
 layout: "layouts/gallery.njk"
 title: "Gallery"
 summary: "A great way to see what's on offer at Boston T party is to look through our photo gallery."
-lead: "Sorry, there aren't any images to view in our gallery yet. We're still working on this part of the website."
+lead:
+  - "Sorry, there aren't any images to view in our gallery yet. We're still working on this part of the website."
+
 bodyClass: "gallery"
 
 date: 2020-09-12T01:12:00

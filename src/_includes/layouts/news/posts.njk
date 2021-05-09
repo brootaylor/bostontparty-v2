@@ -1,5 +1,5 @@
 {#
-	Pages (about) layout template
+	News post page layout template
 #}
 
 {# Uses `base.njk` as base document (ie. extends on it) #}
@@ -15,12 +15,16 @@
 	<article class="[ page ]">
 
 		{# Page header / banner section: #}
-		{# Has a look for the `bannerAbout` collection tag... #}
-		{% for content in collections.bannerAbout %}
+		{# Has a look for the `bannerPosts` collection tag... #}
+		{% for content in collections.bannerPosts %}
 			{% include "components/units/banner/banner.njk" %}
 		{% endfor %}
 
+		{# Other components can be added here... #}
+
 		<div class="[ wrapper ] [ flow ]">
+
+			<a href="/news">Return to news</a>
 
 			{% if lead %}
 				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
@@ -38,6 +42,8 @@
 			{{ content | safe }}
 
 		</div>
+
+		{# Other components can be added here... #}
 
 	</article>
 {% endblock %}

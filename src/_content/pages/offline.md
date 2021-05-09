@@ -1,7 +1,9 @@
 ---
 title: "You're offline"
 summary: "It looks like you're offline."
-lead: "It looks like you're offline. Fingers-crossed your connection to the internet will be sorted out soon."
+lead:
+  - "It looks like you're offline. Fingers-crossed your connection to the internet will be sorted out soon."
+
 bodyClass: "offline"
 
 date: 2020-09-12T01:12:00

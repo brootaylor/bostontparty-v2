@@ -29,11 +29,16 @@
 				<div class="[ contact__directions--info ] [ flow ]">
 
 					{% if lead %}
-					{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
-					<p class="[ lead ]">{{ lead | safe }}</p>
+						{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+						<div class="[ lead ] [ flow ]">
+							{# Loops through each `text` entry belonging to `lead` #}
+							{% for paragraph in lead %}
+								<p>{{ paragraph | safe }}</p>
+							{% endfor %}
 
-					<hr>
-				{% endif %}
+							<hr>
+						</div>
+					{% endif %}
 
 					{% if intro %}
 						{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}

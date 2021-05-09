@@ -1,8 +1,10 @@
 ---
 title: "News"
-summary: "Just over an hours drive from the majestic Southern Drakensberg and Sani Pass, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue."
-lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
-bodyClass: "about"
+summary: "Welcome to our news section. Here you'll find posts, news and event information relating to Boston T Party."
+lead:
+  - "Welcome to our news section. Here you'll find posts, news and event information relating to Boston T Party."
+
+bodyClass: "news"
 
 date: 2021-05-09T17:36:00
 updated: 2021-05-09T17:36:00
