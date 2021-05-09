@@ -18,4 +18,4 @@ We have a few plans up our sleeve to make the Boston T Party photo gallery as en
 
 To find out more about what other enhancements we have planned for our website, why not have a [read about our redesign plans][1].
 
-[1]: /messages/redesign
+[1]: /news/redesign
