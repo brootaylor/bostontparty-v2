@@ -33,7 +33,7 @@ ol,
 hr,
 blockquote,
 form {
-  max-width: 80ch;
+  max-width: 75ch;
 }
 
 h1 {
@@ -172,7 +172,6 @@ hr {
   // For the <p> element in a `lead` element
   p {
     @include font-size(24px);
-    max-width: 65ch;
 
       @include min-width($breakpoint-medium) {
         @include font-size(28px);

@@ -96,10 +96,10 @@
           margin-bottom: convert-to-rem(10px);
         }
 
-        // Media query 'medium'
-        @include min-width(980px) {
-          padding-right: 1rem;
-        }
+      &:last-child() {
+        padding-right: 0;
+      }
+
     }
   }
 

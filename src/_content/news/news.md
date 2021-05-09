@@ -1,8 +1,8 @@
 ---
 title: "News"
-summary: "Welcome to our news section. Here you'll find posts, news and event information relating to Boston T Party."
+summary: "Welcome to our news section. Here you'll find news, posts and event information relating to Boston T Party."
 lead:
-  - "Welcome to our news section. Here you'll find posts, news and event information relating to Boston T Party."
+  - "Welcome to our news section. Here you'll find news, posts and event information relating to Boston T Party."
 
 bodyClass: "news"
 
