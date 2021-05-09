@@ -1,7 +1,9 @@
 ---
 title: "Accessibility"
 summary: "We've tried our very best to make the Boston T Party website as accessible and usable for as many people as possible."
-lead: "We've tried our very best to make the Boston T Party website as accessible and usable for as many people as possible."
+lead:
+  - "We've tried our very best to make the Boston T Party website as accessible and usable for as many people as possible."
+
 bodyClass: "accessibility"
 
 date: 2020-09-12T01:12:00

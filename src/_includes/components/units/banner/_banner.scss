@@ -28,6 +28,7 @@
     position: relative;
     color: var(--white);
     background-color: var(--black);
+    margin-bottom: 2rem;
 
       @include min-width($breakpoint-medium) {
         margin-bottom: 4rem;
@@ -49,14 +50,14 @@
     .wrapper {
       display: flex;
       align-items: center;
-      min-height: 20vh;
+      min-height: 25vh;
 
         @include min-width($breakpoint-large) {
-          min-height: 25vh;
+          min-height: 30vh;
         }
 
         @include min-width($breakpoint-x-large) {
-          min-height: 30vh;
+          min-height: 35vh;
         }
     }
 

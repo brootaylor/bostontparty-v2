@@ -33,7 +33,7 @@ ol,
 hr,
 blockquote,
 form {
-  max-width: 80ch;
+  max-width: 75ch;
 }
 
 h1 {
@@ -169,9 +169,9 @@ hr {
 
 // `Lead` / intro text...
 .lead {
-  // If the `lead` class is added to an element that's not necessarily a <p>
-  @include font-size(24px);
-  max-width: 65ch;
+  // For the <p> element in a `lead` element
+  p {
+    @include font-size(24px);
 
       @include min-width($breakpoint-medium) {
         @include font-size(28px);
@@ -181,19 +181,24 @@ hr {
         @include font-size(32px);
       }
 
-  // An <hr> that's a sibling of the `lead` element
-  + hr {
-    max-width: 90%;
-    height: 0.2rem;
-    background-color: var(--grey-light);
-    margin: 2.5em 0 !important;
+    // An <hr> that's a sibling of the `lead` element
+    + hr {
+      max-width: 90%;
+      height: 0.2rem;
+      background-color: var(--grey-light);
+      margin: 2.5em 0 !important;
+    }
   }
 }
 
+// Global page / article / post styles...
 article {
   time {
-    font-family: var(--font-family-secondary);
+    display: block;
+    padding-bottom: 1em;
+  }
+
+  time {
     font-size: 0.95rem;
-    color: var(--grey-dark);
   }
 }

@@ -1,3 +1,16 @@
 /**********************************************************
  * Lists placeholder
  **********************************************************/
+
+// News list item rules...
+.news {
+  .news__list {
+    @extend %no-list;
+
+    .news__list-item {
+      border-bottom: convert-to-rem(2px) solid var(--grey-light);
+      padding-bottom: 2em;
+      margin-bottom: 1em;
+    }
+  }
+}

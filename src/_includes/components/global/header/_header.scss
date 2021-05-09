@@ -10,13 +10,14 @@
   z-index: 100;
 
   .navigation__list {
-    @include font-size(16px);
+    @include font-size(18px);
   }
 
   // Media queries
-  @include min-width($breakpoint-medium) {
+  @include min-width(980px) {
     & > .wrapper {
       display: flex;
+      align-items: center;
     }
   }
 }

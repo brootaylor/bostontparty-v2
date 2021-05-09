@@ -118,6 +118,11 @@ $green-custom-light: map-get($colors, green-custom-light) !default;
 /// @type Color
 $green-custom-dark: map-get($colors, green-custom-dark) !default;
 
+/// Dark Purple
+/// @group Colours
+/// @type Color
+$darkpurple: map-get($colors, darkpurple) !default;
+
 
 
 /// Media query x-small (viewport) width

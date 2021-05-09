@@ -33,7 +33,7 @@ module.exports = {
   scriptsServiceworker: true, // If using a service worker
   yearCurrent: new Date().getFullYear(),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
-  siteMessage: true,
+  siteMessage: false, // A message 'bar' appears on the pages
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
