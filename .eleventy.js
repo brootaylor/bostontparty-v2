@@ -43,7 +43,6 @@ module.exports = function (eleventy) {
   eleventy.addTransform('minify-html', htmlMinify);
 
   // Collections
-  eleventy.addCollection('pageFeatured', pageFeatured);
   eleventy.addCollection('newsCentre', newsCentre);
 
   // Passthrough
