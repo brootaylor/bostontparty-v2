@@ -19,7 +19,6 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js');
 const htmlMinify = require('./lib/utils/transforms/minify-html.js');
 
 // Import (collections)
-const pageFeatured = require('./lib/collections/pageFeatured.js');
 const newsCentre = require('./lib/collections/newsCentre.js');
 
 
