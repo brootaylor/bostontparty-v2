@@ -1,0 +1,21 @@
+/*********************************************
+ * Gallery page-specific rules
+ *********************************************/
+
+.gallery {
+
+  p + hr,
+  section + hr,
+  section > * {
+    max-width: unset;
+  }
+
+  .auto-grid {
+    @supports (display: grid) {
+      @include min-width($breakpoint-small) {
+        // Use this where custom css properties are supported
+        --auto-grid-min-size: 20rem;
+      }
+    }
+  }
+}

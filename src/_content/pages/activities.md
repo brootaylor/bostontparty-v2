@@ -12,6 +12,7 @@ updated: 2021-05-07T15:44:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}
+
 {{ imageDirection(
   "/assets/images/pages/activities/activities-01--sml-screen.jpg",
   "/assets/images/pages/activities/activities-01--lg-screen.jpg",
