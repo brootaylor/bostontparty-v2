@@ -211,43 +211,43 @@ eleventyExcludeFromCollections: true
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-03.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "Rory Brighton working in his workshop",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-04.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "Sue Brighton smiling and standing in a field",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-05.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "Sue Brighton and her colleague Nester standing together smiling",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-06.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "Felix working in the workshop",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-07.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "A cat looking out a window",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-08.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "Milo the dog looking up",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-09.jpg",
-      "Rory & Sue Brighton holding hands walking through a field",
+      "A cat sitting on a log outside",
       "shadow")
       }}</li>
   </ul>
