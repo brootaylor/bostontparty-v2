@@ -8,8 +8,8 @@ you a better idea of what we're about. You may even spot a few 'local residents'
 
 bodyClass: "gallery"
 
-date: 2020-09-12T01:12:00
-updated: 2020-09-22T13:43:00
+date: 2021-05-10T17:56:00
+updated: 2021-05-10T17:56:00
 
 hidden: true
 eleventyExcludeFromCollections: true
@@ -241,6 +241,12 @@ eleventyExcludeFromCollections: true
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-08.jpg",
+      "Rory & Sue Brighton holding hands walking through a field",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/family/gallery-family-09.jpg",
       "Rory & Sue Brighton holding hands walking through a field",
       "shadow")
       }}</li>
