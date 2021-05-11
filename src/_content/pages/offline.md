@@ -22,7 +22,7 @@ In the mean time, why not visit one of the following pages that are available wh
     <li>
       <article>
         <h2><a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a></h2>
-        <p>{{ item.data.lead | safe }}</p>
+        <p>{{ item.data.lead[0] | safe }}</p>
       </article>
     </li>
   {%- endfor -%}
