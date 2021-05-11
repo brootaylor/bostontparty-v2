@@ -10,7 +10,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2021-05-09T22:31:00
-updated: 2021-05-09T22:31:00
+updated: 2021-05-11T17:52:00
 ---
 
 Monday 9th is Woman’s Day, allowing a day for those that need to travel back home after the event. Entries will open 1st May for previous entrants and 15th May for all remaining places.
