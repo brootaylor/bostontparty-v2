@@ -7,7 +7,7 @@
   .news__list {
     @extend %no-list;
 
-    .news__list-item {
+    .news__list-item:not(:last-child) {
       border-bottom: convert-to-rem(2px) solid var(--grey-light);
       padding-bottom: 2em;
       margin-bottom: 1em;
