@@ -2,16 +2,21 @@
 layout: "layouts/about.njk"
 title: "About us"
 summary: "Just over an hours drive from the majestic Southern Drakensberg and Sani Pass, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue."
-lead: 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
+lead:
+  - 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
+
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-07T15:44:00
+updated: 2021-05-11T17:52:00
 ---
 
-{% from "components/core/images/images.njk" import imageNormal %}
-{{ imageNormal(
-  "/assets/images/pages/about/about-01.jpg",
+{% from "components/core/images/images.njk" import imageDirection %}
+
+{{ imageDirection(
+  "/assets/images/pages/about/about-01--sml-screen.jpg",
+  "/assets/images/pages/about/about-01--lg-screen.jpg",
+  "768px",
   "Sign leaning against a wall",
   "img-left",
   "shadow")
@@ -31,9 +36,10 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
 
 **All are welcome &mdash; but not your pets, sorry!**
 
-{% from "components/core/images/images.njk" import imageNormal %}
-{{ imageNormal(
-  "/assets/images/pages/about/about-02.jpg",
+{{ imageDirection(
+  "/assets/images/pages/about/about-02--sml-screen.jpg",
+  "/assets/images/pages/about/about-02--lg-screen.jpg",
+  "768px",
   "Canoe on the dam's shore",
   "img-right",
   "shadow")
@@ -41,9 +47,25 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
 
 ---
 
+## Our address
+
+<address>
+
+Boston T Party   
+118 Elands Vlei Farm  
+Boston, 3211  
+Kwa-Zulu Natal  
+South Africa
+
+**Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
+**Email:** [Send us an email][1]
+
+</address>
+
+---
 ## Need directions?
 
-[Directions to Boston T Party][1]
+[Directions to Boston T Party][2]
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
@@ -51,8 +73,10 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
 
 ## Associations
 
-We are proud members of the [Boston Dargle Impendle Tourism Organisation][2].
+We are proud members of the [Boston Dargle Impendle Tourism Organisation][3].
+
 {% from "components/core/images/images.njk" import imageMultiResolution %}
+
 {{ imageMultiResolution(
   "/assets/images/partners/partner_bdit-logo.png",
   "/assets/images/partners/partner_bdit-logo@1.5x.png",
@@ -60,5 +84,6 @@ We are proud members of the [Boston Dargle Impendle Tourism Organisation][2].
   "Boston Dargle Impendle Tourism logo")
 }}
 
-[1]: /contact/directions
-[2]: https://bditourism.co.za/
+[1]: /contact
+[2]: /contact/directions
+[3]: https://bditourism.co.za/

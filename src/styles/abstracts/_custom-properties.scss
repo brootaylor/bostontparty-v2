@@ -23,10 +23,17 @@
   --grey-light: #{rgb-format($grey-light)};
   --grey-slate: #{rgb-format($grey-slate)};
   --grey-dark: #{rgb-format($grey-dark)};
+
+  // ##################################################
+  // THESE PROBABLY NEED TO BE REMOVED AT SOME STAGE
   --orange-custom: #{rgb-format($orange-custom)};
   --green-custom: #{rgb-format($green-custom)};
   --green-custom-light: #{rgb-format($green-custom-light)};
   --green-custom-dark: #{rgb-format($green-custom-dark)};
+  // ##################################################
+
+  /* Colours (brand) */
+  --darkpurple: #{rgb-format($darkpurple)};
 
   /* Links */
   --link-initial: var(--green-custom);

@@ -1,0 +1,49 @@
+{#
+	News post page layout template
+#}
+
+{# Uses `base.njk` as base document (ie. extends on it) #}
+{% extends "layouts/base.njk" %}
+
+{#
+	*** A `titleMissingText` variable to make sure an `h1` title is supplied ***
+#}
+{% set titleMissingText = '* Title text is missing *' %}
+
+{# This block `content` relates to the same block on the `base.njk` layout file #}
+{% block content %}
+	<article class="[ page ]">
+
+		{# Page header / banner section: #}
+		{# Has a look for the `bannerPosts` collection tag... #}
+		{% for content in collections.bannerPosts %}
+			{% include "components/units/banner/banner.njk" %}
+		{% endfor %}
+
+		{# Other components can be added here... #}
+
+		<div class="[ wrapper ] [ flow ]">
+
+			<a href="/news">Return to news</a>
+
+			{% if lead %}
+				{# This content comes from the `front matter` in the relevant `.md` file - within the `pages` directory #}
+				<div class="[ lead ] [ flow ] [ crop--loose ]">
+					{# Loops through each `text` entry belonging to `lead` #}
+					{% for paragraph in lead %}
+						<p>{{ paragraph | safe }}</p>
+					{% endfor %}
+
+					<hr>
+				</div>
+			{% endif %}
+
+			{# This content comes from the markdown in the relevant `.md` file - within the `pages` directory #}
+			{{ content | safe }}
+
+		</div>
+
+		{# Other components can be added here... #}
+
+	</article>
+{% endblock %}

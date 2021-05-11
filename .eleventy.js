@@ -19,11 +19,11 @@ const dateTimeReadable = require('./lib/utils/filters/dateTimeReadable.js');
 const htmlMinify = require('./lib/utils/transforms/minify-html.js');
 
 // Import (collections)
-const pageFeatured = require('./lib/collections/pageFeatured.js');
+const newsCentre = require('./lib/collections/newsCentre.js');
 
 
 
-module.exports = function(eleventy) {
+module.exports = function (eleventy) {
 
   // BrowserSync
   eleventy.setBrowserSyncConfig(browserSync);
@@ -43,7 +43,7 @@ module.exports = function(eleventy) {
   eleventy.addTransform('minify-html', htmlMinify);
 
   // Collections
-  eleventy.addCollection('pageFeatured', pageFeatured);
+  eleventy.addCollection('newsCentre', newsCentre);
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/assets/fonts');

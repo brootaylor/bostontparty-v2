@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Featured content
+   ========================================================================== */
+
+// Feature tiles (currently used on the homepage)
+.feature-tile {
+  position: relative;
+  height: 100%;
+  min-height: convert-to-rem(300px);
+  overflow: hidden;
+
+    @media (min-width: 800px) and (min-height: 860px) {
+      min-height: inherit;
+    }
+
+  img {
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+  }
+
+  a {
+    &:hover {
+      .feature-title {
+        &::before {
+          color: var(--link-initial);
+        }
+      }
+
+      img {
+        transform: scale(1.03);
+      }
+    }
+  }
+}
+
+.feature-tile-content {
+  z-index: 1;
+  position: absolute;
+  padding: convert-to-rem(20px);
+  width: calc(100% - 40px);
+  max-width: convert-to-rem(700px);
+  top: convert-to-rem(20px);
+  left: convert-to-rem(20px);
+  background-color: rgba($white, 0.6);
+  box-shadow: 0px 1px 4px -1px rgba($black, 0.3);
+  color: $black;
+  text-shadow: 1px 1px 1px rgba($white, 0.3);
+
+    @media (min-width: 800px) {
+      top: auto;
+      bottom: convert-to-rem(20px);
+    }
+
+  .feature-title {
+    color: $black;
+    margin: 0;
+    transition: color 0.25s ease;
+
+    &::before {
+      content: '/';
+      font-weight: 300;
+      color: $darkpurple;
+      padding-right: convert-to-rem(5px);
+      transition: color 0.25s ease;
+    }
+  }
+}

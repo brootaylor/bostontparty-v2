@@ -1,11 +1,13 @@
 ---
 title: "Privacy Policy"
 summary: "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
-lead: "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
+lead:
+  - "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
+
 bodyClass: "privacy"
 
 date: 2020-09-12T01:12:00
-updated: 2020-09-16T11:38:00
+updated: 2021-05-11T17:52:00
 
 priority: 0.3
 ---

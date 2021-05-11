@@ -31,10 +31,10 @@ const cacheList = [
 const offlinePage = '/offline';
 
 const offlinePages = [
-{#- Loops through all `featured` tagged posts -#}
-{%- set allFeatured = collections.featured | reverse -%}
-{#- Returns a maximum of 5 `featured` tagged posts. -#}
-{% for item in allFeatured.slice(0, 5) %}
+{#- Loops through all `news` tagged posts -#}
+{%- set newsCentre = collections.news | reverse -%}
+{#- Returns a maximum of 5 `news` tagged posts. -#}
+{% for item in newsCentre.slice(0, 5) %}
 	'{{ item.url | pretty }}',
 {%- endfor %}
 {#- Loops through the `mainnav` object in `_data/navigation.js` -#}

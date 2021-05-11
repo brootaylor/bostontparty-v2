@@ -3,10 +3,12 @@
  **********************************************************/
 
 .navigation {
-  @extend %flow;
 
-    // Media query 'medium'
-    @include min-width($breakpoint-medium) {
+    @include max-width(979px) {
+      margin-top: convert-to-rem(10px);
+    }
+
+    @include min-width(980px) {
       display: flex;
       flex-grow: 1;
     }
@@ -21,7 +23,6 @@
       color: var(--white);
       text-decoration: none;
       line-height: 2;
-      padding-bottom: 0.2rem;
       border-bottom: 0;
 
       &:before,
@@ -83,25 +84,77 @@
     flex-wrap: wrap;
 
       // Media query 'medium'
-      @include min-width($breakpoint-medium) {
+      @include min-width(980px) {
         margin-left: auto;
+        align-items: center;
       }
 
     & > li {
       padding-right: 1rem;
 
-        // Media query 'medium'
-        @include min-width($breakpoint-medium) {
-          padding-right: 0.7rem;
+        @include max-width(979px) {
+          margin-bottom: convert-to-rem(10px);
         }
+
+      &:last-child() {
+        padding-right: 0;
+      }
+
     }
   }
 
   &__item {
     &:not(:last-child) {
       &::after {
-        content: '/';
-        padding-left: 0.5rem;
+        content: '\00B7';
+        color: rgba($white, 0.3);
+        padding-left: 0.7rem;
+      }
+    }
+
+    // This is the 'Contact' button
+    &:last-child {
+      a {
+        padding: 0 convert-to-rem(10px);
+        background-color: rgba($white, 0.6);
+        color: var(--black);
+        border-radius: convert-to-rem(6px);
+
+        &:hover {
+          color: var(--white);
+          background-color: var(--link-initial);
+
+          // Media query to make sure touch devices don't use ':hover' affect
+          @media(hover: hover) and (pointer: fine) {
+            &:before {
+              right: unset;
+            }
+          }
+        }
+
+        // This should hopefully be used by touch devices
+        &:focus {
+          &:before {
+            right: unset;
+          }
+        }
+
+        // Current page selected in nav
+        &.current {
+          color: var(--white);
+          background-color: var(--link-initial);
+
+          &:after {
+            right: unset;
+            height: unset;
+          }
+
+          &:hover {
+            &:before {
+              right: unset;
+            }
+          }
+        }
       }
     }
   }

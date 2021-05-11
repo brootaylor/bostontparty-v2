@@ -1,15 +1,15 @@
 ---
 title: "Time for a redesign"
 summary: "We're busy redesigning the Boston T Party website to hopefully make your experience of the website even better."
-lead: "We're busy redesigning the Boston T Party website and decided not to do it all in one go."
-bodyClass: "info"
+lead:
+  - "We're busy redesigning the Boston T Party website and decided not to do it all in one go."
 
-permalink: "/messages/{{ page.fileSlug }}.html"
+# Populates the article snippet / summary on the news homepage.
+snippet: "We're busy redesigning the Boston T Party website and decided not to do it all in one go."
+snippetCta: "Read more about the redesign"
 
-tags: ['message', 'featured']
-
-date: 2020-09-12T01:12:00
-updated: 2021-05-06T16:11:00
+date: 2020-09-12T11:12:00
+updated: 2021-05-11T17:52:00
 ---
 
 Don't worry, all the important information will still be available but the way the website looks will evolve and get better over time. So please bear with us as we improve things *'under the bonnet'* and hopefully make your experience of the Boston T Party website even better &mdash; no matter what device you choose to visit us on.
@@ -31,7 +31,7 @@ Here are some features we've implemented so far to hopefully enhance your experi
 
 We intend to continually tweak our website to make it as usable and enjoyable to use as possible. Here are some potential features / enhancements we've earmarked for future development:
 
-* **Photo gallery** &mdash; A place to view some lovely pics of Boston T party.
+* **Photo gallery** &mdash; Enhance the experience of viewing our gallery images.
 * **Light / Dark Theme option** &mdash; To allow you to choose what colour contrast option you prefer / is easier on your eyes when reading content.
 
 ---
