@@ -10,9 +10,6 @@ bodyClass: "gallery"
 
 date: 2021-05-11T17:52:00
 updated: 2021-05-11T17:52:00
-
-hidden: true
-eleventyExcludeFromCollections: true
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
