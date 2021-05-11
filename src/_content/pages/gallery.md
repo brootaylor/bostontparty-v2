@@ -14,13 +14,13 @@ updated: 2021-05-11T17:52:00
 
 {% from "components/core/images/images.njk" import imageNormal %}
 
-<section class="flow" aria-label="Accommodation pictures">
+<section class="[ flow ]" aria-label="Accommodation pictures">
   <h2>Accommodation</h2>
-  <ul class="auto-grid no-list">
+  <ul class="[ auto-grid ] [ no-list ]">
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-01.jpg",
-      "Outside view of accommodation building ",
+      "Outside view of accommodation building",
       "shadow")
       }}</li>
     <li>
@@ -64,9 +64,9 @@ updated: 2021-05-11T17:52:00
 
 ---
 
-<section aria-label="Venue pictures">
+<section class="[ flow ]" aria-label="Venue pictures">
   <h2>Venue</h2>
-  <ul class="auto-grid no-list">
+  <ul class="[ auto-grid ] [ no-list ]">
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/venue/gallery-venue-01.jpg",
@@ -126,9 +126,9 @@ updated: 2021-05-11T17:52:00
 
 ---
 
-<section aria-label="Pictures of the Boston T Party family">
+<section class="[ flow ]" aria-label="Pictures of the Boston T Party family">
   <h2>BTP family</h2>
-  <ul class="auto-grid no-list">
+  <ul class="[ auto-grid ] [ no-list ]">
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-01.jpg",
@@ -206,9 +206,9 @@ updated: 2021-05-11T17:52:00
 
 ---
 
-<section aria-label="Pictures of fun activities">
+<section class="[ flow ]" aria-label="Pictures of fun activities">
   <h2>Fun times</h2>
-  <ul class="auto-grid no-list">
+  <ul class="[ auto-grid ] [ no-list ]">
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/activities/gallery-activities-01.jpg",
@@ -280,9 +280,9 @@ updated: 2021-05-11T17:52:00
 
 ---
 
-<section aria-label="Pictures of the Boston T Party grounds">
+<section class="[ flow ]" aria-label="Pictures of the Boston T Party grounds">
   <h2>Our grounds</h2>
-  <ul class="auto-grid no-list">
+  <ul class="[ auto-grid ] [ no-list ]">
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-01.jpg",
