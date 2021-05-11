@@ -8,10 +8,11 @@ lead:
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-07T15:44:00
+updated: 2021-05-11T17:52:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}
+
 {{ imageDirection(
   "/assets/images/pages/about/about-01--sml-screen.jpg",
   "/assets/images/pages/about/about-01--lg-screen.jpg",
@@ -35,7 +36,6 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
 
 **All are welcome &mdash; but not your pets, sorry!**
 
-{% from "components/core/images/images.njk" import imageDirection %}
 {{ imageDirection(
   "/assets/images/pages/about/about-02--sml-screen.jpg",
   "/assets/images/pages/about/about-02--lg-screen.jpg",
@@ -74,7 +74,9 @@ South Africa
 ## Associations
 
 We are proud members of the [Boston Dargle Impendle Tourism Organisation][3].
+
 {% from "components/core/images/images.njk" import imageMultiResolution %}
+
 {{ imageMultiResolution(
   "/assets/images/partners/partner_bdit-logo.png",
   "/assets/images/partners/partner_bdit-logo@1.5x.png",

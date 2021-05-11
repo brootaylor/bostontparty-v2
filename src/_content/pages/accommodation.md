@@ -8,11 +8,13 @@ lead:
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-07T15:44:00
+updated: 2021-05-11T17:52:00
 ---
-## Private rooms
 
 {% from "components/core/images/images.njk" import imageNormal %}
+
+## Private rooms
+
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-01.jpg",
   "Outside view of accommodation building",
@@ -33,7 +35,6 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 
 ## Camp under the stars
 
-{% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
@@ -51,7 +52,6 @@ Hot showers available.
 
 ## Other facilities
 
-{% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
   "Communal shower area",
@@ -67,7 +67,6 @@ Hot showers available.
 
 ## Long term stays
 
-{% from "components/core/images/images.njk" import imageNormal %}
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
   "Self-catering kitchen",

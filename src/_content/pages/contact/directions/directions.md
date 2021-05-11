@@ -10,7 +10,7 @@ bodyClass: "contact"
 permalink: "/contact/directions.html"
 
 date: 2020-09-22T14:34:00
-updated: 2020-09-22T14:34:00
+updated: 2021-05-11T17:52:00
 ---
 
 **On the R617** &mdash; the road from Howick towards Underberg and the Southern Drakensberg & Sani Pass, KZN.

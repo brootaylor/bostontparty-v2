@@ -7,7 +7,7 @@ lead:
 bodyClass: "news"
 
 date: 2021-05-09T17:36:00
-updated: 2021-05-09T17:36:00
+updated: 2021-05-11T17:52:00
 ---
 
 <ul class="[ news__list ] [ flow ]">
