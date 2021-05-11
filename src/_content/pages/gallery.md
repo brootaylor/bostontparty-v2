@@ -53,24 +53,12 @@ eleventyExcludeFromCollections: true
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-06.jpg",
-      "Self-catering kitchen and dining room table",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/accommodation/gallery-accommodation-07.jpg",
-      "Self-catering kitchen",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/accommodation/gallery-accommodation-08.jpg",
       "Communal shower area",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/accommodation/gallery-accommodation-09.jpg",
+      "/assets/images/pages/gallery/accommodation/gallery-accommodation-07.jpg",
       "Tents pitched on the lawn near some small trees",
       "shadow")
       }}</li>
@@ -106,42 +94,34 @@ eleventyExcludeFromCollections: true
       "People standing around the bar",
       "shadow")
       }}</li>
-  </ul>
-</section>
-
----
-
-<section aria-label="Activities pictures">
-  <h2>Activities</h2>
-  <ul class="auto-grid no-list">
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/activities/gallery-activities-01.jpg",
-      "A person riding a motorbike",
+      "/assets/images/pages/gallery/venue/gallery-venue-05.jpg",
+      "Seating area set up for a wedding",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/activities/gallery-activities-02.jpg",
-      "A person swimming in the dam",
+      "/assets/images/pages/gallery/venue/gallery-venue-06.jpg",
+      "Seating area set up for a wedding",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/activities/gallery-activities-03.jpg",
-      "A person fishing from the dam jetty",
+      "/assets/images/pages/gallery/venue/gallery-venue-07.jpg",
+      "Bridal party standing on the front lawn",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/activities/gallery-activities-04.jpg",
-      "A person holding a fish they caught",
+      "/assets/images/pages/gallery/venue/gallery-venue-08.jpg",
+      "A wedding ceremony on the lawn near to the dam",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
-      "/assets/images/pages/gallery/activities/gallery-activities-05.jpg",
-      "A canoe on the dam's shore",
+      "/assets/images/pages/gallery/venue/gallery-venue-09.jpg",
+      "A large outdoor event on the lawn",
       "shadow")
       }}</li>
   </ul>
@@ -149,52 +129,8 @@ eleventyExcludeFromCollections: true
 
 ---
 
-<section aria-label="Our grounds pictures">
-  <h2>Our grounds</h2>
-  <ul class="auto-grid no-list">
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-01.jpg",
-      "Outside view of the main house",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-02.jpg",
-      "Outside view of the main house and entrance lawn",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-03.jpg",
-      "Big willow tree next to the dam edge",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-04.jpg",
-      "Close up of thistle plant",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-05.jpg",
-      "View of the stars above the dam at night",
-      "shadow")
-      }}</li>
-    <li>
-      {{ imageNormal(
-      "/assets/images/pages/gallery/grounds/gallery-grounds-06.jpg",
-      "A person walking with their dog in the shallow stream",
-      "shadow")
-      }}</li>
-  </ul>
-</section>
-
----
-
-<section aria-label="Our family pictures">
-  <h2>Our family</h2>
+<section aria-label="Pictures of the Boston T Party family">
+  <h2>BTP family</h2>
   <ul class="auto-grid no-list">
     <li>
       {{ imageNormal(
@@ -248,6 +184,124 @@ eleventyExcludeFromCollections: true
       {{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-09.jpg",
       "A cat sitting on a log outside",
+      "shadow")
+      }}</li>
+  </ul>
+</section>
+
+---
+
+<section aria-label="Pictures of fun activities">
+  <h2>Fun times</h2>
+  <ul class="auto-grid no-list">
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-01.jpg",
+      "A person riding a motorbike",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-02.jpg",
+      "A person swimming in the dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-03.jpg",
+      "A person fishing from the dam jetty",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-04.jpg",
+      "A person holding a fish they caught",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-05.jpg",
+      "A canoe on the dam's shore",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-06.jpg",
+      "A group of off-road motorcyclists",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-07.jpg",
+      "A group of friends",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-08.jpg",
+      "Man with a fish he caught",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-09.jpg",
+      "Water fun near to the dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-10.jpg",
+      "Men having a rope tug of war",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/activities/gallery-activities-11.jpg",
+      "Woman on a swing near the dam",
+      "shadow")
+      }}</li>
+  </ul>
+</section>
+
+---
+
+<section aria-label="Pictures of the Boston T Party grounds">
+  <h2>Our grounds</h2>
+  <ul class="auto-grid no-list">
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-01.jpg",
+      "Outside view of the main house",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-02.jpg",
+      "Outside view of the main house and entrance lawn",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-03.jpg",
+      "Big willow tree next to the dam edge",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-04.jpg",
+      "Close up of thistle plant",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-05.jpg",
+      "View of the stars above the dam at night",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-06.jpg",
+      "A person walking with their dog in the shallow stream",
       "shadow")
       }}</li>
   </ul>
