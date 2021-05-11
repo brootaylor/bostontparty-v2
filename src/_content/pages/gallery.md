@@ -186,6 +186,24 @@ eleventyExcludeFromCollections: true
       "A cat sitting on a log outside",
       "shadow")
       }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/family/gallery-family-10.jpg",
+      "A bunny on the lawn",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/family/gallery-family-11.jpg",
+      "Curious goats standing in a field",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/family/gallery-family-12.jpg",
+      "Two horses standing in a field",
+      "shadow")
+      }}</li>
   </ul>
 </section>
 
@@ -302,6 +320,24 @@ eleventyExcludeFromCollections: true
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-06.jpg",
       "A person walking with their dog in the shallow stream",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-07.jpg",
+      "A winter morning sunrise over the dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-08.jpg",
+      "The Boston T Party dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-09.jpg",
+      "A duck sitting on the swing near to the dam",
       "shadow")
       }}</li>
   </ul>
