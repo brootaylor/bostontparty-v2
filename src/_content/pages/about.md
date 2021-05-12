@@ -40,7 +40,7 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
   "/assets/images/pages/about/about-02--sml-screen.jpg",
   "/assets/images/pages/about/about-02--lg-screen.jpg",
   "768px",
-  "Canoe on the dam's shore",
+  "The dam and it's beautiful surroundings",
   "img-right",
   "shadow")
 }}
