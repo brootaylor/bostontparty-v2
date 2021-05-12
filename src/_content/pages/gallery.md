@@ -9,7 +9,7 @@ you a better idea of what we're about. You may even spot a few 'local residents'
 bodyClass: "gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2021-05-11T17:52:00
+updated: 2021-05-12T12:35:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
