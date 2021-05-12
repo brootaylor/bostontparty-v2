@@ -8,7 +8,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2021-05-12T12:36:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}
@@ -40,7 +40,7 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
   "/assets/images/pages/about/about-02--sml-screen.jpg",
   "/assets/images/pages/about/about-02--lg-screen.jpg",
   "768px",
-  "Canoe on the dam's shore",
+  "The dam and its beautiful surroundings",
   "img-right",
   "shadow")
 }}

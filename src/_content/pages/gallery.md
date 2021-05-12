@@ -9,7 +9,7 @@ you a better idea of what we're about. You may even spot a few 'local residents'
 bodyClass: "gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2021-05-11T17:52:00
+updated: 2021-05-12T12:35:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -316,25 +316,43 @@ updated: 2021-05-11T17:52:00
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-06.jpg",
-      "A person walking with their dog in the shallow stream",
+      "View of the stars above silhouetted trees at night",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-07.jpg",
-      "A winter morning sunrise over the dam",
+      "Two women walking in a beautiful field",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-08.jpg",
-      "The Boston T Party dam",
+      "A person walking with their dog in the shallow stream",
       "shadow")
       }}</li>
     <li>
       {{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-09.jpg",
+      "A winter morning sunrise over the dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-10.jpg",
+      "The Boston T Party dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-11.jpg",
       "A duck sitting on the swing near to the dam",
+      "shadow")
+      }}</li>
+    <li>
+      {{ imageNormal(
+      "/assets/images/pages/gallery/grounds/gallery-grounds-12.jpg",
+      "Cat sitting in the long grass near to the dam",
       "shadow")
       }}</li>
   </ul>
