@@ -50,6 +50,9 @@
 {# Author 'humans' document #}
 <link rel="author" href="{{ rootUrl }}/humans.txt">
 
+{# RSS feed #}
+<link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
+
 {# Open graph #}
 {% if hidden !== true %}
 	<meta property="og:type" content="website">

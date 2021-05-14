@@ -27,13 +27,18 @@ module.exports = {
   ],
   footernav: [
     {
-      label: "News",
+      label: "Latest news",
       url: "/news"
     },
     {
       label: "Facebook",
       url: "https://www.facebook.com/TheBostonTParty",
       external: true
+    },
+    {
+      label: 'RSS',
+      url: '/feed.xml',
+      document: true,
     },
     {
       label: "Accessibility",

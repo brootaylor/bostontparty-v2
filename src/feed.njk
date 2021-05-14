@@ -1,0 +1,40 @@
+---
+permalink: '/feed.xml'
+hidden: true
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ site.name }}</title>
+	<subtitle>{{ site.metaDescription }}</subtitle>
+	<link href="{{ site.rootUrl }}{{ permalink }}" rel="self"/>
+	<link href="{{ site.rootUrl }}/"/>
+	{% if collections.post | length %}
+	<updated>{{ collections.post | rssLastUpdatedDate }}</updated>
+	{% endif %}
+	<id>{{ site.rootUrl }}</id>
+	<author>
+		<name>{{ site.client.name }}</name>
+		<email>{{ site.client.email }}</email>
+	</author>
+	{% for post in collections.post %}
+		{% set absolutePostUrl %}{{ site.rootUrl }}{{ post.url | pretty }}{% endset %}
+		{% set lastUpdated %}{{ post.data.updated | rssDate }}{% endset %}
+		<entry>
+			<title>{{ post.data.title }}</title>
+			<link href="{{ absolutePostUrl }}"/>
+			<updated>{{ lastUpdated }}</updated>
+			<id>{{ absolutePostUrl }}</id>
+			<content type="html"><![CDATA[
+				{%- if post.data.linkExternal -%}
+					Original post can be viewed at: <a href="{{ post.data.linkExternal }}" rel="external">{{ post.data.linkLabel }}</a>
+				{%- endif -%}
+				{%- if post.data.lead -%}
+					<p>{{ post.data.lead | safe }}</p>
+				{%- endif -%}
+				{{ post.templateContent | safe }}
+				<p><a href="mailto:{{ site.client.email }}?subject=Replying%20to:%20“{{ post.data.title }}“">Reply via email</a></p>
+			]]></content>
+		</entry>
+	{% endfor %}
+</feed>

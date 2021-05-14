@@ -38,4 +38,9 @@ module.exports = {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
   },
+  client: {
+    name: 'Susan Brighton',
+    url: 'https://bostontparty.co.za',
+    email: 'tsusan394@gmail.com'
+  },
 };
