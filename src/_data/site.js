@@ -31,7 +31,7 @@ module.exports = {
   scriptsVendor: false, // If using vendor (ie. 3rd party) scripts
   scriptsMain: false, // If using any `main` scripts on the site (eg. carousel, objectfit polyfill etc.)
   scriptsServiceworker: true, // If using a service worker
-  dateTimeNow: DateTime.local().toFormat('dd LLLL yyyy @ t'),
+  dateTimeNow: DateTime.utc().toLocal().toFormat('dd LLLL yyyy @ t'),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
   siteMessage: false, // A message 'bar' appears on the pages
   author: {
