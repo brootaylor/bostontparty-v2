@@ -39,6 +39,9 @@ module.exports = function (eleventy) {
   eleventy.addFilter('dateTime', dateTime); // Generates numerical date and time (eg. 2020-02-22T09:50:00.000Z)
   eleventy.addFilter('dateTimeReadable', dateTimeReadable); // Generates readable date and time (eg. 22 February 2020, 9:50 am)
 
+  // Shortcodes
+  eleventy.addShortcode('year', () => `${new Date().getFullYear()}`);
+
   // Transforms
   eleventy.addTransform('minify-html', htmlMinify);
 
