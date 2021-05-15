@@ -44,6 +44,12 @@
 
       li {
         padding: 0.2em 1rem 0.2em 0;
+
+        &:last-child {
+          @include min-width($breakpoint-large) {
+            padding-right: 0;
+          }
+        }
       }
     }
 
