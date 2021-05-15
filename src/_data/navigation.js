@@ -36,11 +36,6 @@ module.exports = {
       external: true
     },
     {
-      label: 'RSS',
-      url: '/feed.xml',
-      document: true,
-    },
-    {
       label: "Accessibility",
       url: "/accessibility"
     },
@@ -51,6 +46,11 @@ module.exports = {
     {
       label: "Cookies",
       url: "/cookies"
+    },
+    {
+      label: 'RSS',
+      url: '/feed.xml',
+      document: true,
     }
   ]
 }

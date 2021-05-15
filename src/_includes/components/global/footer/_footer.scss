@@ -4,7 +4,7 @@
 
 #footer {
   background-color: var(--grey-light);
-  padding: 0 0 2rem;
+  padding: 0.5em 0 1.5em 0;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 -2px 0 1px rgba($grey-dark, 0.3);
 
@@ -16,12 +16,17 @@
   }
 
   small {
-    font-size: 0.90rem;
+    font-size: inherit;
+    flex: 1 1 100%;
+    max-width: 100%;
 
-      @include min-width($breakpoint-small) {
+      @include min-width($breakpoint-medium) {
+        margin-right: 1rem;
+      }
+
+      @include min-width($breakpoint-large) {
         flex: 1 1 45%;
         max-width: 45%;
-        margin-right: 1rem;
       }
   }
 
@@ -34,6 +39,8 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      margin-top: 0;
+      margin-bottom: 0;
 
       li {
         padding: 0.2em 1rem 0.2em 0;
