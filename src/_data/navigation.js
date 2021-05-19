@@ -27,7 +27,7 @@ module.exports = {
   ],
   footernav: [
     {
-      label: "News",
+      label: "Latest news",
       url: "/news"
     },
     {
@@ -46,6 +46,11 @@ module.exports = {
     {
       label: "Cookies",
       url: "/cookies"
+    },
+    {
+      label: 'RSS',
+      url: '/feed.xml',
+      document: true,
     }
   ]
 }
