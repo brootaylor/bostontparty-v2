@@ -14,8 +14,8 @@
 	<div class="[ wrapper ] [ flow ]">
 
 		{# To help assistive technologies #}
-		<h2 id="site-footer--label" class="[ visually-hidden ]">Other tertiary content and external links. eg. accessibility statement and Facebook page.</h2>
-		<small>Copyright &copy; 2009&ndash;<time>{{ site.yearCurrent }}</time> {{ site.name }}. All rights reserved.</small>
+		<h2 id="site-footer--label" class="[ visually-hidden ]">Other tertiary content and external links. eg. News, Accessibility statement and Facebook page.</h2>
+		<small>Copyright &copy; 2009&ndash;<time datetime="{% year %}">{% year %}</time> {{ site.name }}. All rights reserved.</small>
 
 		{# Pulls content from navigation.json data file #}
 		<nav aria-labelledby="nav-footer--label">

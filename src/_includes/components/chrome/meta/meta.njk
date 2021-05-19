@@ -34,15 +34,24 @@
 {# Checking whether page is to be indexed or not --> ie. whether `hidden` variable equals `true` or `false` #}
 <meta name="robots" content="{% if hidden == true %}noindex, nosnippet{% else %}index{% endif %}, follow">
 
-{# Canonical #}
-{% if hidden !== true %}
-	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
-{% endif %}
+{# Displaying the build number / version #}
+<meta name="build" content="{{ pkg.version }}.{{ site.timeCurrent }}">
 
 {# Styles (pre-load)... #}
 <link rel="preload" as="style" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
 {# Styles (load) #}
 <link rel="stylesheet" href="/styles/main.css?version={{ pkg.version }}.{{ site.timeCurrent }}">
+
+{# Canonical #}
+{% if hidden !== true %}
+	<link rel="canonical" href="{{ rootUrl }}{{ page.url | pretty }}">
+{% endif %}
+
+{# Author 'humans' document #}
+<link rel="author" href="{{ rootUrl }}/humans.txt">
+
+{# RSS feed #}
+<link rel="alternate" type="application/rss+xml" title="{{ metaTitle }}" href="{{ rootUrl }}/feed.xml">
 
 {# Open graph #}
 {% if hidden !== true %}
