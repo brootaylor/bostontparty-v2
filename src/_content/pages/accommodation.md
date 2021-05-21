@@ -69,7 +69,7 @@ Hot showers available.
 
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
-  "Self-catering kitchen",
+  "Inside view of two single bed en-suite room",
   "img-right",
   "shadow")
 }}
