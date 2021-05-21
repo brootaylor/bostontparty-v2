@@ -2,6 +2,10 @@
  * Images placeholder
  **********************************************************/
 
+img {
+  display: block;
+}
+
 picture {
   margin: inherit;
 }
@@ -10,9 +14,9 @@ picture {
 .img-normal {
   margin: inherit;
 
-    @include min-width($breakpoint-medium) {
-      margin: unset;
-    }
+  @include min-width($breakpoint-medium) {
+    margin: unset;
+  }
 }
 
 // Figure elements
@@ -21,9 +25,9 @@ figure {
     margin: 0 auto;
     text-align: center;
 
-      @include min-width($breakpoint-medium) {
-        margin: unset;
-      }
+    @include min-width($breakpoint-medium) {
+      margin: unset;
+    }
   }
 
   figcaption {

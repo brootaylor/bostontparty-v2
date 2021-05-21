@@ -8,7 +8,7 @@ lead:
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2021-05-21T23:43:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -18,6 +18,8 @@ updated: 2021-05-11T17:52:00
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-01.jpg",
   "Outside view of accommodation building",
+  "640",
+  "477",
   "img-right",
   "shadow")
 }}
@@ -38,6 +40,8 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
+  "600",
+  "400",
   "img-right",
   "shadow")
 }}
@@ -55,6 +59,8 @@ Hot showers available.
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
   "Communal shower area",
+  "600",
+  "400",
   "img-right",
   "shadow")
 }}
@@ -70,6 +76,8 @@ Hot showers available.
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
   "Inside view of two single bed en-suite room",
+  "600",
+  "400",
   "img-right",
   "shadow")
 }}
