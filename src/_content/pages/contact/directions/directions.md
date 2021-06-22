@@ -2,8 +2,6 @@
 layout: "layouts/directions.njk"
 title: "Directions"
 summary: "Directions to Boston T Party."
-lead:
-  - ""
 
 bodyClass: "contact"
 
