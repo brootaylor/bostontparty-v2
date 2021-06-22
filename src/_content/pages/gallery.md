@@ -3,8 +3,7 @@ layout: "layouts/gallery.njk"
 title: "Gallery"
 summary: "A great way to see what's on offer at Boston T party is to look through our photo gallery."
 lead:
-- "A great way to see what's on offer is to look through our photo gallery. Here are some pics of Boston T Party to give
-you a better idea of what we're about. You may even spot a few 'local residents'."
+  - "A great way to see what's on offer is to look through our photo gallery. Here are some pics of Boston T Party to give you a better idea of what we're about. You may even spot a few 'local residents'."
 
 bodyClass: "gallery"
 
