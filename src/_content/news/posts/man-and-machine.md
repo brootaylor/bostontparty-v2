@@ -1,26 +1,32 @@
 ---
-title: "Man and Machine"
-summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 7-8 August 2021."
+title: "Man and Machine &rarr; CANCELLED"
+summary: "We are absolutely gutted to announce that this year's Man and Machine event is cancelled."
 lead:
-  - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 7-8 August 2021."
-  - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
+  - "We are absolutely gutted to announce that this year's M&M event is cancelled."
+  - "As you can imagine, this was not an easy decision to make but given the current COVID situation and civil unrest, rider health and safety is our main priority."
 
 # Populates the article snippet / summary on the news homepage.
-snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 7-8 August 2021."
-snippetCta: "Read more about the event"
+snippet: "We are absolutely gutted to announce that this year's M&M event is cancelled."
+snippetCta: "Read more about this"
 
-date: 2021-05-09T22:31:00
-updated: 2021-05-11T17:52:00
+date: 2021-07-13T18:38:00
+updated: 2021-07-13T18:38:00
 ---
 
-Monday 9th is Woman’s Day, allowing a day for those that need to travel back home after the event. Entries will open 1st May for previous entrants and 15th May for all remaining places.
+We are unfortunately not able to offer an alternative date. All riders who have paid their entry fee will be refunded in full less a R50&ndash;00 admin fee and will be contacted in due course in this regard.
 
-This is the 9th Man and Machine event.
+We'd like to thank all sponsors, service providers and especially you, the riders, for your continued support. We sincerely hope that on the same August long weekend next year, we will be able to welcome you to Boston to experience our fantastic riding terrain.
 
-This event is not a race, but a test of man and machine against the elements. This is an adventure which tests the skill and endurance of the weekend warrior and professional racers alike.
+Special thanks to Neil Etheridge and Gary Clowes for their hard work and input in helping set the routes over the last four months.
 
-We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding will cater for the intermediate and hard skill levels. The distance over the 2 days will be approximately 150 - 200 km. Entries are limited.
+**2022 will be an epic event&hellip;**
 
-Previous years entrants will have preference. The object of the weekend is to successfully complete both days, and receive your finishers trophy at prize giving.
+Depending on the riding calendar, we hope to offer a one day event in the near future.
 
-No Finish No Trophy.
+Take care out there.
+
+Dino, Alison, Rory and Sue
+
+---
+
+[Visit the official Man and Machine website](https://manandmachinesa.wordpress.com/)

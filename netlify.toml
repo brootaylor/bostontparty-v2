@@ -43,7 +43,7 @@
   port = 8888
   command = "npm run watch"
   # Points to directory where `_redirects` file lives
-  publish = "src"
+  publish = "www"
 
 
 ##############################
