@@ -17,7 +17,7 @@ We are unfortunately not able to offer an alternative date. All riders who have 
 
 We'd like to thank all sponsors, service providers and especially you, the riders, for your continued support. We sincerely hope that on the same August long weekend next year, we will be able to welcome you to Boston to experience our fantastic riding terrain.
 
-Special thanks to Neil Etheridge and Gary Clowes for their hard work and input in helping set the routes over the last four months. 
+Special thanks to Neil Etheridge and Gary Clowes for their hard work and input in helping set the routes over the last four months.
 
 **2022 will be an epic event&hellip;**
 
