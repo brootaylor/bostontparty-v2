@@ -1,57 +1,49 @@
 ---
-title: "Accessibility"
-summary: "We've tried our very best to make the Boston T Party website as accessible and usable for as many people as possible."
+title: "Accessibility statement"
+summary: "This website is committed to providing a usable experience for anyone visiting it, regardless of technology or ability."
 lead:
-  - "We've tried our very best to make the Boston T Party website as accessible and usable for as many people as possible."
+  - "This website is committed to providing a usable experience for anyone visiting it, regardless of technology or ability."
 
 bodyClass: "accessibility"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2021-10-28T18:36:00
 
 priority: 0.3
 ---
 
-While we know that it is impossible to design a site that everyone can use, if you have problems using our site, please [let us know][1] and we will do our utmost to help.
+It strives to meet the level AA standards outlined in the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/). This guide helps to explain how to make web content easier to use for disabled people.
 
-## Standards compliance
+---
 
-All pages comply with priority 1 guidelines of the [W3 Web Content Accessibility Guidelines][2] and the U.S. Federal Government [Section 508 Guidelines][3].
+## Accessibility features
 
-All pages validate as <abbr title="HyperText Markup Language version 5">HTML5</abbr>.
+The code powering this website is [standards-compliant HTML, CSS, and JavaScript](https://www.w3.org/standards/).
 
-## Links
+The pages are structured with semantic elements like <code>header</code>, <code>nav</code>, <code>main</code> and <code>footer</code>. Hopefully this will help you move around more quickly. Heading <code>h1</code> elements mark the main content area of each page, and each page’s structure should follow a logical heading order from there.
 
-Whenever possible, links are written to make sense out of context. Many browsers - (such as JAWS, Home Page Reader, Lynx, and Opera) - can extract the list of links on a page and allow the user to browse the list, separately from the page. To aid this, link text is never duplicated; two links with the same link text always point to the same address.
+Every page on this website has a “*skip to the main content*” link at the top and bottom, as well as a “*back to top*" link at the very bottom which will return you to the start of this page / document.
 
-There are no `javascript`: pseudo-links. All links can be followed in any browser, even if scripting is turned off. There are no links that open new windows without warning.
+Images and inline SVGs are described with text equivalents, to ensure everyone can access graphical content. You should be able to zoom each page up to at least 300% without any issues.
 
-## Visual design
+All form <code>label</code> and associated <code>input</code> fields use a unique value for their respective <code>for</code> and <code>id</code> attributes.
 
-This site uses cascading style sheets for visual layout. If your browser or browsing device does not support stylesheets at all, the content of each page is still readable.
+There are no <code>javascript:</code> pseudo-links. All links can be followed in any browser, even if scripting is turned off. There are no links that open new windows without warning.
 
-The layout is liquid, simply filling its window. It happily accommodates resizing text and, as relative units have been used, text can even be re-sized in Internet Explorer for Windows.
+---
 
-## Helps
+## Testing
 
-There are several things you can do to make it easier to use websites. [AbilityNet][4] provides guidance on how you can:
+This website has been tested on modern browsers, with occasional checks in older devices or browsers to make sure it’s usable. We frequently test our website with the [VoiceOver](https://www.apple.com/accessibility/vision/) screen reader as well as the built in screenreader for [Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/accessibility-features-in-microsoft-edge-4c696192-338e-9465-b2cd-bd9b698ad19a). We occasionally run accessibility audits in [aXe](https://www.deque.com/axe/) and [WAVE](https://wave.webaim.org/).
 
-* [Make your mouse easier to use][5]
-* [Use your keyboard instead of mouse][6]
-* [Talk to your device][7]
-* [Make your device talk to you][8]
-* [Make text larger][9]
-* [Change your colours][10]
-* [Magnify the screen][11]
+---
 
-[1]: /contact
-[2]: https://www.w3.org/TR/WCAG10/
-[3]: http://www.section508.gov/
-[4]: https://abilitynet.org.uk/
-[5]: https://mcmw.abilitynet.org.uk/making-your-mouse-easier-to-use/
-[6]: https://mcmw.abilitynet.org.uk/category/keyboard-shortcuts
-[7]: https://mcmw.abilitynet.org.uk/talking-to-your-device/
-[8]: https://mcmw.abilitynet.org.uk/make-your-device-talk-to-you/
-[9]: https://mcmw.abilitynet.org.uk/making-text-larger/
-[10]: https://mcmw.abilitynet.org.uk/changing-your-colours/
-[11]: https://mcmw.abilitynet.org.uk/magnifying-the-screen/
+## Possible issues
+
+Sometimes we may embed media in our pages, like audio or video. Some of these pages may have media that isn't adequately described. We plan to correct this, but if you encounter confusing media, please [email us](/contact) to let us know.
+
+---
+
+## Send us feedback
+
+We do care about accessibility and take accessibility-related issues very seriously. We try to correct any issues as soon as we can. If there are any issues with this site's accessibility please [email us](/contact) and let us know. We welcome your feedback or suggestions.
