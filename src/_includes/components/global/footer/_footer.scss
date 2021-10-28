@@ -20,10 +20,6 @@
     flex: 1 1 100%;
     max-width: 100%;
 
-      @include min-width($breakpoint-medium) {
-        margin-right: 1rem;
-      }
-
       @include min-width($breakpoint-large) {
         flex: 1 1 45%;
         max-width: 45%;
@@ -41,14 +37,19 @@
       align-items: center;
       margin-top: 0;
       margin-bottom: 0;
+    }
 
-      li {
-        padding: 0.2em 1rem 0.2em 0;
+    li {
+      padding: 0.2em 1rem 0.2em 0;
 
-        &:last-child {
-          @include min-width($breakpoint-large) {
-            padding-right: 0;
-          }
+      &:last-child {
+        @include min-width($breakpoint-large) {
+          padding-right: 0;
+        }
+
+        &::before {
+          content: '-';
+          padding-right: 0.5rem;
         }
       }
     }

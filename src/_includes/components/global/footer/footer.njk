@@ -24,18 +24,23 @@
 			<h2 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h2>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul aria-label="List of tertiary content pages">{% endif %}
+				{% if loop.first %}<ul aria-label="List of tertiary content pages and external links">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if navitem.external %} rel="external"{% endif %}
 							{% if navitem.url in (page.url | pretty) %} aria-describedby="current-page" class="[ current ]"{% endif %}>{{ navitem.label }}</a>
 					</li>
-				{% if loop.last %}</ul>{% endif %}
+				{# Looping through list items ends here #}
+				{% if loop.last %}
+					{# These (below) are static list items and don't belong to the loop (above)...  #}
+					<li>
+						{# Back to the top link / anchor #}
+						<a href="#start">Back to top.</a>
+					</li>
+				</ul>
+				{% endif %}
 			{% endfor %}
 		</nav>
-
-		{# Back to the top link / anchor #}
-		<a href="#start">Go back to the top</a>
 
 	</div>
 

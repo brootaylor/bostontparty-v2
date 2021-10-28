@@ -112,6 +112,11 @@ hr {
   max-width: 50rem;
 }
 
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--green-custom);
+}
+
 // `Title` text font sizes
 %title,
 %t-large,
