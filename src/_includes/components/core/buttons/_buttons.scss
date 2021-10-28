@@ -31,5 +31,12 @@ input {
       &:active {
         background-color: #db7093;
       }
+
+      // Button `:active` and `:focus` states
+      &:active,
+      &:focus {
+        background-color: #db7093;
+        border: 2px dotted var(--white)
+      }
   }
 }

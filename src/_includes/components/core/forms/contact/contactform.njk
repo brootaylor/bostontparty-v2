@@ -32,17 +32,17 @@
 		<ol class="[ form__list ]">
 			{# Name #}
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="name">{{ labelName }}</label>
+				<label class="[ form__label ]" for="name">{{ labelName }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<input class="[ form__input ]" id="name" name="name" type="text" required>
 			</li>
 			{# Email address #}
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="email">{{ labelEmail }}</label>
+				<label class="[ form__label ]" for="email">{{ labelEmail }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<input class="[ form__input ]" id="email" name="email" type="email" required>
 			</li>
 			{# Subject #}
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="message-subject">{{ labelMessageSubject }}</label>
+				<label class="[ form__label ]" for="message-subject">{{ labelMessageSubject }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				{# This wrapper <div> for the <select> element enables a pseudo element (arrow) to be added to the dropdown #}
 				<div class="[ form__input form__input--select ]">
 					<select id="message-subject" name="message-subject" required>
@@ -56,7 +56,7 @@
 			</li>
 			{# Message #}
 			<li class="[ form__item ]">
-				<label class="[ form__label ]" for="message">{{ labelMessage }}</label>
+				<label class="[ form__label ]" for="message">{{ labelMessage }} <span class="[ visually-hidden ]">(Required field)</span></label>
 				<textarea class="[ form__input ]" id="message" name="message" rows="10" cols="20" placeholder="{{ messagePlaceholder }}" required></textarea>
 			</li>
 		</ol>
