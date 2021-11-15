@@ -6,6 +6,11 @@
   // Removing padding to esnure the tiles reach to the edge
   #main {
     padding-bottom: 0;
+
+    // Making sure `.flow` class margin is overridden
+    .grid-home {
+      margin-top: 0;
+    }
   }
 }
 
