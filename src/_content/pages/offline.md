@@ -17,7 +17,7 @@ In the mean time, why not visit one of the following pages that are available wh
 
 ---
 
-<ul class="[ wrapper flow ] [ no-list ]">
+<ul role="list" class="[ wrapper flow ] [ no-list ]">
   {%- for item in collections.newsCentre -%}
     <li>
       <article>

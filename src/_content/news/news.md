@@ -10,7 +10,7 @@ date: 2021-05-09T17:36:00
 updated: 2021-05-11T17:52:00
 ---
 
-<ul class="[ news__list ] [ flow ]">
+<ul role="list" class="[ news__list ] [ flow ]">
 {%- for news in collections.newsCentre -%}
   <li class="[ news__list-item ]">
     <article class="[ news__summary ]">
