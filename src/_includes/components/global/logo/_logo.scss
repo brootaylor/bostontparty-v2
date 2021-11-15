@@ -3,19 +3,17 @@
  **********************************************************/
 
 .site-logo {
-  a {
-    font-size: 1.2rem;
-    font-weight: bold;
-    display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
 
-    &,
-    &:active,
-    &:focus,
-    &:hover {
-      color: var(--font-colour-base);
-      text-decoration: none;
-      border: 0;
-    }
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    color: var(--font-colour-base);
+    text-decoration: none;
+    border: 0;
   }
 
   svg {
