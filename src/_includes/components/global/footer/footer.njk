@@ -21,10 +21,10 @@
 		<nav aria-labelledby="nav-footer--label">
 
 			{# To help assistive technologies #}
-			<h2 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h2>
+			<h3 id="nav-footer--label" class="[ visually-hidden ]">Footer navigation</h3>
 
 			{% for navitem in navigation.footernav %}
-				{% if loop.first %}<ul aria-label="List of tertiary content pages and external links">{% endif %}
+				{% if loop.first %}<ul role="list" aria-label="List of tertiary content pages and external links">{% endif %}
 					<li>
 						<a href="{{ navitem.url }}"
 							{% if navitem.external %} rel="external"{% endif %}
