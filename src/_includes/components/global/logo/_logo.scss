@@ -32,7 +32,8 @@
     }
   }
 
-  a:hover {
+  // Hover state colour change on the logo "T"
+  &:hover {
     .logo-t-inner {
       fill: #db7093;
     }
