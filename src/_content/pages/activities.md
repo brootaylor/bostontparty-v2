@@ -8,7 +8,7 @@ lead:
 bodyClass: "activities"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2022-01-03T19:03:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}

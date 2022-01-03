@@ -8,7 +8,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-12T12:36:00
+updated: 2022-01-03T19:03:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}
@@ -42,7 +42,8 @@ This is a super spot to enjoy beautiful sunsets, a roaring bonfire or head off f
   "768px",
   "The dam and its beautiful surroundings",
   "img-right",
-  "shadow")
+  "shadow",
+  "lazy")
 }}
 
 ---

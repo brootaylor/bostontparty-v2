@@ -8,7 +8,7 @@ lead:
 bodyClass: "gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2021-05-21T23:43:00
+updated: 2022-01-03T19:03:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -86,7 +86,9 @@ updated: 2021-05-21T23:43:00
       "Bar and adjoined lounge area",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -94,7 +96,9 @@ updated: 2021-05-21T23:43:00
       "Bar area",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -102,7 +106,9 @@ updated: 2021-05-21T23:43:00
       "People looking happy standing around the bar",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -110,7 +116,9 @@ updated: 2021-05-21T23:43:00
       "People standing around the bar",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -118,7 +126,9 @@ updated: 2021-05-21T23:43:00
       "Seating area set up for a wedding",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -126,7 +136,9 @@ updated: 2021-05-21T23:43:00
       "Seating area set up for a wedding",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -134,7 +146,9 @@ updated: 2021-05-21T23:43:00
       "Bridal party standing on the front lawn",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -142,7 +156,9 @@ updated: 2021-05-21T23:43:00
       "A wedding ceremony on the lawn near to the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -150,7 +166,9 @@ updated: 2021-05-21T23:43:00
       "A large outdoor event on the lawn",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
   </ul>
 </section>
@@ -166,7 +184,9 @@ updated: 2021-05-21T23:43:00
       "The Boston T Party hosts with their pets",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -174,7 +194,9 @@ updated: 2021-05-21T23:43:00
       "Rory & Sue Brighton holding hands walking through a field",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -182,7 +204,9 @@ updated: 2021-05-21T23:43:00
       "Rory Brighton working in his workshop",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -190,7 +214,9 @@ updated: 2021-05-21T23:43:00
       "Sue Brighton smiling and standing in a field",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -198,7 +224,9 @@ updated: 2021-05-21T23:43:00
       "Sue Brighton and her colleague Nester standing together smiling",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -206,7 +234,9 @@ updated: 2021-05-21T23:43:00
       "Felix working in the workshop",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -214,7 +244,9 @@ updated: 2021-05-21T23:43:00
       "A cat looking out a window",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -222,7 +254,9 @@ updated: 2021-05-21T23:43:00
       "Milo the dog looking up",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -230,7 +264,9 @@ updated: 2021-05-21T23:43:00
       "A cat sitting on a log outside",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -238,7 +274,9 @@ updated: 2021-05-21T23:43:00
       "A bunny on the lawn",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -246,7 +284,9 @@ updated: 2021-05-21T23:43:00
       "Curious goats standing in a field",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -254,7 +294,9 @@ updated: 2021-05-21T23:43:00
       "Two horses standing in a field",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
   </ul>
 </section>
@@ -270,7 +312,9 @@ updated: 2021-05-21T23:43:00
       "A person riding a motorbike",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -278,7 +322,9 @@ updated: 2021-05-21T23:43:00
       "A person swimming in the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -286,7 +332,9 @@ updated: 2021-05-21T23:43:00
       "A person fishing from the dam jetty",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -294,7 +342,9 @@ updated: 2021-05-21T23:43:00
       "A person holding a fish they caught",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -302,7 +352,9 @@ updated: 2021-05-21T23:43:00
       "A canoe on the dam's shore",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -310,7 +362,9 @@ updated: 2021-05-21T23:43:00
       "A group of off-road motorcyclists",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -318,7 +372,9 @@ updated: 2021-05-21T23:43:00
       "A group of friends",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -326,7 +382,9 @@ updated: 2021-05-21T23:43:00
       "Man with a fish he caught",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -334,7 +392,9 @@ updated: 2021-05-21T23:43:00
       "Water fun near to the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -342,7 +402,9 @@ updated: 2021-05-21T23:43:00
       "Men having a rope tug of war",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -350,7 +412,9 @@ updated: 2021-05-21T23:43:00
       "Woman on a swing near the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
   </ul>
 </section>
@@ -366,7 +430,9 @@ updated: 2021-05-21T23:43:00
       "Outside view of the main house",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -374,7 +440,9 @@ updated: 2021-05-21T23:43:00
       "Outside view of the main house and entrance lawn",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -382,7 +450,9 @@ updated: 2021-05-21T23:43:00
       "Big willow tree next to the dam edge",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -390,7 +460,9 @@ updated: 2021-05-21T23:43:00
       "Close up of thistle plant",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -398,7 +470,9 @@ updated: 2021-05-21T23:43:00
       "View of the stars above the dam at night",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -406,7 +480,9 @@ updated: 2021-05-21T23:43:00
       "View of the stars above silhouetted trees at night",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -414,7 +490,9 @@ updated: 2021-05-21T23:43:00
       "Two women walking in a beautiful field",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -422,7 +500,9 @@ updated: 2021-05-21T23:43:00
       "A person walking with their dog in the shallow stream",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -430,7 +510,9 @@ updated: 2021-05-21T23:43:00
       "A winter morning sunrise over the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -438,7 +520,9 @@ updated: 2021-05-21T23:43:00
       "The Boston T Party dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -446,7 +530,9 @@ updated: 2021-05-21T23:43:00
       "A duck sitting on the swing near to the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
     <li>
       {{ imageNormal(
@@ -454,7 +540,9 @@ updated: 2021-05-21T23:43:00
       "Cat sitting in the long grass near to the dam",
       "600",
       "400",
-      "shadow")
+      false,
+      "shadow",
+      "lazy")
       }}</li>
   </ul>
 </section>
