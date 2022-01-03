@@ -22,12 +22,28 @@
 							{{ content.data.image.multiSrc.xx_large }} 2000w"
 			sizes="(min-width: 20em) 100vw"
 			alt="{{ content.data.image.alt }}."
-			loading="lazy"
-			decoding="async"
-			{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+			width="{{ content.data.image.width }}"
+			height="{{ content.data.image.height }}"
+			{%- if content.data.image.objectFit %}
+				class="obj-fit"
+			{% endif %}
+			{%- if content.data.image.lazyLoad %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	{% else %}
 	{# Single image generated... #}
-	<img src="{{ content.data.image.src }}" alt="{{ content.data.image.alt }}." loading="lazy" decoding="async"{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+	<img src="{{ content.data.image.src }}"
+		alt="{{ content.data.image.alt }}."
+		width="{{ content.data.image.width }}"
+		height="{{ content.data.image.height }}"
+		{%- if content.data.image.objectFit %}
+			class="obj-fit"
+		{% endif %}
+		{%- if content.data.image.lazyLoad %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	{% endif %}
 </picture>
 {% else %}
@@ -44,12 +60,28 @@
 							{{ content.data.image.multiSrc.xx_large }} 2000w"
 			sizes="(min-width: 20em) 100vw"
 			alt="{{ content.data.image.alt }}."
-			loading="lazy"
-			decoding="async"
-			{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+			width="{{ content.data.image.width }}"
+			height="{{ content.data.image.height }}"
+			{%- if content.data.image.objectFit %}
+				class="obj-fit"
+			{% endif %}
+			{%- if content.data.image.lazyLoad %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	{% else %}
 	{# Single image generated... #}
-	<img src="{{ content.data.image.src }}" alt="{{ content.data.image.alt }}." loading="lazy" decoding="async"{% if content.data.image.objectFit %} class="obj-fit"{% endif %}>
+	<img src="{{ content.data.image.src }}"
+		alt="{{ content.data.image.alt }}."
+		width="{{ content.data.image.width }}"
+		height="{{ content.data.image.height }}"
+		{%- if content.data.image.objectFit %}
+			class="obj-fit"
+		{% endif %}
+		{%- if content.data.image.lazyLoad %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	{% endif %}
 {% endif %}
 
@@ -59,53 +91,82 @@
 {################################################################################################}
 
 {# `imageNormal`: Normal inline image #}
-{% macro imageNormal(src, alt, width, height, position, shadow) %}
-<img src="{{ src }}" alt="{{ alt }}." width="{{ width }}" height="{{ height }}" loading="lazy" decoding="async" class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
+{% macro imageNormal(src, alt, width, height, position, shadow, lazyLoad) %}
+<img src="{{ src }}"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
 {% endmacro %}
 
 {# `imageMulti`: for multi responsive images #}
-{% macro imageMulti(src, alt, position, shadow) %}
+{% macro imageMulti(src, alt, width, height, position, shadow, lazyLoad) %}
 <img src="{{ src }}"
-			srcset="{{ src }} 256w,
-							{{ src }} 512w,
-							{{ src }} 1024w"
-			sizes="(min-width: 30em) 30em, 100vw"
-			alt="{{ alt }}."
-			loading="lazy"
-			decoding="async"
-			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
+	srcset="{{ src }} 256w,
+					{{ src }} 512w,
+					{{ src }} 1024w"
+	sizes="(min-width: 30em) 30em, 100vw"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
 {% endmacro %}
 
 {# `imageMultiResolution`: for multi resolution images #}
-{% macro imageMultiResolution(src, src2, src3, alt, position, shadow) %}
+{% macro imageMultiResolution(src, src2, src3, alt, width, height, position, shadow, lazyLoad) %}
 <img src="{{ src }}"
-			srcset="{{ src }},
-							{{ src2 }} 1.5x,
-							{{ src3 }} 2x"
-			alt="{{ alt }}."
-			loading="lazy"
-			decoding="async"
-			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
+	srcset="{{ src }},
+					{{ src2 }} 1.5x,
+					{{ src3 }} 2x"
+	alt="{{ alt }}."
+	width="{{ width }}"
+	height="{{ height }}"
+	class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+	{%- if lazyLoad == 'lazy' %}
+		loading="lazy"
+		decoding="async"
+	{% endif %}>
 {% endmacro %}
 
 {# `imageDirection`: Picture element for 'art direction' #}
-{% macro imageDirection(src1, src2, screenSizeSwitch, alt, position, shadow) %}
+{% macro imageDirection(src1, src2, screenSizeSwitch, alt, position, shadow, lazyLoad) %}
 <picture>
   <source srcset="{{ src2 }}" media="(min-width: {{ screenSizeSwitch }})">
-  <img src="{{ src1 }}" alt="{{ alt }}." loading="lazy" decoding="async" class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}">
+  <img src="{{ src1 }}"
+		alt="{{ alt }}."
+		class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+		{%- if lazyLoad == 'lazy' %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 </picture>
 {% endmacro %}
 
 {# `imageFigure`: Normal inline images wrapped in a `figure` element #}
-{% macro imageFigure(src, alt, caption, position) %}
+{% macro imageFigure(src, alt, width, height, caption, position, lazyLoad) %}
 <figure{% if position %} class="[ {{ position }} ]"{% endif %}>
-	<img src="{{ src }}" alt="{{ alt }}." loading="lazy" decoding="async">
+	<img src="{{ src }}"
+		alt="{{ alt }}."
+		width="{{ width }}"
+		height="{{ height }}"
+		{%- if lazyLoad == 'lazy' %}
+			loading="lazy"
+			decoding="async"
+		{% endif %}>
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
 
 {# `imageMultiFigure`: for multi responsive images wrapped in a `figure` element #}
-{% macro imageMultiFigure(src, alt, caption, position) %}
+{% macro imageMultiFigure(src, alt, width, height, caption, position, lazyLoad) %}
 <figure{% if position %} class="[ {{ position }} ]"{% endif %}>
 	<img src="{{ src }}"
 			srcset="{{ src }} 256w,
@@ -113,8 +174,12 @@
 							{{ src }} 1024w"
 			sizes="(min-width: 30em) 30em, 100vw"
 			alt="{{ alt }}."
-			loading="lazy"
-			decoding="async">
+			width="{{ width }}"
+			height="{{ height }}"
+			{%- if lazyLoad == 'lazy' %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
 	<figcaption>{{ caption }}.</figcaption>
 </figure>
 {% endmacro %}
