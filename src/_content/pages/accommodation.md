@@ -8,7 +8,7 @@ lead:
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2022-01-03T19:03:00
+updated: 2022-01-10T13:22:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -24,14 +24,15 @@ updated: 2022-01-03T19:03:00
   "shadow")
 }}
 
-Fifteen private en-suite rooms:
+**Fifteen private en-suite rooms:**  
+<small>*(Minimum of a 2 night stay over weekends/public holidays)*</small>
 
-* x6 double (double beds) rooms
-* x9 twin (2 single beds) rooms
+* x8 double (double beds) rooms
+* x7 twin (2 single beds) rooms
 
 All rooms have their own shower & toilet, linen and bath towels provided, tea & coffee making facilities.
 
-**Self catering basis**: R320.00 per person per night sharing or R350.00 single occupancy per night.
+**Self catering basis**: R330.00 per person per night sharing *or* R380.00 single occupancy per night.
 
 ---
 
@@ -86,6 +87,8 @@ Hot showers available.
 }}
 
 Should you find yourself in the Boston / Impendle area, either for work or leisure purposes, we offer excellent reduced rates for long term stays. We can include laundry services and will work around what you require and adjust rates accordingly.
+
+---
 
 [Get in touch to find out more][1]
 
