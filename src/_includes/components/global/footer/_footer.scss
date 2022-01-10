@@ -4,7 +4,7 @@
 
 #footer {
   background-color: var(--grey-light);
-  padding: 0.5em 0 1.5em 0;
+  padding: 1rem 0;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 -2px 0 1px rgba($grey-dark, 0.3);
 
@@ -28,6 +28,11 @@
 
   nav {
     font-size: 0.90rem;
+    margin-top: 1em;
+
+    @include min-width($breakpoint-large) {
+      margin-top: 0;
+    }
 
     ul {
       @extend %no-list;
