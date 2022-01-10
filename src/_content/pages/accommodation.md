@@ -8,7 +8,7 @@ lead:
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2022-01-10T13:22:00
+updated: 2022-01-10T16:21:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -25,10 +25,10 @@ updated: 2022-01-10T13:22:00
 }}
 
 **Fifteen private en-suite rooms:**  
-<small>*(Minimum of a 2 night stay over weekends/public holidays)*</small>
+<small>(*Minimum of a 2 night stay over weekends/public holidays*)</small>
 
-* x8 double (double beds) rooms
-* x7 twin (2 single beds) rooms
+* 8 double rooms &ndash; <small>(*double beds*)</small>
+* 7 twin rooms &ndash; <small>(*2 single beds*)</small>
 
 All rooms have their own shower & toilet, linen and bath towels provided, tea & coffee making facilities.
 
