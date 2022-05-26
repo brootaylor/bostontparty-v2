@@ -14,6 +14,16 @@ updated: 2022-05-26T15:50:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
+{% from "components/core/images/images.njk" import imageNormal -%}
+
+{{ imageNormal(
+  "/assets/images/posts/man-and-machine-2022/man-and-machine-01.jpg",
+  "Man popping a wheelie on a motor-cross bike in an off-road race in the country side",
+  "800",
+  "554",
+  "img-right",
+  "shadow")
+}}
 
 This is the 9th Man and Machine event and entries opened on the 1st May. Previous years entrants will have preference.
 
