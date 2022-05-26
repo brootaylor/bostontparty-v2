@@ -34,6 +34,14 @@ hr,
 blockquote,
 form {
   max-width: 75ch;
+
+  .about &,
+  .venue-hire &,
+  .accommodation &,
+  .activities &,
+  .gallery & {
+    max-width: unset;
+  }
 }
 
 h1 {

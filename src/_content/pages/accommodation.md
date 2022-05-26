@@ -14,7 +14,9 @@ updated: 2022-05-26T15:50:00
 {% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageNormal %}
 
-<h2>Private rooms</h2>{{ imageNormal(
+## Private rooms
+
+{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-01.jpg",
   "Outside view of accommodation building",
   "640",
@@ -35,7 +37,9 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 
 ---
 
-<h2>Camp under the stars</h2>{{ imageNormal(
+## Camp under the stars
+
+{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
   "600",
@@ -53,7 +57,9 @@ Hot showers available.
 
 ---
 
-<h2>Other facilities</h2>{{ imageNormal(
+## Other facilities
+
+{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
   "Communal shower area",
   "600",
@@ -69,7 +75,9 @@ Hot showers available.
 
 ---
 
-<h2>Long term stays</h2>{{ imageNormal(
+## Long term stays
+
+{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
   "Inside view of two single bed en-suite room",
   "600",
