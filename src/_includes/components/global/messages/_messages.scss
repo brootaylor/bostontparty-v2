@@ -5,11 +5,8 @@
 
   text-align: center;
   padding: 1rem;
-  margin-bottom: 1rem;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 0 2px 0 1px rgba($grey-dark, 0.3);
-
-  z-index: 100;
+  border-bottom: 2px solid var(--black);
+  margin-block: 0;
 
   a {
     white-space: nowrap;
@@ -18,7 +15,7 @@
   // 'Info' type message
   &--info {
     --message-text: var(--black);
-    --message-background: var(--grey-mid);
+    --message-background: var(--white);
   }
 
   // 'Alert' type message

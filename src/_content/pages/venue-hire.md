@@ -8,9 +8,10 @@ lead:
 bodyClass: "venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2022-01-03T19:03:00
+updated: 2022-05-26T15:50:00
 ---
 
+{% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageDirection %}
 
 {{ imageDirection(
@@ -40,6 +41,10 @@ Our **licensed pub** is an ideal place to let your hair down and dance the night
 
 ---
 
-**All packages are tailor-made and are quoted on an individual basis** &mdash; [please contact us for a quote][1]</a>.
+## Enquire about venue hire?
 
-[1]: /contact
+**All packages are tailor-made and are quoted on an individual basis.**
+
+Call us on: <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a> or&hellip;
+
+{{ button(false, 'button--primary', '/contact', 'Send a venue hire request') }}

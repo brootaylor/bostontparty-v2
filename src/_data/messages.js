@@ -1,9 +1,9 @@
 module.exports = {
   info: {
     modifier: "message--info",
-    message: "Boston T Party is currently undergoing a redesign so please bear with us.",
-    ctaUrl: "/messages/redesign",
-    ctaLabel: "More about the redesign."
+    message: "It's time to register for <strong>Man and Machine 2022</strong>.",
+    ctaUrl: "/news/man-and-machine-2022",
+    ctaLabel: "More about the event."
   },
   alert: {
     modifier: "message--alert",

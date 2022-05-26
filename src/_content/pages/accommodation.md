@@ -8,14 +8,13 @@ lead:
 bodyClass: accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2022-01-10T16:21:00
+updated: 2022-05-26T15:50:00
 ---
 
+{% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageNormal %}
 
-## Private rooms
-
-{{ imageNormal(
+<h2>Private rooms</h2>{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-01.jpg",
   "Outside view of accommodation building",
   "640",
@@ -36,9 +35,7 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 
 ---
 
-## Camp under the stars
-
-{{ imageNormal(
+<h2>Camp under the stars</h2>{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
   "600",
@@ -56,9 +53,7 @@ Hot showers available.
 
 ---
 
-## Other facilities
-
-{{ imageNormal(
+<h2>Other facilities</h2>{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
   "Communal shower area",
   "600",
@@ -74,9 +69,7 @@ Hot showers available.
 
 ---
 
-## Long term stays
-
-{{ imageNormal(
+<h2>Long term stays</h2>{{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-04.jpg",
   "Inside view of two single bed en-suite room",
   "600",
@@ -90,7 +83,8 @@ Should you find yourself in the Boston / Impendle area, either for work or leisu
 
 ---
 
-[Get in touch to find out more][1]
+## Enquire about accommodation?
 
-[1]: /contact
+Call us on: <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a> or&hellip;
 
+{{ button(false, 'button--primary', '/contact', 'Send an accommodation request') }}
