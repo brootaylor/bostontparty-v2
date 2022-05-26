@@ -1,6 +1,6 @@
 {# Pulls data from a global `messages.json` data file #}
 <div class="[ message {{ messageType.modifier }} ]">
-	{{ messageType.message }}
+	{{ messageType.message | safe }}
 
 	{# Check if `ctaUrl` value has been set for the particular `messageType` data object #}
 	{% if messageType.ctaUrl %}

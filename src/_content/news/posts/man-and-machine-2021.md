@@ -1,5 +1,5 @@
 ---
-title: "Man and Machine &rarr; CANCELLED"
+title: "Man and Machine 2021 &rarr; CANCELLED"
 summary: "We are absolutely gutted to announce that this year's Man and Machine event is cancelled."
 lead:
   - "We are absolutely gutted to announce that this year's M&M event is cancelled."

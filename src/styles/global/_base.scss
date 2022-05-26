@@ -4,7 +4,6 @@
 
 
 #main {
-  @extend %flow;
   padding-bottom: 2rem;
 
     @include min-width($breakpoint-medium) {
