@@ -9,9 +9,11 @@ lead:
 snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6-7 August 2022."
 snippetCta: "Read more about the event"
 
-date: 2022-05-26T13:30:00
-updated: 2022-05-26T13:30:00
+date: 2022-05-26T15:50:00
+updated: 2022-05-26T15:50:00
 ---
+
+{% from "components/core/buttons/buttons.njk" import button %}
 
 This is the 9th Man and Machine event and entries opened on the 1st May. Previous years entrants will have preference.
 
@@ -32,3 +34,11 @@ The object of the weekend is to successfully complete both days, and receive you
 Hope to see you there!
 
 Dino, Alison, Rory and Sue
+
+---
+
+## Need accommodation?
+
+Call us on: <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a> or&hellip;
+
+{{ button(false, 'button--primary', '/contact', 'Send an accommodation request') }}
