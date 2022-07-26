@@ -23,7 +23,8 @@ Boston, 3211
 Kwa-Zulu Natal  
 South Africa
 
-**Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>
+**Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
+<small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
 
 </address>
 
