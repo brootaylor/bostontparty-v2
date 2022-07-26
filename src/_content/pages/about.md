@@ -11,6 +11,7 @@ date: 2020-09-12T01:12:00
 updated: 2022-01-03T19:03:00
 ---
 
+{% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageDirection %}
 
 {{ imageDirection(
@@ -59,7 +60,10 @@ Kwa-Zulu Natal
 South Africa
 
 **Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
-**Email:** [Send us an email][1]
+<small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
+
+<span class="visually-hidden">Send us an email by clicking this button&hellip;</span>
+{{ button(false, 'button--primary', '/contact', 'Send us an email') }}
 
 </address>
 
@@ -85,6 +89,5 @@ We are proud members of the [Boston Dargle Impendle Tourism Organisation][3].
   "Boston Dargle Impendle Tourism logo")
 }}
 
-[1]: /contact
 [2]: /contact/directions
 [3]: https://bditourism.co.za/
