@@ -5,9 +5,6 @@
 #header {
   background-color: #231f20;
   padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 
   .navigation__list {
     @include font-size(18px);
@@ -15,6 +12,10 @@
 
   // Media queries
   @include min-width(1060px) {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
     & > .wrapper {
       display: flex;
       align-items: center;
