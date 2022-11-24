@@ -14,7 +14,7 @@
   }
 
   // Media queries
-  @include min-width(980px) {
+  @include min-width(1060px) {
     & > .wrapper {
       display: flex;
       align-items: center;

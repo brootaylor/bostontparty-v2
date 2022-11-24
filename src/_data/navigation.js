@@ -21,13 +21,17 @@ module.exports = {
       url: "/about"
     },
     {
+      label: "News",
+      url: "/news"
+    },
+    {
       label: "Contact",
       url: "/contact"
     }
   ],
   footernav: [
     {
-      label: "Latest news",
+      label: "News",
       url: "/news"
     },
     {

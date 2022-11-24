@@ -3,11 +3,11 @@
  **********************************************************/
 
 .navigation {
-  @include max-width(979px) {
+  @include max-width(1059px) {
     margin-top: convert-to-rem(10px);
   }
 
-  @include min-width(980px) {
+  @include min-width(1060px) {
     display: flex;
     flex-grow: 1;
   }
@@ -83,7 +83,7 @@
     flex-wrap: wrap;
 
     // Media query 'medium'
-    @include min-width(980px) {
+    @include min-width(1060px) {
       margin-left: auto;
       align-items: center;
     }
@@ -91,7 +91,7 @@
     & > li {
       padding-right: 1rem;
 
-      @include max-width(979px) {
+      @include max-width(1059px) {
         margin-bottom: convert-to-rem(10px);
       }
 
