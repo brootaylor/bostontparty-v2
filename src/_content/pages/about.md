@@ -8,7 +8,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2022-01-03T19:03:00
+updated: 2022-11-24T18:20:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -27,7 +27,7 @@ updated: 2022-01-03T19:03:00
 
 ---
 
-Rory & Sue Brighton along with Milo, Maddy and Squeak, our furry friends, and Apple & Blossom, the sweet cats, are ready to welcome you to our home!
+Rory & Sue Brighton along with Maddy and Squeak, our furry friends, and Blossom, our sweet cat, are ready to welcome you to our home!
 
 From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere.
 
