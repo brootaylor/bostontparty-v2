@@ -34,7 +34,7 @@
     "watch:styles": "onchange 'src/**/*.scss' -- npm run build:styles-dev",
     "watch:scripts": "cross-env rollup -c config/rollup.config.js --watch",
     "watch": "run-p watch:*",
-    "build:files": "eleventy",
+    "build:files": "eleventy --quiet",
     "build:styles-dev": "run-s sass:dev postcss",
     "build:styles-prod": "run-s sass:prod postcss",
     "build:scripts": "rollup -c config/rollup.config.js",
