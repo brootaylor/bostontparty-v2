@@ -11,11 +11,13 @@
   }
 
   // Media queries
-  @include min-width(1060px) {
+  @include min-width(800px) {
     position: sticky;
     top: 0;
     z-index: 100;
+  }
 
+  @include min-width(1060px) {
     & > .wrapper {
       display: flex;
       align-items: center;
