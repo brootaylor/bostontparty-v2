@@ -33,6 +33,13 @@ updated: 2022-01-03T19:03:00
 * [Midmar Dam][2] (approx. 30kms)
 * The famous [Midlands Meander][3]
 
+---
+
+## Upcoming events
+
+[Man and Machine 2023][4]
+
 [1]: http://www.stormyhill.co.za/
 [2]: http://www.sa-venues.com/game-reserves/kzn_midmar-dam.htm
 [3]: http://www.midlandsmeander.co.za/
+[4]: /news/man-and-machine-2023

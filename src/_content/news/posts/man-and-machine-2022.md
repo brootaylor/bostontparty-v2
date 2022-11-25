@@ -1,16 +1,16 @@
 ---
-title: "Man and Machine 2022"
-summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6-7 August 2022."
+title: "Man and Machine 2022 &rarr; COMPLETED"
+summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6<sup>th</sup>-7<sup>th</sup> August 2022."
 lead:
-  - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6-7 August 2022."
+  - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6<sup>th</sup>-7<sup>th</sup> August 2022."
   - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
 
 # Populates the article snippet / summary on the news homepage.
-snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6-7 August 2022."
+snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6<sup>th</sup>-7<sup>th</sup> August 2022."
 snippetCta: "Read more about the event"
 
 date: 2022-05-26T15:50:00
-updated: 2022-05-26T15:50:00
+updated: 2022-11-25T10:40:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -25,7 +25,7 @@ updated: 2022-05-26T15:50:00
   "shadow")
 }}
 
-This is the 9th Man and Machine event and entries opened on the 1st May. Previous years entrants will have preference.
+This is the 9th Man and Machine event and entries open on the 1<sup>st</sup> May 2022. Previous years entrants will have preference.
 
 **Entries are limited**.
 
