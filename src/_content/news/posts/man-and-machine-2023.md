@@ -10,14 +10,14 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2022-11-24T18:30:00
-updated: 2022-11-24T18:30:00
+updated: 2022-11-25T09:54:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageNormal -%}
 
 {{ imageNormal(
-  "/assets/images/posts/man-and-machine-2022/man-and-machine-01.jpg",
+  "/assets/images/posts/man-and-machine-2023/man-and-machine-01.jpg",
   "Man popping a wheelie on a motor-cross bike in an off-road race in the country side",
   "800",
   "554",
@@ -25,7 +25,7 @@ updated: 2022-11-24T18:30:00
   "shadow")
 }}
 
-This is the 10<sup>th</sup> Man and Machine event and entries opened on the 1<sup>st</sup> May.
+This is the 10<sup>th</sup> Man and Machine event and entries open on the 1<sup>st</sup> May 2023.
 
 **Entries are limited**.
 

@@ -13,16 +13,16 @@ module.exports = {
       url: "/activities"
     },
     {
+      label: "News",
+      url: "/news"
+    },
+    {
       label: "Gallery",
       url: "/gallery"
     },
     {
       label: "About",
       url: "/about"
-    },
-    {
-      label: "News",
-      url: "/news"
     },
     {
       label: "Contact",
