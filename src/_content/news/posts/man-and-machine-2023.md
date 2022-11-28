@@ -10,7 +10,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2022-11-24T18:30:00
-updated: 2022-11-25T09:54:00
+updated: 2022-11-28T12:19:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -42,6 +42,10 @@ The object of the weekend is to successfully complete both days, and receive you
 Hope to see you there!
 
 Dino, Alison, Rory and Sue
+
+---
+
+Follow [Man and Machine on Facebook](https://www.facebook.com/ManAndMachineSa/) for updates.
 
 ---
 
