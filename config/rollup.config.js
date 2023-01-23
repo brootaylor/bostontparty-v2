@@ -54,7 +54,9 @@ function basePlugins({ nomodule = false } = {}) {
       name,
       version,
     }),
+    commonjs(),
     babel({
+      babelHelpers: 'bundled',
       exclude: 'node_modules/**', // only transpile our source code
       presets: [
         [
@@ -67,7 +69,6 @@ function basePlugins({ nomodule = false } = {}) {
       ]
     }),
     resolve(),
-    commonjs(),
   ];
 
   /**
