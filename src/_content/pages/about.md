@@ -1,14 +1,14 @@
 ---
 layout: "layouts/about.njk"
 title: "About us"
-summary: "Just over an hours drive from the majestic Southern Drakensberg and Sani Pass, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue."
+summary: "Should you find yourself in the Boston / Impendle area, KwaZulu-Natal, the Boston T Party is a perfect spot if you need somewhere to stay or an authentic venue to hold your function."
 lead:
-  - 'Welcome to our little oasis! The Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
+  - 'Welcome to our little oasis! Should you find yourself in the Boston / Impendle area, the Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
 
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2022-11-24T18:20:00
+updated: 2023-02-13T14:36:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}

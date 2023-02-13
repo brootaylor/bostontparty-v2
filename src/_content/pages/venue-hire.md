@@ -1,14 +1,15 @@
 ---
 layout: "layouts/venue.njk"
 title: "Venue hire"
-summary: "With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings."
+summary: "Perfect for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
 lead:
-  - "Our large functions room is just a stones throw away from the dam and shaded by a beautiful Willow tree."
+  - "The bag-washed walls, ethnic floor, and skylights create a warm, laid-back, and enjoyable ambience for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
+  - "Our <strong>licensed pub</strong> is an ideal place to let your hair down and dance the night away!"
 
 bodyClass: "venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2022-05-26T15:50:00
+updated: 2023-02-13T14:36:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -23,12 +24,6 @@ updated: 2022-05-26T15:50:00
   "shadow")
 }}
 
-With bag washed walls, an ethnic floor and skylights, the room lends itself to a warm, relaxed and fun atmosphere for informal conferences, office functions and teambuilding, year-end parties, birthday celebrations and farm-style weddings.
-
-Our **licensed pub** is an ideal place to let your hair down and dance the night away!
-
----
-
 ## Perfect for&hellip;
 
 * Informal conferences
@@ -38,6 +33,8 @@ Our **licensed pub** is an ideal place to let your hair down and dance the night
 * Bachelors’ / Bulls Parties
 
 &hellip;or any occasion where friends and colleagues can get together and have fun in a relaxing environment.
+
+It's just a stones throw away from the dam and shaded by a beautiful Willow tree.
 
 ---
 
