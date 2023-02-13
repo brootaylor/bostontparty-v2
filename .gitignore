@@ -3,7 +3,7 @@ node_modules
 .netlify
 originals
 docs
-www
+dist
 
 # Files to ignore
 .DS_Store
