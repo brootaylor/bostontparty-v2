@@ -78,7 +78,7 @@ South Africa
 
 ## Associations
 
-We are proud members of the [Boston Dargle Impendle Tourism Organisation][3].
+We are proud members of the **Boston Dargle Impendle Tourism Organisation**.
 
 {% from "components/core/images/images.njk" import imageMultiResolution %}
 
