@@ -1,8 +1,8 @@
 // Environment config
 require('dotenv').config()
 
-// Local server
-const browserSync = require('./config/browser-sync.config.js')
+// Local server (Eleventy Dev Server)
+const eleventyServer = require('./config/eleventy-server.config.js')
 
 // Import (plugins)
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
@@ -22,8 +22,8 @@ const htmlMinify = require('./lib/utils/transforms/minify-html.js')
 const newsCentre = require('./lib/collections/newsCentre.js')
 
 module.exports = function (eleventy) {
-  // BrowserSync
-  eleventy.setBrowserSyncConfig(browserSync)
+  // Eleventy Dev Server
+  eleventy.setServerOptions(eleventyServer)
 
   // Plugins
   eleventy.addPlugin(pluginSyntaxHighlight)
@@ -70,7 +70,7 @@ module.exports = function (eleventy) {
       input: 'src',
       includes: '_includes',
       data: '_data',
-      output: 'www'
+      output: 'dist'
     }
   }
 }
