@@ -27,9 +27,10 @@ updated: 2023-02-13T14:36:00
 ## Perfect for&hellip;
 
 * Informal conferences
-* Office functions and teambuilding
+* Office events and team building
 * Year end parties
 * Birthday celebrations
+* Farm-style weddings
 * Bachelors’ / Bulls Parties
 
 &hellip;or any occasion where friends and colleagues can get together and have fun in a relaxing environment.
