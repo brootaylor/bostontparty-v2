@@ -29,7 +29,7 @@ updated: 2023-02-13T14:36:00
 
 Rory & Sue Brighton along with Maddy and Squeak, our furry friends, and Blossom, our sweet cat, are ready to welcome you to our home!
 
-From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere.
+From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations, farm-style weddings, team building activities, and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere.
 
 A homely, personal, farm experience, where you can cast a line from the jetty, jump in a canoe and paddle around the dam or relax on the lawn under the Willow trees.
 
