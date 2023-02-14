@@ -1,14 +1,14 @@
 ---
 layout: "layouts/about.njk"
 title: "About us"
-summary: "Should you find yourself in the Boston / Impendle area, KwaZulu-Natal, the Boston T Party is a perfect spot if you need somewhere to stay or an authentic venue to hold your function."
+summary: "Should you find yourself in the Boston / Impendle area, KwaZulu-Natal, the Boston T Party is a perfect spot if you need somewhere to stay or an authentic venue to hold your event."
 lead:
-  - 'Welcome to our little oasis! Should you find yourself in the Boston / Impendle area, the Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your function</a>.'
+  - 'Welcome to our little oasis! Should you find yourself in the Boston / Impendle area, the Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your event</a>.'
 
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2023-02-13T14:36:00
+updated: 2023-02-14T11:17:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -23,13 +23,13 @@ updated: 2023-02-13T14:36:00
   "shadow")
 }}
 
-**On the R617 between Howick and Underberg**, KwaZulu-Natal, nestled in rolling hills, just over an hours drive from the majestic **Southern Drakensberg** and **Sani Pass**, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and functions venue.
+**On the R617 between Howick and Underberg**, KwaZulu-Natal, nestled in rolling hills, just over an hours drive from the majestic **Southern Drakensberg** and **Sani Pass**, is the little village of Boston and the Boston T Party – rustic / backpackers accommodation and events venue.
 
 ---
 
 Rory & Sue Brighton along with Maddy and Squeak, our furry friends, and Blossom, our sweet cat, are ready to welcome you to our home!
 
-From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations, farm-style weddings, team building activities, and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere.
+From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations, farm-style weddings, office events, team building activities, and bull's parties, we invite you to come and enjoy our beautiful surroundings and relaxing atmosphere.
 
 A homely, personal, farm experience, where you can cast a line from the jetty, jump in a canoe and paddle around the dam or relax on the lawn under the Willow trees.
 
