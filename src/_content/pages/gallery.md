@@ -8,7 +8,7 @@ lead:
 bodyClass: "gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2022-01-03T19:03:00
+updated: 2023-05-12T00:53:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
@@ -21,49 +21,56 @@ updated: 2022-01-03T19:03:00
       "Outside view of accommodation building",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-02.jpg",
       "Outside view of accommodation buidling with hills in the dustance",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-03.jpg",
       "Inside view of a double en-suite room",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-04.jpg",
       "Inside view of a double bed en-suite room",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-05.jpg",
       "Inside view of two single bed en-suite room",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-06.jpg",
       "Communal shower area",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-07.jpg",
       "Tents pitched on the lawn near some small trees",
       "600",
       "400",
-      "shadow")
+      "shadow",
+      "lazy")
       }}</li>
   </ul>
 </section>
