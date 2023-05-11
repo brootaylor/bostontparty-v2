@@ -21,6 +21,7 @@ updated: 2023-05-12T00:53:00
       "Outside view of accommodation building",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
@@ -29,6 +30,7 @@ updated: 2023-05-12T00:53:00
       "Outside view of accommodation buidling with hills in the dustance",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
@@ -37,6 +39,7 @@ updated: 2023-05-12T00:53:00
       "Inside view of a double en-suite room",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
@@ -45,6 +48,7 @@ updated: 2023-05-12T00:53:00
       "Inside view of a double bed en-suite room",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
@@ -61,6 +65,7 @@ updated: 2023-05-12T00:53:00
       "Communal shower area",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
@@ -69,6 +74,7 @@ updated: 2023-05-12T00:53:00
       "Tents pitched on the lawn near some small trees",
       "600",
       "400",
+      false,
       "shadow",
       "lazy")
       }}</li>
