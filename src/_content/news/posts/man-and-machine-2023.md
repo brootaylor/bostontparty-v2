@@ -2,7 +2,7 @@
 title: "Man and Machine 2023"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
 lead:
-  - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
+  - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat&ndash;Sun, 26<sup>th</sup>&mdash;27<sup>th</sup> August 2023."
   - <strong>Registration is on Friday 25<sup>th</sup> August</strong>.
   - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
 
@@ -11,7 +11,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2022-11-24T18:30:00
-updated: 2023-08-18T11:59:00
+updated: 2023-08-18T12:08:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -26,7 +26,7 @@ updated: 2023-08-18T11:59:00
   "shadow")
 }}
 
-This is the 10<sup>th</sup> Man and Machine event and entries open on the 1<sup>st</sup> May 2023.
+This is the 10<sup>th</sup> Man and Machine event.
 
 **Entries are limited**.
 
@@ -34,7 +34,7 @@ This event is not a race, but a test of man and machine against the elements. Th
 
 ---
 
-We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding will cater for the intermediate and hard skill levels. The distance over the 2 days will be approximately 150 - 200km.
+We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding will cater for the intermediate and hard skill levels. The distance over the 2 days will be approximately 150 &ndash; 200km.
 
 The object of the weekend is to successfully complete both days, and receive your finishers trophy at prize giving.
 
