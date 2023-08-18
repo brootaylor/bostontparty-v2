@@ -18,8 +18,12 @@
       }
 
     time {
+      display: inline-block;
+      padding-bottom: 0;
+    }
+
+    small {
       display: block;
-      margin-top: 1rem;
     }
   }
 

@@ -3,6 +3,7 @@ title: "Man and Machine 2023"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
 lead:
   - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
+  - <strong>Registration is on Friday 25<sup>th</sup> August</strong>.
   - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
 
 # Populates the article snippet / summary on the news homepage.
@@ -10,7 +11,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2022-11-24T18:30:00
-updated: 2022-11-28T12:19:00
+updated: 2023-08-18T11:59:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -41,7 +42,7 @@ The object of the weekend is to successfully complete both days, and receive you
 
 Hope to see you there!
 
-Dino, Alison, Rory and Sue
+Dino, Alison, Rory &amp; Sue
 
 ---
 

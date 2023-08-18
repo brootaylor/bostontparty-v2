@@ -17,7 +17,7 @@
 	{# Otherwise render default page header... #}
 	<header class="[ page__header ]">
 {% endif %}
-	<div class="[ wrapper ]">
+	<div class="[ wrapper ] [ flow ]">
 		{% if title %}
 			{# This `title` comes from the front matter in the relevant `.md` file - within the `pages` directory #}
 			<h1 class="[ title ]{% if titleHidden %} [ visually-hidden ]{% endif %}">{{ title | safe }}</h1>
@@ -27,7 +27,12 @@
 		{% endif %}
 		{# Checking whether a timestamp is needed... #}
 		{% if content.data.hasTimeStamp %}
-			<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
+			<small>
+				<time datetime="{{ date | dateTime }}">{{ date | dateTimeReadable("d LLLL y, ") }}{{ date | dateTimeReadable("t") | lower }}</time>
+				{% if updated %}
+					<i aria-hidden="true">&nbsp;&#183;&nbsp;</i><em> <b>Updated: </b></em><time datetime="{{ updated | dateTime }}">{{ updated | dateTimeReadable("d LLLL y, ") }}{{ updated | dateTimeReadable("t") | lower }}</time>
+				{% endif %}
+			</small>
 		{% endif %}
 	</div>
 </header>

@@ -33,7 +33,7 @@ module.exports = {
   scriptsServiceworker: true, // If using a service worker
   dateTimeNow: DateTime.local().toFormat('dd LLLL yyyy @ t'),
   timeCurrent: DateTime.local().diff(DateTime.local(1982, 5, 25)).milliseconds,
-  siteMessage: false, // A message 'bar' appears on the pages
+  siteMessage: true, // A message 'bar' appears on the pages
   author: {
     name: 'Bruce Taylor',
     url: 'https://brootaylor.com'
@@ -43,4 +43,7 @@ module.exports = {
     url: 'https://bostontparty.co.za',
     email: 'tsusan394@gmail.com'
   },
+  social: {
+    facebook: 'https://www.facebook.com/TheBostonTParty'
+  }
 };
