@@ -211,4 +211,18 @@ article {
     display: block;
     padding-bottom: 1em;
   }
+
+  // For when an asterisk is used to denote a footnote
+  .footnote,
+  .footnote:hover {
+    border: 0;
+  }
+
+  .footnote {
+    sup {
+      font-size: 110%;
+      letter-spacing: 0.5em;
+      line-height: 0;
+    }
+  }
 }

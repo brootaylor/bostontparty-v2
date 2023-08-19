@@ -3,7 +3,7 @@ title: "Man and Machine 2023"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
 lead:
   - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat&ndash;Sun, 26<sup>th</sup>&mdash;27<sup>th</sup> August 2023."
-  - <strong>Registration is on Friday 25<sup>th</sup> August</strong>.
+  - <strong>Entries close on Tuesday 22<sup>nd</sup> August</strong>.<a href="#fn:entries" class="footnote" rel="footnote"><sup>*</sup></a> <br><strong>Registration is on Friday 25<sup>th</sup> August</strong>.
   - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
 
 # Populates the article snippet / summary on the news homepage.
@@ -11,7 +11,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. The next event 
 snippetCta: "Read more about the event"
 
 date: 2022-11-24T18:30:00
-updated: 2023-08-18T12:08:00
+updated: 2023-08-19T16:53:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -26,9 +26,7 @@ updated: 2023-08-18T12:08:00
   "shadow")
 }}
 
-This is the 10<sup>th</sup> Man and Machine event.
-
-**Entries are limited**.
+This is the 10<sup>th</sup> Man and Machine event so it promises to be the best ever!
 
 This event is not a race, but a test of man and machine against the elements. This is an adventure which tests the skill and endurance of the weekend warrior and professional racers alike.
 
@@ -45,6 +43,8 @@ Hope to see you there!
 Dino, Alison, Rory &amp; Sue
 
 ---
+
+<span id="fn:entries"><sup><b>*</b></sup> <em>On the day entries will be accepted. Cash only.</em></span>
 
 Follow [Man and Machine on Facebook](https://www.facebook.com/ManAndMachineSa/) for updates.
 
