@@ -3,7 +3,8 @@ title: "Man and Machine 2023"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
 lead:
   - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat&ndash;Sun, 26<sup>th</sup>&mdash;27<sup>th</sup> August 2023."
-  - <strong>Entries close on Tuesday 22<sup>nd</sup> August</strong>.<a href="#fn:entries" class="footnote" rel="footnote"><sup>*</sup></a> <br><strong>Registration is on Friday 25<sup>th</sup> August</strong>.
+  - <strong>Entries close on Tuesday 22<sup>nd</sup> August</strong>.<a href="#fn:entries" class="footnote" rel="footnote"><sup>*</sup></a>
+  - <strong>Registration is on Friday 25<sup>th</sup> August</strong>.
   - 'To find out more and how to take part, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.'
 
 # Populates the article snippet / summary on the news homepage.
