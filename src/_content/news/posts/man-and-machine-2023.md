@@ -12,7 +12,7 @@ snippet: "Man and Machine is one of SA's biggest 2 day enduro's. This year's eve
 snippetCta: "Read more about this event"
 
 date: 2022-11-24T18:30:00
-updated: 2023-08-29T12:02:00
+updated: 2023-08-29T12:29:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -29,17 +29,17 @@ updated: 2023-08-29T12:02:00
 
 This was the 10<sup>th</sup> Man and Machine event and proved to be a real success!
 
-The event is not a race, but a test of man and machine against the elements. It's an adventure which tests the skill and endurance of the weekend warrior and professional racers alike.
+The event is not a race, but a test of man and machine against the elements. It's an adventure which tests the skill and endurance of the weekend warrior and professional racer alike.
 
 ---
 
-We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding will cater for the intermediate and hard skill levels. The distance over the 2 days will be approximately 150 &ndash; 200km.
+We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding cater for the intermediate and hard skill levels. The distance over the 2 days is approximately 150 &ndash; 200km.
 
 The object of the weekend is to successfully complete both days, and receive your finishers trophy at prize giving.
 
 **No Finish No Trophy**.
 
-Thank you and we hope to see you in 2024!
+Thank you for your support in 2023. We hope to see you in 2024!
 
 Dino, Alison, Rory &amp; Sue
 
