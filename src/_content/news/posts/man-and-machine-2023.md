@@ -5,6 +5,7 @@ lead:
   - A massive thank you to all riders for your support during Man and Machine 2023!
   - <strong>See you next year!</strong> &mdash; <em>(Date TBC)</em>
   - To find out more and how to take part in future events, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.
+  - Also follow <a href="https://www.facebook.com/ManAndMachineSa/" rel="external">Man and Machine on Facebook</a> for updates.
 
 # Populates the article snippet / summary on the news homepage.
 snippet: "Man and Machine is one of SA's biggest 2 day enduro's. This year's event was a huge success and took place on Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023."
@@ -41,10 +42,6 @@ The object of the weekend is to successfully complete both days, and receive you
 Thank you and we hope to see you in 2024!
 
 Dino, Alison, Rory &amp; Sue
-
----
-
-Follow [Man and Machine on Facebook](https://www.facebook.com/ManAndMachineSa/) for updates.
 
 ---
 
