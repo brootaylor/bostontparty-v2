@@ -1,9 +1,9 @@
 module.exports = {
   info: {
     modifier: "message--info",
-    message: "It's nearly time for <strong>Man and Machine 2023</strong>.",
+    message: "Thank you all riders for a successful",
     ctaUrl: "/news/man-and-machine-2023",
-    ctaLabel: "More about the event."
+    ctaLabel: "Man and Machine 2023."
   },
   alert: {
     modifier: "message--alert",

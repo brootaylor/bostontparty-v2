@@ -7,7 +7,7 @@ lead:
 bodyClass: "news"
 
 date: 2021-05-09T17:36:00
-updated: 2022-11-24T18:52:00
+updated: 2023-08-29T12:02:00
 ---
 
 <ul role="list" class="[ news__list ] [ flow ]">
@@ -15,7 +15,7 @@ updated: 2022-11-24T18:52:00
   <li class="[ news__list-item ]">
     <article class="[ news__summary ]">
       <h2>{{ news.data.title | safe }}</h2>
-      <time datetime="{{ news.date | dateTime }}">{{ news.date | dateTimeReadable("d LLLL y, ") }}{{ news.date | dateTimeReadable("t") | lower }}</time>
+      <time datetime="{{ news.data.updated | dateTime }}">{{ news.data.updated | dateTimeReadable("d LLLL y, ") }}{{ news.data.updated | dateTimeReadable("t") | lower }}</time>
       <div class="[ news__snippet ] [ flow ]">
         {%- if news.data.snippet -%}
           <p>{{ news.data.snippet | safe }}</p>
