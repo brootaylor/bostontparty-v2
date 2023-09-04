@@ -8,7 +8,7 @@ lead:
 bodyClass: "about"
 
 date: 2020-09-12T01:12:00
-updated: 2023-08-19T16:53:00
+updated: 2023-09-04T13:52:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -71,7 +71,7 @@ South Africa
 
 ## Need directions?
 
-[Directions to Boston T Party][2]
+[Directions to Boston T Party][1]
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
@@ -79,7 +79,7 @@ South Africa
 
 ## Associations
 
-We are proud members of the **Boston Dargle Impendle Tourism Organisation**.
+We are proud members of the [Boston Dargle Impendle Tourism Organisation][2].
 
 {% from "components/core/images/images.njk" import imageMultiResolution %}
 
@@ -90,5 +90,5 @@ We are proud members of the **Boston Dargle Impendle Tourism Organisation**.
   "Boston Dargle Impendle Tourism logo")
 }}
 
-[2]: /contact/directions
-[3]: https://bditourism.co.za/
+[1]: /contact/directions
+[2]: https://bditourism.co.za/
