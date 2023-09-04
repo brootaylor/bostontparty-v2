@@ -3,7 +3,7 @@ layout: "layouts/homepage.njk"
 
 title: "Welcome to Boston T Party"
 
-summary: "Accommodation & venue hire in the Boston and Impendle area, Kwazulu Natal. From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations, farm-style weddings, office events, team building activities, and bull's parties."
+summary: "Accommodation & venue hire in the Boston and Impendle area, KwaZulu-Natal. From individual leisure guests to groups, backpackers, campers, bikers & hikers, birthday celebrations, farm-style weddings, office events, team building activities, and bull's parties."
 
 bodyClass: "homepage"
 

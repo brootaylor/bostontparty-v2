@@ -4,7 +4,7 @@ module.exports = {
   name: 'Boston T Party',
   short_name: 'Boston T Party',
   metaTitle: 'Boston T Party',
-  metaDescription: 'Accommodation & venue hire in the Boston and Impendle area, Kwazulu Natal',
+  metaDescription: 'Accommodation & venue hire in the Boston and Impendle area, KwaZulu-Natal',
   metaImage: '/assets/images/common/logo.png',
   metaImageAlt: 'Site logo for Boston T Party.',
   logoAlt: 'Site logo for Boston T Party.',
