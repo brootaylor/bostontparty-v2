@@ -3,7 +3,7 @@ layout: "layouts/contact.njk"
 title: "Get in touch"
 summary: "Get in touch with us and find directions to Boston T Party."
 lead:
-  - "We would love to hear from you!"
+  - "We would love to hear from you."
 intro: "Please complete the form below with your requirements and we’ll get back to you as soon as we can."
 
 bodyClass: "contact"

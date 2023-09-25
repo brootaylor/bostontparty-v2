@@ -1,9 +1,9 @@
 ---
 layout: "layouts/activities.njk"
 title: "Activities"
-summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
+summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides &mdash; whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 lead:
-  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
+  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides &mdash; whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 
 bodyClass: "activities"
 
@@ -37,6 +37,7 @@ updated: 2023-09-25T11:45:00
 
 ## Upcoming events
 
+* [Cowboy Riding Weekends](/activities/cowboy-riding-weekends) &mdash; (*Boston T Party & Glencall Cowboys*)
 * [Man and Machine 2024](https://manandmachinesa.wordpress.com/)
 
 [1]: http://www.stormyhill.co.za/
