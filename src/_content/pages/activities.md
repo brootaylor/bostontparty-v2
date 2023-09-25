@@ -1,14 +1,14 @@
 ---
 layout: "layouts/activities.njk"
 title: "Activities"
-summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
+summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 lead:
-  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities on offer for you to enjoy in our beautiful surrounding area."
+  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides – whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 
 bodyClass: "activities"
 
 date: 2020-09-12T01:12:00
-updated: 2023-08-29T12:02:00
+updated: 2023-09-25T11:45:00
 ---
 
 {% from "components/core/images/images.njk" import imageDirection %}
@@ -32,6 +32,12 @@ updated: 2023-08-29T12:02:00
 * Horse-riding &mdash; [Stormy Hill][1]
 * [Midmar Dam][2] (approx. 30kms)
 * The famous [Midlands Meander][3]
+
+---
+
+## Upcoming events
+
+* [Man and Machine 2024](https://manandmachinesa.wordpress.com/)
 
 [1]: http://www.stormyhill.co.za/
 [2]: http://www.sa-venues.com/game-reserves/kzn_midmar-dam.htm
