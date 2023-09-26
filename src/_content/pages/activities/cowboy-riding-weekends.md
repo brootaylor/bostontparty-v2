@@ -8,6 +8,8 @@ lead:
 
 bodyClass: "page activities"
 
+tags: "page" # This `page` tag is here so that the service worker picks them up. These pages aren't picked up in the `mainnav` or `footernav` loops
+
 permalink: "/activities/cowboy-riding-weekends.html"
 
 date: 2023-09-25T13:24:00
