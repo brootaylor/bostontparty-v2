@@ -18,6 +18,12 @@
   text-align: center;
 }
 
+// Flex & Grid element alignment
+%align_items--center {
+  align-items: center;
+}
+
+
 // `Text align left` utility class
 // Using the `%text_align--left` placeholder
 .text_align--left {
@@ -34,4 +40,10 @@
 // Using the `%text_align--right` placeholder
 .text_align--right {
   @extend %text_align--right;
+}
+
+// `Elements align center` utility class
+// Using the `%align_items--center` placeholder
+.align_items--center {
+  @extend %align_items--center;
 }

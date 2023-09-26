@@ -4,7 +4,7 @@ summary: "Thanks for getting in touch with Boston T Party."
 lead:
   - "Thanks for getting in touch with Boston T Party. We'll respond as soon as we can."
 
-bodyClass: "contact-thanks"
+bodyClass: "page contact-thanks"
 
 permalink: "/contact/thanks.html"
 

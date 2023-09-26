@@ -5,16 +5,16 @@ summary: "A great way to see what's on offer at Boston T party is to look throug
 lead:
   - "A great way to see what's on offer is to look through our photo gallery. Here are some pics of Boston T Party to give you a better idea of what we're about. You may even spot a few 'local residents'."
 
-bodyClass: "gallery"
+bodyClass: "page gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2023-05-12T00:53:00
+updated: 2023-09-26T23:11:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}
 
 <section class="[ flow ]" aria-label="Accommodation pictures">
-  <h2>Accommodation</h2>
+  <h2 id="btp-accommodation">Accommodation</h2>
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/accommodation/gallery-accommodation-01.jpg",
@@ -84,7 +84,7 @@ updated: 2023-05-12T00:53:00
 ---
 
 <section class="[ flow ]" aria-label="Venue pictures">
-  <h2>Venue</h2>
+  <h2 id="btp-venue">Venue</h2>
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/venue/gallery-venue-01.jpg",
@@ -173,7 +173,7 @@ updated: 2023-05-12T00:53:00
 ---
 
 <section class="[ flow ]" aria-label="Pictures of the Boston T Party family">
-  <h2>BTP family</h2>
+  <h2 id="btp-family">BTP family</h2>
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/family/gallery-family-01.jpg",
@@ -289,7 +289,7 @@ updated: 2023-05-12T00:53:00
 ---
 
 <section class="[ flow ]" aria-label="Pictures of fun activities">
-  <h2>Fun times</h2>
+  <h2 id="btp-fun">Fun times</h2>
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/activities/gallery-activities-01.jpg",
@@ -396,7 +396,7 @@ updated: 2023-05-12T00:53:00
 ---
 
 <section class="[ flow ]" aria-label="Pictures of the Boston T Party grounds">
-  <h2>Our grounds</h2>
+  <h2 id="btp-grounds">Our grounds</h2>
   <ul role="list" class="[ auto-grid ] [ no-list ]">
     <li>{{ imageNormal(
       "/assets/images/pages/gallery/grounds/gallery-grounds-01.jpg",

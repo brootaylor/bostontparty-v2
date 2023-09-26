@@ -8,7 +8,8 @@ module.exports = {
     optionDefaultLabel: "Please select...",
     options: [
       "Accommodation",
-      "Venue Hire"
+      "Venue Hire",
+      "Activities & Events"
     ]
   },
   message: {

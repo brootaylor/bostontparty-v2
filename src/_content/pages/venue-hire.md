@@ -6,7 +6,7 @@ lead:
   - "The bag-washed walls, ethnic floor, and skylights create a warm, laid-back, and enjoyable ambience for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
   - "Our <strong>licensed pub</strong> is an ideal place to let your hair down and dance the night away!"
 
-bodyClass: "venue-hire"
+bodyClass: "page venue-hire"
 
 date: 2020-09-12T01:12:00
 updated: 2023-02-14T11:17:00
