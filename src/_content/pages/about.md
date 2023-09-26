@@ -5,10 +5,10 @@ summary: "Should you find yourself in the Boston or Impendle area, KwaZulu-Natal
 lead:
   - 'Welcome to our little oasis! Should you find yourself in the Boston or Impendle area, the Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your event</a>.'
 
-bodyClass: "about"
+bodyClass: "page about"
 
 date: 2020-09-12T01:12:00
-updated: 2023-09-04T13:52:00
+updated: 2023-09-26T23:11:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -79,16 +79,31 @@ South Africa
 
 ## Associations
 
-We are proud members of the [Boston Dargle Impendle Tourism Organisation][2].
+We are proud members of the [Boston Dargle Impendle Tourism Organisation][2] and [Midlands Meander Association][3].
 
 {% from "components/core/images/images.njk" import imageMultiResolution %}
 
-{{ imageMultiResolution(
-  "/assets/images/partners/partner_bdit-logo.png",
-  "/assets/images/partners/partner_bdit-logo@1.5x.png",
-  "/assets/images/partners/partner_bdit-logo@2x.png",
-  "Boston Dargle Impendle Tourism logo")
-}}
+<ol role="list" class="[ auto-grid ] [ no-list ] [ flow ] [ align_items--center ]">
+  <li>
+    {{ imageMultiResolution(
+      "/assets/images/partners/partner_bdit-logo.png",
+      "/assets/images/partners/partner_bdit-logo@1.5x.png",
+      "/assets/images/partners/partner_bdit-logo@2x.png",
+      "Boston Dargle Impendle Tourism logo",
+      "https://bditourism.co.za/")
+    }}
+  </li>
+  <li>
+    {{ imageMultiResolution(
+      "/assets/images/partners/partner_midlands-logo.png",
+      "/assets/images/partners/partner_midlands-logo@1.5x.png",
+      "/assets/images/partners/partner_midlands-logo@2x.png",
+      "Midlands Meander Association logo",
+      "https://midlandsmeander.co.za/")
+    }}
+  </li>
+</ol>
 
 [1]: /contact/directions
 [2]: https://bditourism.co.za/
+[3]: https://midlandsmeander.co.za/

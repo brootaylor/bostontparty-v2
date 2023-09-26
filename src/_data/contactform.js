@@ -9,7 +9,7 @@ module.exports = {
     options: [
       "Accommodation",
       "Venue Hire",
-      "Events"
+      "Activities & Events"
     ]
   },
   message: {

@@ -20,7 +20,7 @@ image:
     xx_large: "/assets/images/banners/activities/cowboy-weekends/banner-cowboys-01--xxlarge.jpg"
   width: 768
   height: 230
-  alt: "Cowboys with their backs to us looking out over a beautiful vista"
+  alt: "A cowboy on horseback with his back to us looking out over a beautiful valley at sunset"
 
 # This collection `tag` value corresponds with the `for` loop that renders this content
 tags:

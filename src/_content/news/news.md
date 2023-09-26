@@ -4,7 +4,7 @@ summary: "Welcome to our news section. Here you'll find news, posts and event in
 lead:
   - "Welcome to our news section. Here you'll find news, posts and event information relating to Boston T Party."
 
-bodyClass: "news"
+bodyClass: "posts news"
 
 date: 2021-05-09T17:36:00
 updated: 2023-08-29T12:02:00

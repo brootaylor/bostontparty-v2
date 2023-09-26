@@ -4,7 +4,7 @@ summary: "This privacy policy governs the privacy of this website, bostontparty.
 lead:
   - "This privacy policy governs the privacy of this website, bostontparty.co.za, and its users who choose to use it."
 
-bodyClass: "privacy"
+bodyClass: "page privacy"
 
 date: 2020-09-12T01:12:00
 updated: 2021-05-11T17:52:00

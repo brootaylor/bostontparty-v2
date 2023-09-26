@@ -5,10 +5,10 @@ summary: "A great way to see what's on offer at Boston T party is to look throug
 lead:
   - "A great way to see what's on offer is to look through our photo gallery. Here are some pics of Boston T Party to give you a better idea of what we're about. You may even spot a few 'local residents'."
 
-bodyClass: "gallery"
+bodyClass: "page gallery"
 
 date: 2021-05-11T17:52:00
-updated: 2023-09-26T13:07:00
+updated: 2023-09-26T23:11:00
 ---
 
 {% from "components/core/images/images.njk" import imageNormal %}

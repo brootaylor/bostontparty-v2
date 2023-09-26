@@ -3,7 +3,7 @@ layout: "layouts/directions.njk"
 title: "Directions"
 summary: "Directions to Boston T Party."
 
-bodyClass: "contact"
+bodyClass: "page contact"
 
 permalink: "/contact/directions.html"
 

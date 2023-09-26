@@ -35,11 +35,9 @@ blockquote,
 form {
   max-width: 75ch;
 
-  .about &,
-  .venue-hire &,
-  .accommodation &,
-  .activities &,
-  .gallery & {
+  .page &,
+  .posts &,
+  .news-post & {
     max-width: unset;
   }
 }
@@ -47,6 +45,7 @@ form {
 h1 {
   @include font-size(30px);
   line-height: 1.1;
+  text-wrap: balance;
 
     @include min-width($breakpoint-small) {
       @include font-size(36px);
@@ -59,6 +58,8 @@ h1 {
 
 h2 {
   @include font-size(30px);
+  line-height: 1.2;
+  text-wrap: balance;
 
     @include min-width($breakpoint-medium) {
       @include font-size(34px);
@@ -71,6 +72,8 @@ h2 {
 
 h3 {
   @include font-size(30px);
+  line-height: 1.2;
+  text-wrap: balance;
 
     @include min-width($breakpoint-medium) {
       @include font-size(36px);
@@ -79,6 +82,8 @@ h3 {
 
 h4 {
   @include font-size(24px);
+  line-height: 1.2;
+  text-wrap: balance;
 
     @include min-width($breakpoint-medium) {
       @include font-size(28px);
@@ -132,6 +137,7 @@ code {
 .t-large {
   @include font-size(34px);
   line-height: 1.2;
+  text-wrap: balance;
 
     @include min-width($breakpoint-small) {
       @include font-size(42px);
@@ -155,6 +161,7 @@ code {
 .t-medium {
   @include font-size(24px);
   line-height: 1.2;
+  text-wrap: balance;
 
     @include min-width($breakpoint-small) {
       @include font-size(28px);

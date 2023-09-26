@@ -4,7 +4,7 @@ summary: "This website is committed to providing a usable experience for anyone 
 lead:
   - "This website is committed to providing a usable experience for anyone visiting it, regardless of technology or ability."
 
-bodyClass: "accessibility"
+bodyClass: "page accessibility"
 
 date: 2020-09-12T01:12:00
 updated: 2021-10-28T18:36:00

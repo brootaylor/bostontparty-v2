@@ -6,10 +6,10 @@ lead:
   - "We would love to hear from you."
 intro: "Please complete the form below with your requirements and we’ll get back to you as soon as we can."
 
-bodyClass: "contact"
+bodyClass: "page contact"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2023-09-26T23:11:00
 ---
 
 ---

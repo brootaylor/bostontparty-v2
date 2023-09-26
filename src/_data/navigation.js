@@ -9,7 +9,7 @@ module.exports = {
       url: "/venue-hire"
     },
     {
-      label: "Activities",
+      label: "Activities & Events",
       url: "/activities"
     },
     {

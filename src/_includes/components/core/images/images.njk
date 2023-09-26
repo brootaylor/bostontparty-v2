@@ -121,19 +121,32 @@
 {% endmacro %}
 
 {# `imageMultiResolution`: for multi resolution images #}
-{% macro imageMultiResolution(src, src2, src3, alt, width, height, position, shadow, lazyLoad) %}
-<img src="{{ src }}"
-	srcset="{{ src }},
-					{{ src2 }} 1.5x,
-					{{ src3 }} 2x"
-	alt="{{ alt }}."
-	width="{{ width }}"
-	height="{{ height }}"
-	class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
-	{%- if lazyLoad == 'lazy' %}
-		loading="lazy"
-		decoding="async"
-	{% endif %}>
+{% macro imageMultiResolution(src, src2, src3, alt, href, position, shadow, lazyLoad) %}
+{% if href %}
+	<a href="{{ href }}">
+		<img src="{{ src }}"
+			srcset="{{ src }},
+							{{ src2 }} 1.5x,
+							{{ src3 }} 2x"
+			alt="{{ alt }}."
+			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+			{%- if lazyLoad == 'lazy' %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
+	</a>
+{% else %}
+	<img src="{{ src }}"
+			srcset="{{ src }},
+							{{ src2 }} 1.5x,
+							{{ src3 }} 2x"
+			alt="{{ alt }}."
+			class="[ img-normal ]{% if position %} [ {{ position }} ]{% endif %}{% if shadow %} [ shadow ]{% endif %}"
+			{%- if lazyLoad == 'lazy' %}
+				loading="lazy"
+				decoding="async"
+			{% endif %}>
+{% endif %}
 {% endmacro %}
 
 {# `imageDirection`: Picture element for 'art direction' #}

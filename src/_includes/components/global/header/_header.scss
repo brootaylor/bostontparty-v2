@@ -17,7 +17,7 @@
     z-index: 100;
   }
 
-  @include min-width(1060px) {
+  @include min-width(1121px) {
     & > .wrapper {
       display: flex;
       align-items: center;
