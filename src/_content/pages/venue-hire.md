@@ -46,5 +46,6 @@ It's just a stones throw away from the dam and shaded by a beautiful Willow tree
 **Call us on:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
 <small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
 
-<span class="visually-hidden">Or send us a request via email by clicking this button&hellip;</span>
-{{ button(false, 'button--primary', '/contact', 'Send a venue hire request') }}
+Or send us a "*Venue Hire*" request via email... <span class="visually-hidden">By clicking the following button.</span>
+
+{{ button(false, 'button--primary', '/contact?message-subject=venue-hire', 'Send a venue hire request') }}

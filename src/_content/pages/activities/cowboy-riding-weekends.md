@@ -78,4 +78,4 @@ The "<abbr title="Boston T Party."><b>BTP</b></abbr>" &mdash; (*that's us*) &mda
 
 Or send us an "*Activities & Events*" enquiry via email... <span class="visually-hidden">By clicking the following button.</span>
 
-{{ button(false, 'button--primary', '/contact', 'Send an activities & events enquiry') }}
+{{ button(false, 'button--primary', '/contact?message-subject=activities-and-events', 'Send an activities & events enquiry') }}

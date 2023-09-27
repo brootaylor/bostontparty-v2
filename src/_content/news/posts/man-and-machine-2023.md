@@ -50,5 +50,6 @@ Dino, Alison, Rory &amp; Sue
 **Call us on:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
 <small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
 
-<span class="visually-hidden">Or send us a request via email by clicking this button&hellip;</span>
-{{ button(false, 'button--primary', '/contact', 'Send an accommodation request') }}
+Or send us an "*Accommodation*" request via email... <span class="visually-hidden">By clicking the following button.</span>
+
+{{ button(false, 'button--primary', '/contact?message-subject=accommodation', 'Send an accommodation request') }}
