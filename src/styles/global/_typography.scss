@@ -125,6 +125,28 @@ hr {
   max-width: 50rem;
 }
 
+// Abbreviation "abbr" styling
+abbr {
+  &[title] {
+    text-decoration: none;
+
+    @include min-width($breakpoint-large) {
+      cursor: help;
+      text-decoration: underline dotted;
+    }
+
+    &:after {
+      font-size: 0.875rem;
+      font-style: italic;
+      content: " (" attr(title) ")";
+
+        @include min-width($breakpoint-large) {
+          content: "";
+        }
+    }
+  }
+}
+
 code {
   font-family: 'Courier New', Courier, monospace;
   color: var(--green-custom);
@@ -216,7 +238,6 @@ article {
   time {
     font-size: 0.95rem;
     display: block;
-    padding-bottom: 1em;
   }
 
   // For when an asterisk is used to denote a footnote
