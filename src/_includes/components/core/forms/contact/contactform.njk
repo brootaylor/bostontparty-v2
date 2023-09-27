@@ -49,7 +49,7 @@
 						<option value="" selected disabled>{{ messageSubjectOptionDefaultLabel }}</option>
 						{# Loops through data array for message subject options #}
 						{% for option in messageSubjectOptions %}
-							<option value="{{ option }}">{{ option }}</option>
+							<option value="{{ option | slug }}">{{ option }}</option>
 						{% endfor %}
 					</select>
 				</div>
@@ -68,3 +68,16 @@
 	</fieldset>
 
 </form>
+
+{# This JS script is inline because this is the only page it appears for now #}
+<script>
+    // Get the URL parameter value
+    const urlParams = new URLSearchParams(window.location.search);
+    const messageSubject = urlParams.get('message-subject');
+
+    // Select the option based on the URL parameter
+    if (messageSubject) {
+        const selectElement = document.getElementById('message-subject');
+        selectElement.value = messageSubject;
+    }
+</script>
