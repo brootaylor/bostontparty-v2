@@ -1,5 +1,5 @@
 ---
-title: "Man and Machine 2023 &rarr; COMPLETED"
+title: "Man and Machine 2023"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. This year's event was a huge success and took place on Sat–Sun, 26<sup>th</sup>-27<sup>th</sup> August 2023"
 lead:
   - A massive thank you to all riders for your support during Man and Machine 2023!

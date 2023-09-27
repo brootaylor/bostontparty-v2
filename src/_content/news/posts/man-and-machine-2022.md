@@ -1,5 +1,5 @@
 ---
-title: "Man and Machine 2022 &rarr; COMPLETED"
+title: "Man and Machine 2022"
 summary: "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6<sup>th</sup>-7<sup>th</sup> August 2022."
 lead:
   - "Man and Machine is one of SA's biggest 2 day enduro's. The next event will be Sat–Sun, 6<sup>th</sup>-7<sup>th</sup> August 2022."
