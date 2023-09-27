@@ -7,23 +7,28 @@ lead:
 bodyClass: "page offline"
 
 date: 2020-09-12T01:12:00
-updated: 2021-05-11T17:52:00
+updated: 2023-09-27T15:02:00
 
 hidden: true
 eleventyExcludeFromCollections: true
 ---
 
-In the mean time, why not visit one of the following pages that are available while you're offline.
+In the mean time, why not visit one of the following posts that are available while you're offline.
 
 ---
 
 <ul role="list" class="[ wrapper flow ] [ no-list ]">
-  {%- for item in collections.newsCentre -%}
-    <li>
-      <article>
-        <h2><a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a></h2>
-        <p>{{ item.data.lead[0] | safe }}</p>
-      </article>
-    </li>
+  {%- set allPosts = collections.newsCentre -%}
+  {# Shows the latest 5 `post` entries... #}
+  {%- for item in allPosts.slice(0, 5) -%}
+  <li>
+    <article class="[ flow ]">
+      <h2>
+        <a href="{{ item.url | pretty }}">{{ item.data.title | safe }}</a>
+      </h2>
+      <time datetime="{{ item.date | dateTime }}">{{ item.date | dateTimeReadable("d LLLL y, ") }}{{ item.date | dateTimeReadable("t") | lower }}</time>
+      <p>{{ item.data.summary | safe }}</p>
+    </article>
+  </li>
   {%- endfor -%}
 </ul>
