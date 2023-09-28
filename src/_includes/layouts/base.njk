@@ -50,6 +50,31 @@
 		{# Main footer content #}
 		{% include "components/global/footer/footer.njk" %}
 
+		{#
+			Schema Structured Data...
+			Defines a mapping between bodyClass values and their corresponding schema files to include. This is used to include the correct schema file for the current page.
+		#}
+		{% set schemaMap = [
+			{ bodyClass: 'about', schemaFile: 'schema_about.njk' },
+			{ bodyClass: 'contact', schemaFile: 'schema_contact.njk' }
+		] %}
+
+		{# Initializes a flag to track whether a matching schema file has been found #}
+		{% set foundSchema = false %}
+
+		{# Iterates over the schemaMap and includes the first matching schema file #}
+		{% for mapping in schemaMap %}
+			{% if mapping.bodyClass in bodyClass and not foundSchema %}
+				{# Checks if the bodyClass value is present in the bodyClass variable and ensures a matching schema file has not been found yet #}
+
+				<!-- Schema Structured Data for the "{{ mapping.bodyClass }}" page... -->
+				{% include "components/chrome/schemas/" + mapping.schemaFile %}
+
+				{# Sets the flag to indicate that a matching schema file has been found #}
+				{% set foundSchema = true %}
+			{% endif %}
+		{% endfor %}
+
 		{# Script calls #}
 		{% include "components/chrome/scripts/scripts.njk" %}
 
@@ -60,7 +85,7 @@
 
 <!--
 	Current page: {{ page.url | pretty }}
-	Last updated: {{ updated | dateTimeReadable("dd LLLL yyyy @ t") }}
+	Last updated: {% if updated %}{{ updated | dateTimeReadable("dd LLLL yyyy @ t") }}{% else %}{{ date | dateTimeReadable("dd LLLL yyyy @ t") }}{% endif %}
 -->
 
 	</body>
