@@ -6,17 +6,68 @@ eleventyExcludeFromCollections: true
 # www.robotstxt.org
 # Ref: https://yoast.com/ultimate-guide-robots-txt/
 
-{% if site.robotsCrawl %}
-# Allow crawling of all content except for certain directories / pages etc. and their contents eg. `/foo`
-# == Open the doors in Production ==
+{% if site.robotsCrawl -%}
+# ALLOW crawling of all content except for certain user-agents, directories / pages etc. and their contents eg. `/foo`
+# == Open the doors to all other user-agents in Production ==
 User-agent: *
 Disallow:
 
-# Sitemap location
-Sitemap: {{ site.rootUrl }}/sitemap.xml
-{% else %}
-# Disallow crawling of all content
+{% else -%}
+# DISALLOW crawling of all content
 # == Handy during beta testing ==
 User-agent: *
 Disallow: /
-{% endif -%}
+{%- endif -%}
+
+{%- if site.aiCrawl == false -%}
+# Dark Visitors AI agrent list
+# https://darkvisitors.com
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/anthropic-ai
+
+User-agent: anthropic-ai
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/ccbot
+
+User-agent: CCBot
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/chatgpt-user
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/facebookbot
+
+User-agent: FacebookBot
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/google-extended
+
+User-agent: Google-Extended
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/gptbot
+
+User-agent: GPTBot
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/omgilibot
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+{%- endif %}
+
+# Sitemap location
+Sitemap: {{ site.rootUrl }}/sitemap.xml
