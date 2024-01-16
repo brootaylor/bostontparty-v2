@@ -101,6 +101,7 @@ blockquote,
 address,
 pre {
   @include font-size(18px);
+  text-wrap: pretty;
 
     @include min-width($breakpoint-medium) {
       @include font-size(22px);

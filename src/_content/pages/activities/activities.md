@@ -26,7 +26,7 @@ updated: 2023-09-26T23:11:00
 ## Planned activities & events
 
 * [Cowboy Riding Weekends](/activities/cowboy-riding-weekends) &mdash; (*Boston T Party & Glencall Cowboys*)
-* [Man and Machine 2024](https://manandmachinesa.wordpress.com/) &mdash; (*Dates & venue still to be confirmed*)
+* [Man and Machine 2024](/news/man-and-machine-2024)
 
 ---
 
