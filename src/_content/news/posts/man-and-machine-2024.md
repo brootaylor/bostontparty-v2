@@ -1,16 +1,16 @@
 ---
-title: "Man and Machine 2024"
-summary: "Man and Machine is one of SA's biggest 2 day weekend enduro's. The next event will be 31<sup>st</sup> August - 01<sup>st</sup> September 2024."
+title: "Man and Machine 2024 &rarr; CANCELLED"
+summary: "Man and Machine is one of SA's biggest 2 day weekend enduros."
 lead:
-  - Man and Machine is one of SA's biggest 2 day weekend enduro's. The next event will be 31<sup>st</sup> August &mdash; 01<sup>st</sup> September 2024.
-  - To find out more and how to take part in future events, <a href="https://manandmachinesa.wordpress.com/" rel="external">visit the official Man and Machine website</a>.
-  - Also follow <a href="https://www.facebook.com/ManAndMachineSa/" rel="external">Man and Machine on Facebook</a> for updates.
+  - Regrettably, the 2024 Man & Machine Event in Impendle, KZN, is cancelled.
+  - Sadly, we did not get the numbers this year to run the event.
 
 # Populates the article snippet / summary on the news homepage.
-snippet: "Man and Machine is one of SA's biggest 2 day weekend enduro's. The next event will be 31<sup>st</sup> August &mdash; 01<sup>st</sup> September 2024."
+snippet: "Regrettably, the 2024 Man & Machine Event in Impendle, KZN, is cancelled."
 snippetCta: "Read more about this event"
 
 date: 2024-01-16T16:20:00
+updated: 2024-07-15T13:10:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -25,35 +25,16 @@ date: 2024-01-16T16:20:00
   "shadow")
 }}
 
-This is the 11<sup>th</sup> Man and Machine event and entries open in May 2024.
+We’d like to take this opportunity to thank all riders, sponsors and service providers, for what has been an awesome event since inception in 2012, for your support over the years.
 
-Previous years entrants will have preference.
+We have gotten to know many of you in a personal capacity over the years and will miss our interactions with you.
 
-**Entries are limited**.
+If you have entered and paid, you will receive an email during the course of this week, from M&M, regarding your refund.
 
-The event is not a race, but a test of man and machine against the elements. It's an adventure which tests the skill and endurance of the weekend warrior and professional racer alike.
+All the best,
 
-Here's a [peak of what's in store](https://www.youtube.com/@manandmachinesa4872).
-
----
-
-We work closely with local farmers and the rural communities to provide a safe and successful event. The 2 days of riding cater for the intermediate and hard skill levels. The distance over the 2 days is approximately 150 &ndash; 200km.
-
-The object of the weekend is to successfully complete both days, and receive your finishers trophy at prize giving.
-
-**No Finish No Trophy**.
-
-Hope to see you there!
-
-Dino, Alison, Rory &amp; Sue
+Dino, Alison, Rory & Sue
 
 ---
 
-## Need accommodation?
-
-**Call us on:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
-<small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
-
-Or send us an "*Accommodation*" request via email... <span class="visually-hidden">By clicking the following button.</span>
-
-{{ button(false, 'button--primary', '/contact?message-subject=accommodation', 'Send an accommodation request') }}
+[Visit the official Man and Machine website](https://manandmachinesa.wordpress.com/)
