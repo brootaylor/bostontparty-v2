@@ -38,7 +38,7 @@ updated: 2024-07-27T13:05:00
 * Hiking
 * Mountain bike trails
 * Trout & Bass Fishing
-* Horse-riding &mdash; [Stormy Hill][1]
+* Horse-riding &mdash; [Stormy Hill horse trails][1]
 * [Midmar Dam][2] (approx. 30kms)
 * The famous [Midlands Meander][3]
 
