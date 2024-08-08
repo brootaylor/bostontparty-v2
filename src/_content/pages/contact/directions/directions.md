@@ -8,7 +8,7 @@ bodyClass: "page contact"
 permalink: "/contact/directions.html"
 
 date: 2020-09-22T14:34:00
-updated: 2021-05-11T17:52:00
+updated: 2024-08-08T10:35:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -33,6 +33,16 @@ South Africa
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
 
+**Email:**
+<code>
+    <noscript>
+        <span aria-hidden="true">tsusan394[at]gmail[dot]com</span>
+        <span class="visually-hidden">tsusan394@gmail.com</span>
+    </noscript>
+    <script>
+        document.write('tsusan394' + '@' + 'gmail.com');
+    </script>
+</code>  
 **Call:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
 <small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
 
