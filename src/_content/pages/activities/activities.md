@@ -8,7 +8,7 @@ lead:
 bodyClass: "page activities"
 
 date: 2020-09-12T01:12:00
-updated: 2024-07-27T13:05:00
+updated: 2024-08-08T10:35:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -25,7 +25,6 @@ updated: 2024-07-27T13:05:00
 
 ## Planned activities & events
 
-* [Boston Trail Run](https://www.facebook.com/BostonKZN) &mdash; 4<sup>th</sup> August 2024
 * [Man and Machine 2024](/news/man-and-machine-2024) &mdash; **CANCELLED**
 * [Cowboy Riding Weekends](/activities/cowboy-riding-weekends) &mdash; Boston T Party & Glencall Cowboys
 
