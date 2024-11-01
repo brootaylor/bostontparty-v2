@@ -71,13 +71,9 @@ h2 {
 }
 
 h3 {
-  @include font-size(30px);
-  line-height: 1.2;
+  @include font-size(28px);
+  line-height: 1.1;
   text-wrap: balance;
-
-    @include min-width($breakpoint-medium) {
-      @include font-size(36px);
-    }
 }
 
 h4 {

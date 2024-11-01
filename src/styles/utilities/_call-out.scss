@@ -1,0 +1,31 @@
+/// "Call out" utility class placeholder.
+///
+/// Use the `.call-out` class on any element to hide it from everything (that includes assistive technologies)
+
+%call-out {
+  font-weight: 400;
+  background: var(--grey-mid);
+  padding: 1.5em;
+  margin-block: 2em;
+  clear: both; // In case of any floating elements eg. images
+
+  ul,
+  ol {
+    padding-inline: inherit;
+    margin: 0;
+  }
+
+  a {
+    font-weight: 700;
+
+    &:hover {
+      font-weight: 700;
+    }
+  }
+}
+
+// 'Call out' utility class
+// Using the `%call-out` placeholder
+.call-out {
+  @extend %call-out;
+}

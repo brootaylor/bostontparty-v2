@@ -9,7 +9,7 @@ lead:
 bodyClass: "page venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2023-02-14T11:17:00
+updated: 2024-11-01T23:33:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -39,6 +39,8 @@ It's just a stones throw away from the dam and shaded by a beautiful Willow tree
 
 ---
 
+<div class="[ call-out ] [ flow ]">
+
 ## Enquire about venue hire?
 
 *All packages are tailor-made and are quoted on an individual basis.*
@@ -49,3 +51,5 @@ It's just a stones throw away from the dam and shaded by a beautiful Willow tree
 Or send us a "*Venue Hire*" request via email... <span class="visually-hidden">By clicking the following button.</span>
 
 {{ button(false, 'button--primary', '/contact?message-subject=venue-hire', 'Send a venue hire request') }}
+
+</div>

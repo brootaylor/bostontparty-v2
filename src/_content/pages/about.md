@@ -8,7 +8,7 @@ lead:
 bodyClass: "page about"
 
 date: 2020-09-12T01:12:00
-updated: 2023-09-26T23:11:00
+updated: 2024-11-01T23:33:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -70,11 +70,15 @@ Or send us an email... <span class="visually-hidden">By clicking the following b
 
 ---
 
+<div class="[ call-out ] [ flow ]">
+
 ## Need directions?
 
 [Directions to Boston T Party][1]
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
+
+</div>
 
 ---
 

@@ -8,7 +8,7 @@ lead:
 bodyClass: "page activities"
 
 date: 2020-09-12T01:12:00
-updated: 2024-08-08T10:35:00
+updated: 2024-11-01T23:33:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -25,7 +25,6 @@ updated: 2024-08-08T10:35:00
 
 ## Planned activities & events
 
-* [Man and Machine 2024](/news/man-and-machine-2024) &mdash; **CANCELLED**
 * [Cowboy Riding Weekends](/activities/cowboy-riding-weekends) &mdash; Boston T Party & Glencall Cowboys
 
 ---
@@ -41,18 +40,20 @@ updated: 2024-08-08T10:35:00
 * [Midmar Dam][2] (approx. 30kms)
 * The famous [Midlands Meander][3]
 
+---
+
+<div class="[ call-out ] [ flow ]">
+
+## Enquire about activities & events?
+
 {{ imageDirection(
   "/assets/images/pages/activities/activities-02--sml-screen.jpg",
   "/assets/images/pages/activities/activities-02--lg-screen.jpg",
   "768px",
   "Young people playing in a dam",
-  "img-right",
+  "img-right mt-lg",
   "shadow")
 }}
-
----
-
-## Enquire about activities & events?
 
 *Some activities & events are subject to availability at time of booking.*
 
@@ -63,6 +64,7 @@ Or send us an "*Activities & Events*" enquiry via email... <span class="visually
 
 {{ button(false, 'button--primary', '/contact?message-subject=activities-and-events', 'Send an activities & events enquiry') }}
 
+</div>
 
 [1]: http://www.stormyhill.co.za/
 [2]: http://www.sa-venues.com/game-reserves/kzn_midmar-dam.htm

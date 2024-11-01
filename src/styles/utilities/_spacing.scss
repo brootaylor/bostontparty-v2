@@ -1,0 +1,90 @@
+/// Spacing utility class placeholders.
+///
+/// @group Utility Classes
+///
+/// @example scss - Sass Usage
+///   .mt-sml {
+///     @extend %margin_top--small;
+///   }
+%margin_top--small {
+  margin-block-start: 1em;
+}
+
+%margin_top--medium {
+  margin-block-start: 1.5em;
+}
+
+%margin_top--large {
+  margin-block-start: 2em;
+}
+
+%margin_top--xlarge {
+  margin-block-start: 3em;
+}
+
+%margin_top--xxlarge {
+  margin-block-start: 4em;
+}
+
+%margin_bottom--small {
+  margin-block-end: 1em;
+}
+
+%margin_bottom--medium {
+  margin-block-end: 1.5em;
+}
+
+%margin_bottom--large {
+  margin-block-end: 2em;
+}
+
+%margin_bottom--xlarge {
+  margin-block-end: 3em;
+}
+
+%margin_bottom--xxlarge {
+  margin-block-end: 4em;
+}
+
+
+// `Margin top` utility classes
+.mt-sml {
+  @extend %margin_top--small;
+}
+
+.mt-med {
+  @extend %margin_top--medium;
+}
+
+.mt-lg {
+  @extend %margin_top--large;
+}
+
+.mt-xlg {
+  @extend %margin_top--xlarge;
+}
+
+.mt-xxlg {
+  @extend %margin_top--xxlarge;
+}
+
+// `Margin bottom` utility classes
+.mb-sml {
+  @extend %margin_bottom--small;
+}
+
+.mb-med {
+  @extend %margin_bottom--medium;
+}
+
+.mb-lg {
+  @extend %margin_bottom--large;
+}
+
+.mb-xlg {
+  @extend %margin_bottom--xlarge;
+}
+
+.mb-xxlg {
+  @extend %margin_bottom--xxlarge;
+}

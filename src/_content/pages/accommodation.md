@@ -8,7 +8,7 @@ lead:
 bodyClass: page accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2023-09-27T00:50:00
+updated: 2024-11-01T23:33:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -35,6 +35,14 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 
 **Self catering basis**: R330.00 per person per night sharing *or* R380.00 single occupancy per night.
 
+<div class="[ call-out ] [ flow ] [ crop--tight ]">
+
+### 2025 rates
+
+**Self catering basis**: R390.00 per person per night sharing *or* R450.00 single occupancy per night.
+
+</div>
+
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-02.jpg",
   "Tents pitched on the lawn near some small trees",
@@ -53,7 +61,15 @@ If you'd prefer to camp under the stars, you're welcome to pitch your own tent i
 
 Hot showers available.
 
-**Self catering basis**: R85.00 per person per night
+**Self catering basis**: R85.00 per person per night.
+
+<div class="[ call-out ] [ flow ] [ crop--tight ]">
+
+### 2025 rates
+
+**Self catering basis**: R90.00 per person per night.
+
+</div>
 
 {{ imageNormal(
   "/assets/images/pages/accommodation/accommodation-03.jpg",
@@ -91,6 +107,8 @@ Should you find yourself in the Boston / Impendle area, either for work or leisu
 
 ---
 
+<div class="[ call-out ] [ flow ]">
+
 ## Enquire about accommodation?
 
 **Call us on:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
@@ -99,3 +117,5 @@ Should you find yourself in the Boston / Impendle area, either for work or leisu
 Or send us an "*Accommodation*" request via email... <span class="visually-hidden">By clicking the following button.</span>
 
 {{ button(false, 'button--primary', '/contact?message-subject=accommodation', 'Send an accommodation request') }}
+
+</div>

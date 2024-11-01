@@ -13,7 +13,7 @@ tags: "page" # This `page` tag is here so that the service worker picks them up.
 permalink: "/activities/cowboy-riding-weekends.html"
 
 date: 2023-09-25T13:24:00
-updated: 2023-09-26T23:11:00
+updated: 2024-11-01T23:33:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -59,9 +59,9 @@ The "<abbr title="Boston T Party."><b>BTP</b></abbr>" &mdash; (*that's us*) &mda
 
 ---
 
-## Want to find out more?
+<div class="[ call-out ] [ flow ]">
 
-*Subject to availability at time of booking.*
+## Want to find out more?
 
 {{ imageNormal(
   "/assets/images/pages/activities/cowboy-weekends/cowboy-03.jpg",
@@ -73,9 +73,13 @@ The "<abbr title="Boston T Party."><b>BTP</b></abbr>" &mdash; (*that's us*) &mda
   "lazy")
 }}
 
+*Subject to availability at time of booking.*
+
 **Call us on:** <a href="tel:27-83-6560979" rel="nofollow">+27 (0)83 656 0979</a>  
 <small><sup><b>*</b></sup>*WhatsApp messages/calls **ONLY** due to poor network coverage.*</small>
 
 Or send us an "*Activities & Events*" enquiry via email... <span class="visually-hidden">By clicking the following button.</span>
 
 {{ button(false, 'button--primary', '/contact?message-subject=activities-and-events', 'Send an activities & events enquiry') }}
+
+</div>

@@ -1,0 +1,13 @@
+/// "Fullbleed" utility class placeholder.
+///
+/// Use the `.full-bleed` class to allow an element to stretch full width
+
+%full-bleed {
+  max-width: 100vw;
+}
+
+// Fullbleed utility class
+// Using the `%full-bleed` placeholder
+.full-bleed {
+  @extend %full-bleed;
+}
