@@ -58,7 +58,7 @@ h1 {
 
 h2 {
   @include font-size(30px);
-  line-height: 1.2;
+  line-height: 1.1;
   text-wrap: balance;
 
     @include min-width($breakpoint-medium) {
@@ -78,16 +78,8 @@ h3 {
 
 h4 {
   @include font-size(24px);
-  line-height: 1.2;
+  line-height: 1.1;
   text-wrap: balance;
-
-    @include min-width($breakpoint-medium) {
-      @include font-size(28px);
-    }
-
-    @include min-width($breakpoint-large) {
-      @include font-size(32px);
-    }
 }
 
 p,
@@ -155,7 +147,7 @@ code {
 .title,
 .t-large {
   @include font-size(34px);
-  line-height: 1.2;
+  line-height: 1.1;
   text-wrap: balance;
 
     @include min-width($breakpoint-small) {
@@ -179,7 +171,7 @@ code {
 %t-medium,
 .t-medium {
   @include font-size(24px);
-  line-height: 1.2;
+  line-height: 1.1;
   text-wrap: balance;
 
     @include min-width($breakpoint-small) {
