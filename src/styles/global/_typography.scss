@@ -100,6 +100,19 @@ pre {
     }
 }
 
+/* This CSS rule targets any paragraph (<p>) that contains an image (<img>)
+ * where the image has a class that includes "img-" in its name.
+ * The :has() selector checks if the paragraph contains such an image.
+ *
+ * The 'clear: both' property ensures these paragraphs clear any floated elements,
+ * preventing them from wrapping around floated images above them.
+ * This is particularly important given the .img-left and .img-right classes
+ * seen in the images component that float images.
+ */
+p:has(img[class*="img-"]) {
+  clear: both;
+}
+
 address {
   @extend %flow;
 }
