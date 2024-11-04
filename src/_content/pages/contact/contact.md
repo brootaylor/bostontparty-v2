@@ -41,10 +41,14 @@ South Africa
 
 ---
 
+<div class="[ call-out ] [ flow ]">
+
 ## Need directions?
 
 [Directions to Boston T Party][1]
 
 **GPS Co-Ords**: S29&rsquo;40.850, E30&rsquo;01.594
+
+</div>
 
 [1]: /contact/directions
