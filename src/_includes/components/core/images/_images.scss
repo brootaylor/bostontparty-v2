@@ -4,6 +4,11 @@
 
 img {
   display: block;
+
+  // If an image has a `p` parent element, clear the float (in case the image is floated that is)
+  p & {
+    clear: both;
+  }
 }
 
 picture {
