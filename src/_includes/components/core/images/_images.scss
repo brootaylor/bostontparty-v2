@@ -36,22 +36,26 @@ figure {
 // Alignment rules for figure and image elements...
 .img-left,
 .fig-left {
-  @include min-width($breakpoint-medium) {
-    float: left;
-    width: 33%;
-    margin-right: 3em;
-    margin-bottom: 3em;
-  }
+  margin-block-start: 1em;
+
+    @include min-width($breakpoint-medium) {
+      float: left;
+      width: 40%;
+      margin-inline-end: 2em;
+      margin-block-end: 2em;
+    }
 }
 
 .img-right,
 .fig-right {
-  @include min-width($breakpoint-medium) {
-    float: right;
-    width: 33%;
-    margin-left: 3em;
-    margin-bottom: 3em;
-  }
+  margin-block-start: 1em;
+
+    @include min-width($breakpoint-medium) {
+      float: right;
+      width: 40%;
+      margin-inline-start: 2em;
+      margin-block-end: 2em;
+    }
 }
 
 // Alignment rules for `figure` elements...

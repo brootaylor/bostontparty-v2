@@ -1,14 +1,15 @@
 ---
 layout: "layouts/accommodation.njk"
 title: Accommodation options & rates
-summary: If you need somewhere to stay - either for work or leisure purposes - we offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens.
+summary: Do you need somewhere to stay for either work or leisure purposes? We offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens.
 lead:
-  - If you need somewhere to stay &mdash; either for work or leisure purposes &mdash; we offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens.
+  - Do you need somewhere to stay for either work or leisure purposes?
+  - We offer private en-suite rooms or camping with 2 fully equipped communal self catering kitchens.
 
 bodyClass: page accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2024-11-01T23:33:00
+updated: 2024-11-06T12:31:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}

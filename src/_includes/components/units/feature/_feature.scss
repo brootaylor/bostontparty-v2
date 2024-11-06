@@ -52,9 +52,18 @@
     }
 
   .feature-title {
+    @include font-size(26px);
     color: $black;
     margin: 0;
     transition: color 0.25s ease;
+
+      @include min-width($breakpoint-medium) {
+        @include font-size(30px);
+      }
+
+      @include min-width($breakpoint-large) {
+        @include font-size(34px);
+      }
 
     &::before {
       content: '/';
@@ -63,5 +72,9 @@
       padding-right: convert-to-rem(5px);
       transition: color 0.25s ease;
     }
+  }
+
+  p {
+    margin-block-start: 0.5em;
   }
 }

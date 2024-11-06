@@ -3,23 +3,24 @@ layout: "layouts/activities.njk"
 title: "Activities & Events"
 summary: "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides &mdash; whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 lead:
-  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides &mdash; whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
+  - "From hiking to trail runs, mountain-bike to enduro off-road motorbike rides, trout and bass fishing to horse-rides."
+  - "Whatever your outdoor fancy, there are plenty of activities & events on offer for you to enjoy in our beautiful surrounding area."
 
 bodyClass: "page activities"
 
 date: 2020-09-12T01:12:00
-updated: 2024-11-01T23:33:00
+updated: 2024-11-06T12:31:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
 {% from "components/core/images/images.njk" import imageDirection %}
 
 {{ imageDirection(
-  "/assets/images/pages/activities/activities-01--sml-screen.jpg",
-  "/assets/images/pages/activities/activities-01--lg-screen.jpg",
+  "/assets/images/pages/activities/activities-02--sml-screen.jpg",
+  "/assets/images/pages/activities/activities-02--lg-screen.jpg",
   "768px",
-  "Cowboys and saddles",
-  "img-right",
+  "Young people playing in a dam",
+  "img-right mt-lg",
   "shadow")
 }}
 
@@ -47,11 +48,11 @@ updated: 2024-11-01T23:33:00
 ## Enquire about activities & events?
 
 {{ imageDirection(
-  "/assets/images/pages/activities/activities-02--sml-screen.jpg",
-  "/assets/images/pages/activities/activities-02--lg-screen.jpg",
+  "/assets/images/pages/activities/activities-01--sml-screen.jpg",
+  "/assets/images/pages/activities/activities-01--sml-screen.jpg",
   "768px",
-  "Young people playing in a dam",
-  "img-right mt-lg",
+  "Cowboys and saddles",
+  "img-right",
   "shadow")
 }}
 

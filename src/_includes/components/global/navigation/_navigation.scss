@@ -81,6 +81,7 @@
     @extend %no-list;
     display: flex;
     flex-wrap: wrap;
+    margin-block: 0;
 
     // Media query 'medium'
     @include min-width(1121px) {

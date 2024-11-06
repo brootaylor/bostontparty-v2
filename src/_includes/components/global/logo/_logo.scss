@@ -3,9 +3,9 @@
  **********************************************************/
 
 .site-logo {
-  font-size: 1.2rem;
+  font-size: inherit;
   font-weight: bold;
-  display: inline-block;
+  display: inline-flex;
   margin-inline-end: 1em;
 
   &,

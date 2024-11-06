@@ -3,13 +3,13 @@ layout: "layouts/venue.njk"
 title: "Venue hire"
 summary: "Perfect venue for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
 lead:
-  - "The bag-washed walls, ethnic floor, and skylights create a warm, laid-back, and enjoyable ambience for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
   - "Our <strong>licensed pub</strong> is an ideal place to let your hair down and dance the night away!"
+  - "Bag-washed walls, ethnic floor, and skylights create a warm, laid-back, and enjoyable ambience. It's a perfect venue for informal conferences, office events, team building activities, year-end parties, birthday celebrations, and farm-style weddings."
 
 bodyClass: "page venue-hire"
 
 date: 2020-09-12T01:12:00
-updated: 2024-11-01T23:33:00
+updated: 2024-11-06T13:37:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -24,7 +24,7 @@ updated: 2024-11-01T23:33:00
   "shadow")
 }}
 
-## Perfect for&hellip;
+## Book our venue for&hellip;
 
 * Informal conferences
 * Office events and team building
