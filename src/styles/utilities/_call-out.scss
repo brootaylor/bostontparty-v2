@@ -22,6 +22,28 @@
       font-weight: 700;
     }
   }
+
+  p {
+    // Remove margins from paragraphs that contain images with "img-" class
+    // This prevents double spacing when images are inside call-outs
+    &:has(img[class*="img-"]) {
+      margin: 0;
+    }
+
+    // Remove bottom margin from images that are direct children of paragraphs
+    // This helps maintain consistent spacing in call-outs with images
+    > img {
+      margin-block-end: 0;
+    }
+  }
+
+  // Add a `clearfix` to ensure the call-out container properly contains any floated elements
+  // This is particularly important when there are floated images inside the call-out
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 }
 
 // 'Call out' utility class

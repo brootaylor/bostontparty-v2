@@ -20,10 +20,10 @@ updated: 2024-11-01T23:33:00
 {% from "components/core/images/images.njk" import imageNormal %}
 
 {{ imageNormal(
-  "/assets/images/pages/activities/cowboy-weekends/cowboy-01.jpg",
-  "A horse saddled with a cowboy saddle",
+  "/assets/images/pages/activities/cowboy-weekends/cowboy-02.jpg",
+  "Two cowboys looking out over a beautiful valley",
   "600",
-  "750",
+  "400",
   "img-right",
   "shadow",
   "lazy")
@@ -37,19 +37,19 @@ We ride in Western saddles and rides are guided by Charlie, a working cowboy. It
 
 The "<abbr title="Boston T Party."><b>BTP</b></abbr>" &mdash; (*that's us*) &mdash;  offer rustic, comfortable [accommodation](/accommodation), with [beautiful grounds](/gallery#btp-grounds) situated on a dam. A wonderfully tranquil and peaceful environment.
 
----
-
-## What's included?
-
 {{ imageNormal(
-  "/assets/images/pages/activities/cowboy-weekends/cowboy-02.jpg",
-  "Two cowboys looking out over a beautiful valley",
+  "/assets/images/pages/activities/cowboy-weekends/cowboy-01.jpg",
+  "A horse saddled with a cowboy saddle",
   "600",
-  "400",
+  "750",
   "img-right",
   "shadow",
   "lazy")
 }}
+
+---
+
+## What's included?
 
 * 2 x nights accommodation at Boston T Party
 * 2 x dinners
