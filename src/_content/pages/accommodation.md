@@ -9,7 +9,7 @@ lead:
 bodyClass: page accommodation
 
 date: 2020-09-12T01:12:00
-updated: 2024-11-06T12:31:00
+updated: 2025-01-04T14:36:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
@@ -26,21 +26,23 @@ updated: 2024-11-06T12:31:00
   "shadow")
 }}
 
-**Fifteen private en-suite rooms:**  
-<small>(*Minimum of a 2 night stay over weekends/public holidays*)</small>
+### Fifteen private en-suite rooms
+
+<small>*Minimum of a 2 night stay over weekends/public holidays*.</small>  
+<small>***(one night stays will incur a surcharge)***.</small>
+
+---
 
 * 8 double rooms &ndash; <small>(*double beds*)</small>
 * 7 twin rooms &ndash; <small>(*2 single beds*)</small>
 
+---
+
 All rooms have their own shower & toilet, linen and bath towels provided, tea & coffee making facilities.
 
-**Self catering basis**: R330.00 per person per night sharing *or* R380.00 single occupancy per night.
+<div class="[ call-out ] [ flow ]">
 
-<div class="[ call-out ] [ flow ] [ crop--tight ]">
-
-### 2025 rates
-
-**Self catering basis**: R390.00 per person per night sharing *or* R450.00 single occupancy per night.
+**Self catering basis**: R390.00 per person per night sharing ***or*** R450.00 single occupancy per night.
 
 </div>
 
@@ -60,13 +62,9 @@ All rooms have their own shower & toilet, linen and bath towels provided, tea & 
 
 If you'd prefer to camp under the stars, you're welcome to pitch your own tent in our orchard!
 
-Hot showers available.
+***Hot showers available***.
 
-**Self catering basis**: R85.00 per person per night.
-
-<div class="[ call-out ] [ flow ] [ crop--tight ]">
-
-### 2025 rates
+<div class="[ call-out ] [ flow ]">
 
 **Self catering basis**: R90.00 per person per night.
 
