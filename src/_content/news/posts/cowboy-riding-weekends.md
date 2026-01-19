@@ -1,5 +1,5 @@
 ---
-title: 'Announcing: "Cowboy Riding Weekends"'
+title: Cowboy Riding Weekends
 summary: "Have you ever wanted to spend a weekend in beautiful surroundings, on horseback, like a cowboy? Then join Boston T Party & Glencall Cowboys sometime for an unforgettable horse riding experience."
 lead:
   - Have you ever wanted to spend a weekend in beautiful surroundings, on horseback, like a cowboy?
@@ -11,6 +11,7 @@ snippet: "Have you ever wanted to spend a weekend in beautiful surroundings, on 
 snippetCta: "Read more about this"
 
 date: 2023-09-27T14:29:00
+updated: 2026-01-19T11:57:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
