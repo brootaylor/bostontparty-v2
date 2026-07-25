@@ -1,7 +1,7 @@
 ---
 layout: "layouts/about.njk"
 title: "About us"
-summary: "Should you find yourself in the Boston or Impendle area, KwaZulu-Natal, the Boston T Party is a perfect spot if you need somewhere to stay or an authentic venue to hold your event."
+summary: "Should you find yourself in the Boston or Impendle area, KwaZulu-Natal, South Africa, the Boston T Party is a perfect spot if you need somewhere to stay or an authentic venue to hold your event."
 lead:
   - 'Welcome to our little oasis!'
   - 'Should you find yourself in the Boston or Impendle area, the Boston T Party is a perfect spot if you need <a href="/accommodation">somewhere to stay</a> or an authentic <a href="/venue-hire">venue to hold your event</a>.'
@@ -9,7 +9,7 @@ lead:
 bodyClass: "page about"
 
 date: 2020-09-12T01:12:00
-updated: 2024-11-06T13:45:00
+updated: 2026-07-25T11:35:00
 ---
 
 {% from "components/core/buttons/buttons.njk" import button %}
